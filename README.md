@@ -17,6 +17,10 @@ Simulation · Visualization · Design · Manufacturing
 
 <sub>AI agents run simulations, render results, generate meshes, and optimize designs — no GUI needed.</sub>
 
+<br>
+
+[한국어](docs/README.ko.md) · [中文](docs/README.zh.md) · [日本語](docs/README.ja.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md) · [Español](docs/README.es.md) · [Português](docs/README.pt.md)
+
 </div>
 
 <!-- DIVIDER -->
