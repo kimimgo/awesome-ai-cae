@@ -1,0 +1,55 @@
+name: Auto Label PRs
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Label PR by category
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+            });
+
+            const readme = files.find(f => f.filename === 'README.md');
+            if (!readme) return;
+
+            const patch = readme.patch || '';
+            const categories = {
+              'mcp-servers': /## MCP Servers/i,
+              'cfd': /## CFD/i,
+              'fea': /## FEA/i,
+              'sph': /## SPH/i,
+              'visualization': /## Visualization/i,
+              'cad': /## CAD/i,
+              'mesh': /## Mesh Generation/i,
+              'ai-ml': /## AI\/ML/i,
+              'surrogate-pinns': /## Surrogate/i,
+              'optimization': /## Optimization/i,
+              'data-formats': /## Data Formats/i,
+              'datasets': /## Datasets/i,
+              'learning': /## Learning Resources/i,
+            };
+
+            const labels = ['addition'];
+            for (const [label, regex] of Object.entries(categories)) {
+              if (regex.test(patch)) labels.push(label);
+            }
+
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels,
+            });

@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: '0 6 * * 1'
 
+permissions:
+  issues: write
+
 jobs:
   link-check:
     runs-on: ubuntu-latest
@@ -17,3 +20,25 @@ jobs:
         with:
           args: --verbose --no-progress '*.md'
           fail: true
+          output: lychee-report.md
+
+      - name: Create issue on broken links (scheduled only)
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '';
+            try {
+              report = fs.readFileSync('lychee-report.md', 'utf8');
+            } catch {
+              report = 'Lychee report not available. Check workflow logs.';
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Broken links detected (${new Date().toISOString().slice(0, 10)})`,
+              body: `## Broken Links Report\n\nAutomatic weekly link check found broken links.\n\n<details>\n<summary>Lychee Report</summary>\n\n\`\`\`\n${report.slice(0, 60000)}\n\`\`\`\n\n</details>`,
+              labels: ['broken-link'],
+            });
