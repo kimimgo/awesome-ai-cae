@@ -23,20 +23,24 @@ lychee --verbose --no-progress '*.md'
 ## Entry Format
 
 ```markdown
-- [owner/repo](https://github.com/owner/repo) `Language` `Tag` — Description.
+- [owner/repo](https://github.com/owner/repo) `Language` `Tag` - Description.
 ```
 
 - **알파벳 순서** 유지 (섹션 내)
 - Language tags: `Python`, `C++`, `Fortran`, `Rust`, `CUDA` 등
 - Special tags: `MCP` (Model Context Protocol), `API` (REST/gRPC)
-- Description은 마침표로 끝남
+- Description은 **대문자로 시작**, 마침표로 끝남 (숫자로 시작 불가 — lint 실패)
+- 구분자는 반드시 **ASCII hyphen-dash** ` - ` (em-dash `—` 사용 금지)
+- em-dash `—`는 **heading과 Contents 목차에서만** 사용 (예: `## CFD — Computational Fluid Dynamics`)
 
 ## awesome-lint 주의사항
 
 awesome-lint는 README.md에 엄격한 규칙을 적용한다. 비자명한 제약:
 
 - 리스트 항목은 반드시 `- [Name](url)` 형식으로 시작해야 함 (name은 대문자 시작)
-- 항목 설명(description)은 대문자로 시작, 마침표로 끝나야 함
+- 항목 설명의 구분자 ` - `는 ASCII hyphen만 허용 (em-dash `—` / en-dash `–` 사용 시 lint 실패)
+- 설명은 대문자로 시작해야 함 (숫자 시작 시 lint가 dash 구분자를 인식 못함)
+- `## License` 섹션 heading 금지 — CC0 배지만 heading 없이 배치
 - 중복 링크 허용되지만 `<!--lint disable double-link-->` 주석 필요 (파일 상단에 이미 설정됨)
 - Contents 섹션의 링크 텍스트와 실제 heading이 정확히 일치해야 함
 - `<!--lint disable awesome-heading awesome-github awesome-toc double-link-->` — 파일 상단의 이 주석을 제거하지 말 것
