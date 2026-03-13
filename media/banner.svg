@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#12121a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff" />
+      <stop offset="100%" style="stop-color:#7c3aed" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04" stroke="#00d4ff">
+    <line x1="0" y1="40" x2="800" y2="40" stroke-width="0.5"/>
+    <line x1="0" y1="80" x2="800" y2="80" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="800" y2="120" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="800" y2="160" stroke-width="0.5"/>
+    <line x1="100" y1="0" x2="100" y2="200" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="200" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="200" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="200" stroke-width="0.5"/>
+    <line x1="500" y1="0" x2="500" y2="200" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="200" stroke-width="0.5"/>
+    <line x1="700" y1="0" x2="700" y2="200" stroke-width="0.5"/>
+  </g>
+
+  <!-- Glow orb -->
+  <circle cx="400" cy="100" r="120" fill="#00d4ff" opacity="0.03"/>
+  <circle cx="400" cy="100" r="60" fill="#7c3aed" opacity="0.04"/>
+
+  <!-- Accent line top -->
+  <rect x="200" y="0" width="400" height="2" fill="url(#accent)" rx="1" opacity="0.6"/>
+
+  <!-- Icon: mesh/grid symbol -->
+  <g transform="translate(260, 60)" opacity="0.7">
+    <!-- Stylized mesh triangle -->
+    <polygon points="25,0 50,45 0,45" fill="none" stroke="#00d4ff" stroke-width="1.5"/>
+    <polygon points="25,15 40,40 10,40" fill="none" stroke="#7c3aed" stroke-width="1"/>
+    <circle cx="25" cy="0" r="2.5" fill="#00d4ff"/>
+    <circle cx="50" cy="45" r="2.5" fill="#00d4ff"/>
+    <circle cx="0" cy="45" r="2.5" fill="#00d4ff"/>
+    <circle cx="25" cy="15" r="2" fill="#7c3aed"/>
+    <circle cx="40" cy="40" r="2" fill="#7c3aed"/>
+    <circle cx="10" cy="40" r="2" fill="#7c3aed"/>
+  </g>
+
+  <!-- Title -->
+  <text x="330" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" fill="url(#textGrad)" letter-spacing="-1">
+    Awesome AI-CAE
+  </text>
+
+  <!-- Subtitle -->
+  <text x="330" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#8b8fa3" letter-spacing="0.5">
+    AI-powered tools for Computer-Aided Engineering
+  </text>
+
+  <!-- Tags -->
+  <g transform="translate(330, 140)">
+    <rect x="0" y="0" width="45" height="18" rx="9" fill="#00d4ff" opacity="0.1" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="22.5" y="13" font-family="monospace" font-size="9" fill="#00d4ff" text-anchor="middle">CFD</text>
+
+    <rect x="55" y="0" width="40" height="18" rx="9" fill="#7c3aed" opacity="0.1" stroke="#7c3aed" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="75" y="13" font-family="monospace" font-size="9" fill="#7c3aed" text-anchor="middle">FEA</text>
+
+    <rect x="105" y="0" width="45" height="18" rx="9" fill="#f472b6" opacity="0.1" stroke="#f472b6" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="127.5" y="13" font-family="monospace" font-size="9" fill="#f472b6" text-anchor="middle">SPH</text>
+
+    <rect x="160" y="0" width="45" height="18" rx="9" fill="#00d4ff" opacity="0.1" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="182.5" y="13" font-family="monospace" font-size="9" fill="#00d4ff" text-anchor="middle">MCP</text>
+
+    <rect x="215" y="0" width="60" height="18" rx="9" fill="#7c3aed" opacity="0.1" stroke="#7c3aed" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="245" y="13" font-family="monospace" font-size="9" fill="#7c3aed" text-anchor="middle">AI/ML</text>
+  </g>
+
+  <!-- Accent line bottom -->
+  <rect x="200" y="198" width="400" height="2" fill="url(#accent)" rx="1" opacity="0.6"/>
+</svg>
