@@ -1,0 +1,29 @@
+# Awesome AI-CAE
+
+> A curated list of AI-powered open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing.
+
+This repository collects 87+ tools across 15 categories that AI agents and engineers use for computational fluid dynamics (CFD), finite element analysis (FEA), smoothed particle hydrodynamics (SPH), mesh generation, topology optimization, physics-informed neural networks (PINNs), and scientific visualization. Every tool listed is open-source and actively maintained.
+
+## Key Categories
+
+- [MCP Servers](https://github.com/kimimgo/awesome-ai-cae#mcp-servers): AI-native tool interfaces via Model Context Protocol
+- [CFD](https://github.com/kimimgo/awesome-ai-cae#cfd--computational-fluid-dynamics): OpenFOAM, SU2, PyFR, preCICE
+- [FEA](https://github.com/kimimgo/awesome-ai-cae#fea--finite-element-analysis): FEniCS, CalculiX, MFEM, deal.II, Elmer
+- [SPH](https://github.com/kimimgo/awesome-ai-cae#sph--smoothed-particle-hydrodynamics): DualSPHysics, SPlisHSPlasH, PySPH
+- [Differentiable Simulation](https://github.com/kimimgo/awesome-ai-cae#differentiable-simulation): JAX-CFD, Warp, Taichi, Brax
+- [AI/ML for Simulation](https://github.com/kimimgo/awesome-ai-cae#aiml-for-simulation): PhysicsNeMo, DeepXDE, PhiFlow, Neural Operators
+- [Surrogate Models & PINNs](https://github.com/kimimgo/awesome-ai-cae#surrogate-models--pinns): Physics-informed neural networks
+- [Optimization](https://github.com/kimimgo/awesome-ai-cae#optimization): OpenMDAO, pymoo, topology optimization
+- [Visualization](https://github.com/kimimgo/awesome-ai-cae#visualization--post-processing): VTK, ParaView, PyVista, viznoir MCP
+- [CAD & Geometry](https://github.com/kimimgo/awesome-ai-cae#cad--geometry): CadQuery, FreeCAD, OpenCASCADE
+- [Mesh Generation](https://github.com/kimimgo/awesome-ai-cae#mesh-generation): Gmsh, CGAL, MeshAnything, MeshXL
+- [Datasets & Benchmarks](https://github.com/kimimgo/awesome-ai-cae#datasets--benchmarks): PDEBench, DrivAerNet
+
+## Contributing
+
+- [Contributing Guidelines](https://github.com/kimimgo/awesome-ai-cae/blob/main/CONTRIBUTING.md): How to add tools
+
+## Optional
+
+- [Full README](https://github.com/kimimgo/awesome-ai-cae/blob/main/README.md): Complete list with descriptions
+- [Translations](https://github.com/kimimgo/awesome-ai-cae/tree/main/docs): Available in 7 languages (ko, zh, ja, de, fr, es, pt)

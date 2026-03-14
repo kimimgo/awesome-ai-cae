@@ -19,6 +19,10 @@ Simulation · Visualization · Design · Manufacturing
 
 <br>
 
+<sub>87+ open-source tools across 15 categories: CFD, FEA, SPH, DEM, mesh generation, differentiable simulation, PINNs, topology optimization, and more. MCP-ready for AI agent integration.</sub>
+
+<br>
+
 [한국어](docs/README.ko.md) · [中文](docs/README.zh.md) · [日本語](docs/README.ja.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md) · [Español](docs/README.es.md) · [Português](docs/README.pt.md)
 
 </div>
@@ -57,6 +61,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## CFD — Computational Fluid Dynamics
 
+> Open-source solvers for fluid flow, heat transfer, and multiphysics simulation.
+
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) `C++` - The open source CFD toolbox. Finite volume solvers for incompressible/compressible flow, multiphase, combustion, heat transfer.
 - [su2code/SU2](https://github.com/su2code/SU2) `C++` `Python` - Multiphysics simulation and design optimization. Compressible/incompressible flow, structural analysis, adjoint-based design.
 - [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) `Fortran` - High-order spectral element CFD solver. DNS/LES of turbulent flows. Scalable to millions of cores.
@@ -67,6 +73,8 @@ Simulation · Visualization · Design · Manufacturing
 <sup>[back to top](#contents)</sup>
 
 ## FEA — Finite Element Analysis
+
+> Structural, thermal, and multiphysics solvers using the finite element method.
 
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) `C++` `Python` - Next-generation FEniCS. Automated PDE solving with high-level Python/C++ interface. Parallel, scalable.
 - [CalculiX](http://www.calculix.de/) `Fortran` `C` - Free 3D structural FEM. Linear/nonlinear static, dynamic, thermal analysis. Abaqus INP compatible.
@@ -81,6 +89,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## SPH — Smoothed Particle Hydrodynamics
 
+> Meshless particle methods for free-surface flows, fluid-structure interaction, and wave dynamics.
+
 - [DualSPHysics/DualSPHysics](https://github.com/DualSPHysics/DualSPHysics) `C++` `CUDA` - GPU-accelerated SPH solver. Free-surface flows, wave generation, fluid-structure interaction, floating bodies.
 - [SPlisHSPlasH/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) `C++` - Physically-based SPH fluid simulation. DFSPH, IISPH, PBF pressure solvers. Viscosity, surface tension.
 - [pypr/pysph](https://github.com/pypr/pysph) `Python` `Cython` - SPH framework in Python. Compressible/incompressible flows, solid mechanics, coupled problems.
@@ -89,12 +99,16 @@ Simulation · Visualization · Design · Manufacturing
 
 ## DEM — Discrete Element Method
 
+> Particle-based simulation of granular materials, powders, and coupled particle-fluid systems.
+
 - [CFDEMproject/LIGGGHTS-PUBLIC](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC) `C++` - Industry-standard open-source DEM for granular materials. LAMMPS-based with heat transfer and CFD coupling (CFDEM).
 - [SudoDEM/SudoDEM](https://github.com/SudoDEM/SudoDEM) `C++` `Python` - DEM for non-spherical particles. Polyhedra, super-ellipsoids, and cylinders for realistic granular simulations.
 
 <sup>[back to top](#contents)</sup>
 
 ## Visualization & Post-processing
+
+> Rendering, plotting, and interactive exploration of simulation results.
 
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization MCP server. 22 tools, EGL/OSMesa headless, cinematic lighting, physics animations.
 - [Kitware/VTK](https://github.com/Kitware/VTK) `C++` `Python` - The Visualization Toolkit. 3D computer graphics, image processing, scientific visualization. Industry standard.
@@ -108,6 +122,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## CAD & Geometry
 
+> Parametric modeling, geometry processing, and CAD data exchange tools.
+
 - [CadQuery/cadquery](https://github.com/CadQuery/cadquery) `Python` - Parametric 3D CAD scripting. Build models with Python, export STEP/STL/IGES. OpenCASCADE kernel.
 - [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) `C++` `Python` - Open-source parametric 3D CAD modeler. Part design, FEM workbench, BIM, path (CAM).
 - [OpenCASCADE/OCCT](https://github.com/Open-Cascade-SAS/OCCT) `C++` - Open CASCADE Technology. Kernel for 3D surface and solid modeling, CAD data exchange (STEP/IGES).
@@ -117,6 +133,8 @@ Simulation · Visualization · Design · Manufacturing
 <sup>[back to top](#contents)</sup>
 
 ## Mesh Generation
+
+> Structured, unstructured, and AI-driven mesh generation for simulation preprocessing.
 
 - [gmsh](https://gitlab.onelab.info/gmsh/gmsh) `C++` `Python` - Full-featured 3D finite element mesh generator. CAD engine, structured/unstructured meshing, built-in post-processing.
 - [CGAL/cgal](https://github.com/CGAL/cgal) `C++` - Computational Geometry Algorithms Library. Mesh generation, triangulation, Boolean operations, convex hulls.
@@ -142,6 +160,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## AI/ML for Simulation
 
+> Neural networks that learn physics: operator learning, foundation models, and ML-accelerated solvers.
+
 - [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) `Python` `CUDA` - Physics-ML framework (formerly Modulus). PINNs, neural operators, GNNs, diffusion models. Apache 2.0.
 - [google/jax-cfd](https://github.com/google/jax-cfd) `Python` - JAX-based CFD. Differentiable Navier-Stokes solvers. GPU-accelerated, auto-differentiable.
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Deep learning library for PDEs. PINNs, DeepONet. Backends: TensorFlow, PyTorch, JAX, PaddlePaddle.
@@ -153,6 +173,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## Surrogate Models & PINNs
 
+> Physics-informed neural networks and data-driven reduced-order models for fast PDE solving.
+
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Physics-informed neural networks for PDEs. Multi-backend (TF, PyTorch, JAX). Inverse problems, fractional PDEs.
 - [sciann/sciann](https://github.com/sciann/sciann) `Python` - Neural networks for scientific computing. Keras-based PINNs with custom loss and constraints.
 - [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) `Python` - Symbolic AI for physics. Physics-informed neural networks with symbolic equation definition.
@@ -162,6 +184,8 @@ Simulation · Visualization · Design · Manufacturing
 <sup>[back to top](#contents)</sup>
 
 ## Optimization
+
+> Topology optimization, multidisciplinary design, and gradient-based engineering optimization.
 
 - [OpenMDAO/OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) `Python` - Multidisciplinary design optimization. NASA-developed. Gradient-based + surrogate-assisted optimization.
 - [airbus/pymoo](https://github.com/anyoptimization/pymoo) `Python` - Multi-objective optimization. NSGA-II/III, reference directions, constraint handling, parallelization.
@@ -173,6 +197,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## Data Formats & I/O
 
+> Libraries for reading, writing, and converting simulation data across mesh and field formats.
+
 - [nschloe/meshio](https://github.com/nschloe/meshio) `Python` - I/O for mesh formats. Abaqus, CGNS, Gmsh, VTK, XDMF, Exodus, and 30+ more.
 - [h5py/h5py](https://github.com/h5py/h5py) `Python` - Pythonic interface to HDF5. Read/write large numerical datasets efficiently.
 - [Unidata/netcdf4-python](https://github.com/Unidata/netcdf4-python) `Python` - Python/NumPy interface to NetCDF. Climate, ocean, atmospheric simulation data.
@@ -183,6 +209,8 @@ Simulation · Visualization · Design · Manufacturing
 
 ## Datasets & Benchmarks
 
+> Standardized datasets and benchmarks for training and evaluating scientific ML models.
+
 - [pdebench/PDEBench](https://github.com/pdebench/PDEBench) `Python` - Benchmarks for scientific ML. Standardized PDE datasets with baseline models.
 - [divelab/AIRS](https://github.com/divelab/AIRS) `Python` - AI for science benchmarks. Molecular, protein, climate, physics datasets.
 - [NASA TMR](https://turbmodels.larc.nasa.gov/) - Turbulence Modeling Resource. Validation cases for CFD turbulence models with experimental data.
@@ -191,6 +219,8 @@ Simulation · Visualization · Design · Manufacturing
 <sup>[back to top](#contents)</sup>
 
 ## Learning Resources
+
+> Tutorials, courses, and templates for learning computational engineering and scientific computing.
 
 - [Barba-group/CFDPython](https://github.com/barbagroup/CFDPython) `Python` - Classic "12 Steps to Navier-Stokes" tutorial. Learn CFD fundamentals with Python step by step.
 - [kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template) `LaTeX` - Clean PhD thesis template. Widely used in computational mechanics community.

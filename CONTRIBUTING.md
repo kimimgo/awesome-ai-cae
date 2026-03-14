@@ -16,7 +16,7 @@ Thank you for your interest in contributing! This list is focused on **AI-powere
 Each entry follows this format:
 
 ```markdown
-- [owner/repo](https://github.com/owner/repo) `Language` `Tag` — Short description. What makes it useful for AI-driven workflows.
+- [owner/repo](https://github.com/owner/repo) `Language` `Tag` - Short description. What makes it useful for AI-driven workflows.
 ```
 
 **Language tags:** `Python`, `C++`, `Fortran`, `Rust`, `CUDA`, etc.
