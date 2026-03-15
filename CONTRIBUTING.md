@@ -1,28 +1,49 @@
 # Contributing to Awesome AI-CAE
 
-Thank you for your interest in contributing! This list is focused on **AI-powered tools for Computer-Aided Engineering** — tools that AI agents can call, automate, or enhance.
+Thank you for your interest in contributing! This list curates the intersection of **AI and Computer-Aided Engineering** — tools that AI agents can call directly (MCP/API/CLI), and AI/ML tools that are transforming how engineers simulate, design, and manufacture.
 
-## Adding a new item
+## What makes this list different?
 
-### Requirements
+Unlike general-purpose CAE lists, every tool here must be **AI-ready**: programmable, automatable, or an AI/ML tool itself. GUI-only tools without API access are out of scope.
 
-- The project must be **open source** and hosted on GitHub.
-- The project must have a **clear README** with installation instructions.
-- The project must be **actively maintained** (commit within the last 12 months).
-- The project must be relevant to **AI + CAE/CAD/CAM** workflows.
+## AI-Readiness Tiers
 
-### Format
+We evaluate tools on a 3-tier AI-readiness scale:
 
-Each entry follows this format:
+| Tier | Definition | Examples |
+|------|-----------|----------|
+| **T1 — AI-Native** | MCP server, REST/gRPC API, or LLM-agent framework | viznoir, Foam-Agent, MetaOpenFOAM |
+| **T2 — AI-Compatible** | Python API + CLI for scripted automation | OpenFOAM (PyFoam), CadQuery, PyVista |
+| **T3 — AI-Enabling** | AI/ML library that accelerates CAE workflows | PySINDy, FNO, Taichi, DeepXDE |
+
+Tools that don't fit T1-T3 are not in scope.
+
+## Quality requirements
+
+- **Open source** with code on GitHub (or similar public hosting).
+- **Clear README** with installation and usage instructions.
+- **Actively maintained** — commit within the last 12 months. Exception: foundational tools with 3000+ stars may be included even if archived.
+- **Installable** — `pip install`, `docker run`, or documented build process. Benchmarks/datasets need a download path.
+- **Minimum stars** — 50+ on GitHub. Exception: T1 (AI-Native) tools have no star minimum since they are newer.
+
+## Libraries vs. paper code
+
+| Type | Placement |
+|------|-----------|
+| **Library** (pip-installable, ongoing releases) | Relevant category (AI/ML, Surrogate, etc.) |
+| **Paper reference implementation** (one-off, no maintenance) | Learning Resources only. Exception: 1000+ stars |
+| **Curated list** (awesome-* style) | Learning Resources only |
+
+## Entry format
 
 ```markdown
-- [owner/repo](https://github.com/owner/repo) `Language` `Tag` - Short description. What makes it useful for AI-driven workflows.
+- [owner/repo](https://github.com/owner/repo) `Language` `Tag` - Description starting with capital letter, ending with period.
 ```
 
-**Language tags:** `Python`, `C++`, `Fortran`, `Rust`, `CUDA`, etc.
-**Special tags:** `MCP` (Model Context Protocol), `API` (REST/gRPC API available).
+**Language tags:** `Python`, `C++`, `Fortran`, `Rust`, `CUDA`, `JAX`, etc.
+**Special tags:** `MCP` (Model Context Protocol), `API` (REST/gRPC), `PyTorch`, `JAX`.
 
-### Steps
+## Submitting a PR
 
 1. Fork this repository.
 2. Add your item to the appropriate section in `README.md`.

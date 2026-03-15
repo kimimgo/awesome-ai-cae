@@ -15,11 +15,11 @@
 **A curated list of AI-powered tools for Computer-Aided Engineering.**<br>
 Simulation · Visualization · Design · Manufacturing
 
-<sub>AI agents run simulations, render results, generate meshes, and optimize designs — no GUI needed.</sub>
+<sub>AI can theoretically handle <a href="https://www.anthropic.com/research/labor-market-impacts">94% of computational tasks — but only 33% is actually used</a> (Anthropic, 2026).<br>In CAE, this gap is even wider. This list curates tools that close it:<br><b>tools that agents can call</b> (MCP/API/CLI), and <b>AI/ML that transforms how we simulate</b>.</sub>
 
 <br>
 
-<sub>87+ open-source tools across 15 categories: CFD, FEA, SPH, DEM, mesh generation, differentiable simulation, PINNs, topology optimization, and more. MCP-ready for AI agent integration.</sub>
+<sub>104 open-source tools across 16 categories. Every tool is AI-ready: programmable via Python API, CLI, or MCP.</sub>
 
 <br>
 
@@ -32,6 +32,7 @@ Simulation · Visualization · Design · Manufacturing
 
 ## Contents
 
+- [Core Engine Readiness](#core-engine-readiness) — AI-readiness of foundational solvers
 - [MCP Servers](#mcp-servers) — AI-native tool interfaces
 - [CFD — Computational Fluid Dynamics](#cfd--computational-fluid-dynamics)
 - [FEA — Finite Element Analysis](#fea--finite-element-analysis)
@@ -51,11 +52,38 @@ Simulation · Visualization · Design · Manufacturing
 <!-- DIVIDER -->
 <img src="media/divider.svg" alt="" width="100%">
 
+## Core Engine Readiness
+
+> How AI-ready are the foundational CAE solvers? Each engine is assessed on Python API maturity, headless operation, and AI agent integration status.
+
+<table>
+<tr><th>Engine</th><th>Domain</th><th>Python API</th><th>Headless</th><th>Docker</th><th>🤖 AI-Native</th><th>Paper</th><th>Citations</th></tr>
+<tr><td><a href="https://github.com/OpenFOAM/OpenFOAM-dev">OpenFOAM</a></td><td>CFD</td><td>PyFoam, PythonFOAM</td><td>✅</td><td>✅</td><td>✅ Foam-Agent, MetaOpenFOAM, MCP</td><td>Weller 1998</td><td>4500+</td></tr>
+<tr><td><a href="https://github.com/FEniCS/dolfinx">FEniCS</a></td><td>FEA</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Baratta 2023</td><td>—</td></tr>
+<tr><td><a href="https://gitlab.onelab.info/gmsh/gmsh">Gmsh</a></td><td>Mesh</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Geuzaine 2009</td><td>5100+</td></tr>
+<tr><td><a href="https://github.com/Kitware/VTK">VTK</a> / <a href="https://github.com/Kitware/ParaView">ParaView</a></td><td>Viz</td><td>✅ Native</td><td>✅</td><td>✅</td><td>✅ ParaView-MCP (LLNL)</td><td>Schroeder 2006</td><td>3500+</td></tr>
+<tr><td><a href="https://github.com/su2code/SU2">SU2</a></td><td>CFD/MDO</td><td>pySU2 (SWIG)</td><td>✅</td><td>✅</td><td>—</td><td>Economon 2016</td><td>—</td></tr>
+<tr><td><a href="https://github.com/mfem/mfem">MFEM</a></td><td>FEA</td><td>PyMFEM</td><td>✅</td><td>✅</td><td>—</td><td>Kolev 2024</td><td>—</td></tr>
+<tr><td><a href="https://github.com/dealii/dealii">deal.II</a></td><td>FEA</td><td>Limited</td><td>✅</td><td>✅</td><td>—</td><td>Arndt 2020</td><td>510+</td></tr>
+<tr><td><a href="https://github.com/DualSPHysics/DualSPHysics">DualSPHysics</a></td><td>SPH</td><td>Inductiva API</td><td>✅</td><td>✅</td><td>—</td><td>Crespo 2015</td><td>746</td></tr>
+<tr><td><a href="https://github.com/taichi-dev/taichi">Taichi</a></td><td>Diff. Sim</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Hu 2020 (ICLR)</td><td>—</td></tr>
+<tr><td><a href="https://github.com/PyFR/PyFR">PyFR</a></td><td>CFD</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Witherden 2014</td><td>202</td></tr>
+<tr><td><a href="http://www.calculix.de/">CalculiX</a></td><td>FEA</td><td>pycalculix</td><td>✅</td><td>✅</td><td>—</td><td>Dhondt 2004</td><td>—</td></tr>
+<tr><td><a href="https://github.com/ElmerCSC/elmerfem">Elmer</a></td><td>FEA</td><td>PyElmer</td><td>✅</td><td>✅</td><td>—</td><td>Malinen 2013</td><td>—</td></tr>
+<tr><td><a href="https://github.com/Open-Cascade-SAS/OCCT">OpenCASCADE</a></td><td>CAD</td><td>pythonOCC</td><td>✅</td><td>✅</td><td>—</td><td>—</td><td>—</td></tr>
+</table>
+
+**Legend:** ✅ Available — 🤖 AI-Native = MCP server or LLM agent framework exists — Citations from Google Scholar
+
+<sup>[back to top](#contents)</sup>
+
 ## MCP Servers
 
 > Tools that AI agents can call directly via [Model Context Protocol](https://modelcontextprotocol.io).
 
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization. 22 tools for rendering, slicing, contouring, volume rendering, and animating OpenFOAM/VTK/CGNS data via VTK. Headless EGL/OSMesa.
+- [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) `Python` `MCP` - Natural language control of ParaView via MCP. Multimodal LLM observes viewport for visual feedback (LLNL).
+- [webworn/openfoam-mcp-server](https://github.com/webworn/openfoam-mcp-server) `C++` `MCP` - OpenFOAM MCP server with Socratic questioning for CFD education and expert error resolution.
 
 <sup>[back to top](#contents)</sup>
 
@@ -152,6 +180,7 @@ Simulation · Visualization · Design · Manufacturing
 - [Autodesk/XLB](https://github.com/Autodesk/XLB) `Python` `JAX` - Differentiable Lattice Boltzmann for physics-ML. Scales to billions of cells on multi-GPU (CPC 2024).
 - [google/brax](https://github.com/google/brax) `Python` `JAX` - Massively parallel rigidbody physics on accelerator hardware. Millions of steps/second on TPU (NeurIPS 2021).
 - [jax-md/jax-md](https://github.com/jax-md/jax-md) `Python` `JAX` - Differentiable, hardware-accelerated molecular dynamics. Runs on CPU/GPU/TPU via XLA.
+- [gbionics/jaxsim](https://github.com/gbionics/jaxsim) `Python` `JAX` - Differentiable multibody dynamics engine. Hardware-accelerated robot learning and control via JAX.
 - [NVIDIA/warp](https://github.com/NVIDIA/warp) `Python` `CUDA` - Differentiable simulation and spatial computing. Reverse-mode AD, PyTorch/JAX interop.
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi) `Python` `CUDA` - Productive GPU programming with automatic differentiation. DiffTaichi for differentiable physics (ICLR 2020).
 - [tumaer/JAXFLUIDS](https://github.com/tumaer/JAXFLUIDS) `Python` `JAX` - Fully-differentiable CFD solver for 3D compressible single-phase and two-phase flows.
@@ -162,12 +191,17 @@ Simulation · Visualization · Design · Manufacturing
 
 > Neural networks that learn physics: operator learning, foundation models, and ML-accelerated solvers.
 
-- [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) `Python` `CUDA` - Physics-ML framework (formerly Modulus). PINNs, neural operators, GNNs, diffusion models. Apache 2.0.
+- [csml-rpi/Foam-Agent](https://github.com/csml-rpi/Foam-Agent) `Python` `API` - AI agent for automated CFD workflows. LLM-driven OpenFOAM simulation setup and execution.
+- [dynamicslab/pykoopman](https://github.com/dynamicslab/pykoopman) `Python` - Data-driven Koopman operator approximation. Dynamical system analysis and prediction from time series.
+- [dynamicslab/pysindy](https://github.com/dynamicslab/pysindy) `Python` - Sparse Identification of Nonlinear Dynamics. Data-driven discovery of governing equations from measurements.
 - [google/jax-cfd](https://github.com/google/jax-cfd) `Python` - JAX-based CFD. Differentiable Navier-Stokes solvers. GPU-accelerated, auto-differentiable.
+- [Koopman-Laboratory/KoopmanLab](https://github.com/Koopman-Laboratory/KoopmanLab) `Python` - Koopman Neural Operator for mesh-free nonlinear PDE solving. Multi-scale decomposition.
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Deep learning library for PDEs. PINNs, DeepONet. Backends: TensorFlow, PyTorch, JAX, PaddlePaddle.
-- [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow) `Python` - Differentiable PDE simulations. Fluid dynamics with TF/PyTorch/JAX. ML-physics hybrid workflows.
-- [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) `Python` - Neural operators in PyTorch. FNO, SFNO, UNO for learning PDE solution operators.
 - [microsoft/ClimaX](https://github.com/microsoft/ClimaX) `Python` - Foundation model for weather and climate. Pre-trained on CMIP6, fine-tunable for downstream tasks.
+- [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) `Python` - Neural operators in PyTorch. FNO, SFNO, UNO for learning PDE solution operators.
+- [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) `Python` `CUDA` - Physics-ML framework (formerly Modulus). PINNs, neural operators, GNNs, diffusion models. Apache 2.0.
+- [Terry-cyx/MetaOpenFOAM](https://github.com/Terry-cyx/MetaOpenFOAM) `Python` `API` - LLM-based multi-agent framework for CFD. Automated simulation pipeline from natural language.
+- [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow) `Python` - Differentiable PDE simulations. Fluid dynamics with TF/PyTorch/JAX. ML-physics hybrid workflows.
 
 <sup>[back to top](#contents)</sup>
 
@@ -176,10 +210,12 @@ Simulation · Visualization · Design · Manufacturing
 > Physics-informed neural networks and data-driven reduced-order models for fast PDE solving.
 
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Physics-informed neural networks for PDEs. Multi-backend (TF, PyTorch, JAX). Inverse problems, fractional PDEs.
-- [sciann/sciann](https://github.com/sciann/sciann) `Python` - Neural networks for scientific computing. Keras-based PINNs with custom loss and constraints.
-- [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) `Python` - Symbolic AI for physics. Physics-informed neural networks with symbolic equation definition.
 - [mathLab/PINA](https://github.com/mathLab/PINA) `Python` - Physics-Informed Neural networks for Advanced modeling. PyTorch Lightning-based with multi-device training.
 - [mathLab/PyDMD](https://github.com/mathLab/PyDMD) `Python` - Dynamic Mode Decomposition. Data-driven reduced-order modeling for fluid dynamics and beyond.
+- [NeuroDiffGym/neurodiffeq](https://github.com/NeuroDiffGym/neurodiffeq) `Python` - Neural network solver for ODEs and PDEs. Flexible architecture with native boundary condition handling.
+- [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) `Python` - Symbolic AI for physics. Physics-informed neural networks with symbolic equation definition.
+- [rezaakb/pinns-torch](https://github.com/rezaakb/pinns-torch) `Python` `PyTorch` - Production-ready PINNs in PyTorch. Multi-physics support, inverse problems, uncertainty quantification.
+- [sciann/sciann](https://github.com/sciann/sciann) `Python` - Neural networks for scientific computing. Keras-based PINNs with custom loss and constraints.
 
 <sup>[back to top](#contents)</sup>
 
@@ -211,10 +247,12 @@ Simulation · Visualization · Design · Manufacturing
 
 > Standardized datasets and benchmarks for training and evaluating scientific ML models.
 
-- [pdebench/PDEBench](https://github.com/pdebench/PDEBench) `Python` - Benchmarks for scientific ML. Standardized PDE datasets with baseline models.
 - [divelab/AIRS](https://github.com/divelab/AIRS) `Python` - AI for science benchmarks. Molecular, protein, climate, physics datasets.
-- [NASA TMR](https://turbmodels.larc.nasa.gov/) - Turbulence Modeling Resource. Validation cases for CFD turbulence models with experimental data.
 - [DrivAerNet](https://github.com/Mohamedelrefaie/DrivAerNet) `Python` - Large-scale automotive CFD dataset. 4000+ car designs with drag coefficients and surface fields.
+- [i207M/PINNacle](https://github.com/i207M/PINNacle) `Python` - Comprehensive PINN benchmark with 20 PDE problems across difficulty levels (NeurIPS 2024).
+- [NASA TMR](https://turbmodels.larc.nasa.gov/) - Turbulence Modeling Resource. Validation cases for CFD turbulence models with experimental data.
+- [pdebench/PDEBench](https://github.com/pdebench/PDEBench) `Python` - Benchmarks for scientific ML. Standardized PDE datasets with baseline models.
+- [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) `Python` - Large-scale collection of diverse physics simulations for ML. Fifteen-plus PDE systems (NeurIPS 2024).
 
 <sup>[back to top](#contents)</sup>
 
@@ -223,8 +261,12 @@ Simulation · Visualization · Design · Manufacturing
 > Tutorials, courses, and templates for learning computational engineering and scientific computing.
 
 - [Barba-group/CFDPython](https://github.com/barbagroup/CFDPython) `Python` - Classic "12 Steps to Navier-Stokes" tutorial. Learn CFD fundamentals with Python step by step.
-- [kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template) `LaTeX` - Clean PhD thesis template. Widely used in computational mechanics community.
+- [ikespand/awesome-machine-learning-fluid-mechanics](https://github.com/ikespand/awesome-machine-learning-fluid-mechanics) - Curated list of ML applications in fluid mechanics. Papers, code, and tutorials.
 - [jxx123/simglucose](https://github.com/jxx123/simglucose) `Python` - Type 1 diabetes simulator. Example of AI-in-the-loop biomedical simulation.
+- [kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template) `LaTeX` - Clean PhD thesis template. Widely used in computational mechanics community.
+- [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) `Python` - The foundational PINN reference implementation. Data-driven PDE solutions and discovery (JCP 2019).
+- [thunil/Physics-Based-Deep-Learning](https://github.com/thunil/Physics-Based-Deep-Learning) - Comprehensive collection of physics-based deep learning resources. Papers, code links, and tutorials from TUM.
+- [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) - Survey of ML for CFD covering data-driven surrogates, PINNs, and ML-assisted numerical solvers.
 
 <sup>[back to top](#contents)</sup>
 
