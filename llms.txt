@@ -1,29 +1,41 @@
 # Awesome AI-CAE
 
-> A curated list of AI-powered open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing.
+> A curated list of 104 AI-ready open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing.
 
-This repository collects 87+ tools across 15 categories that AI agents and engineers use for computational fluid dynamics (CFD), finite element analysis (FEA), smoothed particle hydrodynamics (SPH), mesh generation, topology optimization, physics-informed neural networks (PINNs), and scientific visualization. Every tool listed is open-source and actively maintained.
+AI can theoretically handle 94% of computational tasks, but only 33% is actually used (Anthropic, 2026). In CAE, this gap is even wider: of 13 foundational solvers assessed, only OpenFOAM and ParaView have AI-native integration (MCP servers or LLM agent frameworks). This list curates tools that close that gap — tools that AI agents can call directly via MCP, API, or CLI, and AI/ML tools that are transforming how engineers simulate.
+
+## What is AI-CAE?
+
+AI-CAE is the intersection of artificial intelligence and Computer-Aided Engineering. It encompasses three categories of tools: (1) AI-Native tools with MCP servers or REST APIs that AI agents call directly, like viznoir for visualization or Foam-Agent for CFD automation; (2) API-Ready tools with Python APIs and CLI interfaces that can be scripted and automated, like OpenFOAM, FEniCS, and CadQuery; (3) ML-Powered libraries that accelerate CAE workflows, like DeepXDE for physics-informed neural networks, PySINDy for equation discovery, and neural operators for learning PDE solutions.
+
+## Core Engine Readiness
+
+Thirteen foundational CAE solvers were assessed for AI-readiness. All support headless operation and Docker deployment. Five have native Python APIs (FEniCS, Gmsh, Taichi, PyFR, VTK/ParaView). Only two have AI-native integration: OpenFOAM (Foam-Agent, MetaOpenFOAM, MCP server) and ParaView (ParaView-MCP by LLNL). The most-cited engines are Gmsh (5100+ citations), OpenFOAM (4500+), and VTK/ParaView (3500+).
 
 ## Key Categories
 
-- [MCP Servers](https://github.com/kimimgo/awesome-ai-cae#mcp-servers): AI-native tool interfaces via Model Context Protocol
+- [Core Engine Readiness](https://github.com/kimimgo/awesome-ai-cae#core-engine-readiness): AI-readiness assessment of 13 foundational solvers
+- [MCP Servers](https://github.com/kimimgo/awesome-ai-cae#mcp-servers): AI-native tool interfaces via Model Context Protocol (viznoir, ParaView-MCP, OpenFOAM MCP)
 - [CFD](https://github.com/kimimgo/awesome-ai-cae#cfd--computational-fluid-dynamics): OpenFOAM, SU2, PyFR, preCICE
-- [FEA](https://github.com/kimimgo/awesome-ai-cae#fea--finite-element-analysis): FEniCS, CalculiX, MFEM, deal.II, Elmer
+- [FEA](https://github.com/kimimgo/awesome-ai-cae#fea--finite-element-analysis): FEniCS, CalculiX, MFEM, deal.II, Elmer, Kratos, OpenSees
 - [SPH](https://github.com/kimimgo/awesome-ai-cae#sph--smoothed-particle-hydrodynamics): DualSPHysics, SPlisHSPlasH, PySPH
-- [Differentiable Simulation](https://github.com/kimimgo/awesome-ai-cae#differentiable-simulation): JAX-CFD, Warp, Taichi, Brax
-- [AI/ML for Simulation](https://github.com/kimimgo/awesome-ai-cae#aiml-for-simulation): PhysicsNeMo, DeepXDE, PhiFlow, Neural Operators
-- [Surrogate Models & PINNs](https://github.com/kimimgo/awesome-ai-cae#surrogate-models--pinns): Physics-informed neural networks
-- [Optimization](https://github.com/kimimgo/awesome-ai-cae#optimization): OpenMDAO, pymoo, topology optimization
-- [Visualization](https://github.com/kimimgo/awesome-ai-cae#visualization--post-processing): VTK, ParaView, PyVista, viznoir MCP
-- [CAD & Geometry](https://github.com/kimimgo/awesome-ai-cae#cad--geometry): CadQuery, FreeCAD, OpenCASCADE
-- [Mesh Generation](https://github.com/kimimgo/awesome-ai-cae#mesh-generation): Gmsh, CGAL, MeshAnything, MeshXL
-- [Datasets & Benchmarks](https://github.com/kimimgo/awesome-ai-cae#datasets--benchmarks): PDEBench, DrivAerNet
+- [DEM](https://github.com/kimimgo/awesome-ai-cae#dem--discrete-element-method): LIGGGHTS, SudoDEM
+- [Differentiable Simulation](https://github.com/kimimgo/awesome-ai-cae#differentiable-simulation): XLB, Brax, jax-md, JaxSim, Warp, Taichi, JAXFLUIDS
+- [AI/ML for Simulation](https://github.com/kimimgo/awesome-ai-cae#aiml-for-simulation): Foam-Agent, PySINDy, PyKoopman, KoopmanLab, DeepXDE, PhiFlow, Neural Operators, PhysicsNeMo, MetaOpenFOAM, ClimaX
+- [Surrogate Models & PINNs](https://github.com/kimimgo/awesome-ai-cae#surrogate-models--pinns): DeepXDE, PINA, PyDMD, neurodiffeq, pinns-torch, SciANN, PhysicsNeMo-Sym
+- [Optimization](https://github.com/kimimgo/awesome-ai-cae#optimization): OpenMDAO, pymoo, dl4to, topy, OpenAeroStruct
+- [Visualization](https://github.com/kimimgo/awesome-ai-cae#visualization--post-processing): viznoir MCP, VTK, PyVista, ParaView, napari, vedo, plotly
+- [CAD & Geometry](https://github.com/kimimgo/awesome-ai-cae#cad--geometry): CadQuery, FreeCAD, OpenCASCADE, trimesh, pygmsh
+- [Mesh Generation](https://github.com/kimimgo/awesome-ai-cae#mesh-generation): Gmsh, CGAL, Netgen, MeshAnything, MeshXL, PyMesh
+- [Data Formats & I/O](https://github.com/kimimgo/awesome-ai-cae#data-formats--io): meshio, h5py, netcdf4, CGNS, PyVista
+- [Datasets & Benchmarks](https://github.com/kimimgo/awesome-ai-cae#datasets--benchmarks): PDEBench, the_well (NeurIPS 2024), PINNacle (NeurIPS 2024), DrivAerNet, AIRS
+- [Learning Resources](https://github.com/kimimgo/awesome-ai-cae#learning-resources): CFDPython, Physics-Based Deep Learning, Awesome-AI4CFD, awesome-ML-fluid-mechanics
 
 ## Contributing
 
-- [Contributing Guidelines](https://github.com/kimimgo/awesome-ai-cae/blob/main/CONTRIBUTING.md): How to add tools
+- [Contributing Guidelines](https://github.com/kimimgo/awesome-ai-cae/blob/main/CONTRIBUTING.md): AI-readiness tiers, quality gates, and entry format
 
 ## Optional
 
-- [Full README](https://github.com/kimimgo/awesome-ai-cae/blob/main/README.md): Complete list with descriptions
+- [Full README](https://github.com/kimimgo/awesome-ai-cae/blob/main/README.md): Complete list with descriptions and Core Engine Readiness table
 - [Translations](https://github.com/kimimgo/awesome-ai-cae/tree/main/docs): Available in 7 languages (ko, zh, ja, de, fr, es, pt)
