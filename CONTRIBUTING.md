@@ -51,6 +51,16 @@ Tools that don't fit T1-T3 are not in scope.
 4. Submit a pull request with a clear title: `Add owner/repo`.
 5. Ensure the PR passes CI checks (awesome-lint + link checker).
 
+## Featured badge
+
+If your project is listed, you can add this badge to your README:
+
+```markdown
+[![Awesome AI-CAE](https://img.shields.io/badge/Awesome-AI--CAE-blue?logo=awesomelists&logoColor=white)](https://github.com/kimimgo/awesome-ai-cae)
+```
+
+Preview: [![Awesome AI-CAE](https://img.shields.io/badge/Awesome-AI--CAE-blue?logo=awesomelists&logoColor=white)](https://github.com/kimimgo/awesome-ai-cae)
+
 ## Suggesting a new category
 
 Open an [issue](https://github.com/kimimgo/awesome-ai-cae/issues/new) with the `enhancement` label to propose a new category. Include at least 3 items that would belong in it.
