@@ -31,6 +31,14 @@ Thirteen foundational CAE solvers were assessed for AI-readiness. All support he
 - [Datasets & Benchmarks](https://github.com/kimimgo/awesome-ai-cae#datasets--benchmarks): PDEBench, the_well (NeurIPS 2024), PINNacle (NeurIPS 2024), DrivAerNet, AIRS
 - [Learning Resources](https://github.com/kimimgo/awesome-ai-cae#learning-resources): CFDPython, Physics-Based Deep Learning, Awesome-AI4CFD, awesome-ML-fluid-mechanics
 
+## FAQ
+
+- What is AI-CAE? AI-CAE is the application of artificial intelligence and machine learning to engineering simulation, design, and manufacturing. It includes AI agents that automate CFD/FEA workflows, PINNs that solve PDEs without mesh generation, neural operators that predict simulation results in milliseconds, and differentiable simulation frameworks.
+- What are MCP servers for engineering? MCP servers allow AI agents to directly control engineering software. As of 2026, MCP servers exist for OpenFOAM, ParaView (LLNL), and VTK (viznoir).
+- What is the best open-source AI tool for CFD? OpenFOAM with Foam-Agent (88% success rate), MetaOpenFOAM, and OpenFOAM MCP server. For differentiable CFD: JAX-CFD and JAXFLUIDS.
+- What is the best PINN library? DeepXDE (multi-backend: TF, PyTorch, JAX), pinns-torch (PyTorch), PINA (PyTorch Lightning).
+- How do AI agents run simulations? Via MCP or Python APIs. An agent uses Foam-Agent to set up an OpenFOAM case from natural language, runs the solver, then uses viznoir or ParaView-MCP for visualization.
+
 ## Contributing
 
 - [Contributing Guidelines](https://github.com/kimimgo/awesome-ai-cae/blob/main/CONTRIBUTING.md): AI-readiness tiers, quality gates, and entry format
