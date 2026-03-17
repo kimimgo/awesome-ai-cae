@@ -81,6 +81,8 @@ Simulation · Visualization · Design · Manufacturing
 
 > Tools that AI agents can call directly via [Model Context Protocol](https://modelcontextprotocol.io).
 
+MCP servers are the AI-native interface layer for CAE tools. They allow AI agents like Claude, ChatGPT, and Copilot to directly invoke simulation, visualization, and meshing operations without human GUI interaction. As of 2026, MCP servers exist for OpenFOAM (CFD), ParaView (visualization), and VTK-based rendering, making these the first CAE tools with true AI agent integration.
+
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization. 22 tools for rendering, slicing, contouring, volume rendering, and animating OpenFOAM/VTK/CGNS data via VTK. Headless EGL/OSMesa.
 - [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) `Python` `MCP` - Natural language control of ParaView via MCP. Multimodal LLM observes viewport for visual feedback (LLNL).
 - [webworn/openfoam-mcp-server](https://github.com/webworn/openfoam-mcp-server) `C++` `MCP` - OpenFOAM MCP server with Socratic questioning for CFD education and expert error resolution.
@@ -90,6 +92,8 @@ Simulation · Visualization · Design · Manufacturing
 ## CFD — Computational Fluid Dynamics
 
 > Open-source solvers for fluid flow, heat transfer, and multiphysics simulation.
+
+Computational fluid dynamics is the CAE domain with the most advanced AI integration. OpenFOAM leads with three LLM agent frameworks (Foam-Agent at 88% success rate, MetaOpenFOAM, and an MCP server), making it the most AI-ready CFD solver available. PyFR provides GPU-accelerated high-order methods, while preCICE enables AI-orchestrated multi-physics coupling for fluid-structure interaction.
 
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) `C++` - The open source CFD toolbox. Finite volume solvers for incompressible/compressible flow, multiphase, combustion, heat transfer.
 - [su2code/SU2](https://github.com/su2code/SU2) `C++` `Python` - Multiphysics simulation and design optimization. Compressible/incompressible flow, structural analysis, adjoint-based design.
@@ -103,6 +107,8 @@ Simulation · Visualization · Design · Manufacturing
 ## FEA — Finite Element Analysis
 
 > Structural, thermal, and multiphysics solvers using the finite element method.
+
+AI for finite element analysis is rapidly evolving. FEniCS offers the most Pythonic FEA interface, making it ideal for AI agent integration and ML-FEA hybrid workflows. MFEM from LLNL provides GPU-accelerated high-order elements, while Kratos supports multi-physics coupling. None yet have MCP servers, representing a major opportunity for AI-native FEA automation.
 
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) `C++` `Python` - Next-generation FEniCS. Automated PDE solving with high-level Python/C++ interface. Parallel, scalable.
 - [CalculiX](http://www.calculix.de/) `Fortran` `C` - Free 3D structural FEM. Linear/nonlinear static, dynamic, thermal analysis. Abaqus INP compatible.
@@ -118,6 +124,8 @@ Simulation · Visualization · Design · Manufacturing
 ## SPH — Smoothed Particle Hydrodynamics
 
 > Meshless particle methods for free-surface flows, fluid-structure interaction, and wave dynamics.
+
+SPH is a meshless Lagrangian method particularly suited for AI-driven simulation of free-surface flows, wave impacts, and fluid-structure interaction. DualSPHysics (746 citations) is the most widely used open-source SPH solver with GPU acceleration via CUDA, while PySPH offers a pure Python framework for rapid prototyping of particle-based methods.
 
 - [DualSPHysics/DualSPHysics](https://github.com/DualSPHysics/DualSPHysics) `C++` `CUDA` - GPU-accelerated SPH solver. Free-surface flows, wave generation, fluid-structure interaction, floating bodies.
 - [SPlisHSPlasH/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) `C++` - Physically-based SPH fluid simulation. DFSPH, IISPH, PBF pressure solvers. Viscosity, surface tension.
@@ -138,6 +146,8 @@ Simulation · Visualization · Design · Manufacturing
 
 > Rendering, plotting, and interactive exploration of simulation results.
 
+AI-driven scientific visualization enables agents to render simulation results, generate animations, and create publication-quality figures without GUI interaction. ParaView-MCP from LLNL and viznoir provide MCP-based visualization, allowing AI agents to control rendering pipelines via natural language. VTK and PyVista form the foundation, with Python APIs that can be scripted for automated post-processing of CFD, FEA, and SPH results.
+
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization MCP server. 22 tools, EGL/OSMesa headless, cinematic lighting, physics animations.
 - [Kitware/VTK](https://github.com/Kitware/VTK) `C++` `Python` - The Visualization Toolkit. 3D computer graphics, image processing, scientific visualization. Industry standard.
 - [pyvista/pyvista](https://github.com/pyvista/pyvista) `Python` - Pythonic VTK. Streamlined 3D plotting, mesh analysis, and interactive visualization.
@@ -152,6 +162,8 @@ Simulation · Visualization · Design · Manufacturing
 
 > Parametric modeling, geometry processing, and CAD data exchange tools.
 
+AI for CAD enables programmatic 3D modeling, geometry manipulation, and design automation. CadQuery provides a Python-first parametric CAD API built on OpenCASCADE, making it the most accessible tool for AI agents to generate STEP/STL models from code. FreeCAD offers a full parametric modeler with Python scripting, while trimesh handles mesh-level geometry operations for AI-driven design optimization.
+
 - [CadQuery/cadquery](https://github.com/CadQuery/cadquery) `Python` - Parametric 3D CAD scripting. Build models with Python, export STEP/STL/IGES. OpenCASCADE kernel.
 - [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) `C++` `Python` - Open-source parametric 3D CAD modeler. Part design, FEM workbench, BIM, path (CAM).
 - [OpenCASCADE/OCCT](https://github.com/Open-Cascade-SAS/OCCT) `C++` - Open CASCADE Technology. Kernel for 3D surface and solid modeling, CAD data exchange (STEP/IGES).
@@ -163,6 +175,8 @@ Simulation · Visualization · Design · Manufacturing
 ## Mesh Generation
 
 > Structured, unstructured, and AI-driven mesh generation for simulation preprocessing.
+
+AI-driven mesh generation is transforming simulation preprocessing. Gmsh (5100+ citations) remains the industry-standard mesh generator with a native Python API, while MeshAnything (ICLR 2025) and MeshXL (NeurIPS 2024) represent a new generation of transformer-based mesh generators that learn to produce artist-quality meshes from any 3D input. CGAL provides the computational geometry backbone for custom meshing algorithms.
 
 - [gmsh](https://gitlab.onelab.info/gmsh/gmsh) `C++` `Python` - Full-featured 3D finite element mesh generator. CAD engine, structured/unstructured meshing, built-in post-processing.
 - [CGAL/cgal](https://github.com/CGAL/cgal) `C++` - Computational Geometry Algorithms Library. Mesh generation, triangulation, Boolean operations, convex hulls.
@@ -177,6 +191,8 @@ Simulation · Visualization · Design · Manufacturing
 
 > GPU-native, auto-differentiable frameworks designed for ML-physics integration.
 
+Differentiable simulation frameworks enable gradient-based optimization through physical simulations, bridging the gap between machine learning and physics. JAX-based tools (XLB, Brax, jax-md, JAXFLUIDS) provide end-to-end differentiability on GPU/TPU, while NVIDIA Warp and Taichi (DiffTaichi, ICLR 2020) offer CUDA-native alternatives. These frameworks are essential for AI-for-science research, enabling neural network training that respects physical laws.
+
 - [Autodesk/XLB](https://github.com/Autodesk/XLB) `Python` `JAX` - Differentiable Lattice Boltzmann for physics-ML. Scales to billions of cells on multi-GPU (CPC 2024).
 - [google/brax](https://github.com/google/brax) `Python` `JAX` - Massively parallel rigidbody physics on accelerator hardware. Millions of steps/second on TPU (NeurIPS 2021).
 - [jax-md/jax-md](https://github.com/jax-md/jax-md) `Python` `JAX` - Differentiable, hardware-accelerated molecular dynamics. Runs on CPU/GPU/TPU via XLA.
@@ -190,6 +206,8 @@ Simulation · Visualization · Design · Manufacturing
 ## AI/ML for Simulation
 
 > Neural networks that learn physics: operator learning, foundation models, and ML-accelerated solvers.
+
+AI and machine learning for simulation is the fastest-growing area in computational engineering. Neural operators like FNO learn to solve entire families of PDEs in milliseconds, PySINDy discovers governing equations from data, and LLM agent frameworks like Foam-Agent and MetaOpenFOAM automate end-to-end CFD workflows from natural language. NVIDIA PhysicsNeMo (formerly Modulus) provides the most comprehensive physics-ML framework with PINNs, neural operators, and graph neural networks.
 
 - [csml-rpi/Foam-Agent](https://github.com/csml-rpi/Foam-Agent) `Python` `API` - AI agent for automated CFD workflows. LLM-driven OpenFOAM simulation setup and execution.
 - [dynamicslab/pykoopman](https://github.com/dynamicslab/pykoopman) `Python` - Data-driven Koopman operator approximation. Dynamical system analysis and prediction from time series.
@@ -209,6 +227,8 @@ Simulation · Visualization · Design · Manufacturing
 
 > Physics-informed neural networks and data-driven reduced-order models for fast PDE solving.
 
+Physics-informed neural networks (PINNs) embed physical laws directly into neural network training, enabling PDE solving without simulation data. DeepXDE is the most widely used PINN library with multi-backend support (TensorFlow, PyTorch, JAX), while pinns-torch provides a production-ready PyTorch implementation. For reduced-order modeling, PyDMD implements Dynamic Mode Decomposition for data-driven surrogate models that can replace expensive CFD/FEA simulations with real-time predictions.
+
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Physics-informed neural networks for PDEs. Multi-backend (TF, PyTorch, JAX). Inverse problems, fractional PDEs.
 - [mathLab/PINA](https://github.com/mathLab/PINA) `Python` - Physics-Informed Neural networks for Advanced modeling. PyTorch Lightning-based with multi-device training.
 - [mathLab/PyDMD](https://github.com/mathLab/PyDMD) `Python` - Dynamic Mode Decomposition. Data-driven reduced-order modeling for fluid dynamics and beyond.
@@ -222,6 +242,8 @@ Simulation · Visualization · Design · Manufacturing
 ## Optimization
 
 > Topology optimization, multidisciplinary design, and gradient-based engineering optimization.
+
+AI-powered optimization combines gradient-based methods with neural networks for engineering design. OpenMDAO (NASA) is the standard for multidisciplinary design optimization with surrogate-assisted methods, while dl4to applies deep learning to 3D topology optimization using autograd. Multi-objective optimization via pymoo supports NSGA-II/III algorithms for Pareto-optimal engineering designs.
 
 - [OpenMDAO/OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) `Python` - Multidisciplinary design optimization. NASA-developed. Gradient-based + surrogate-assisted optimization.
 - [airbus/pymoo](https://github.com/anyoptimization/pymoo) `Python` - Multi-objective optimization. NSGA-II/III, reference directions, constraint handling, parallelization.
@@ -247,6 +269,8 @@ Simulation · Visualization · Design · Manufacturing
 
 > Standardized datasets and benchmarks for training and evaluating scientific ML models.
 
+Benchmarks are critical for advancing AI for science. The Well (NeurIPS 2024) provides the largest collection of diverse physics simulations with fifteen-plus PDE systems, while PINNacle (NeurIPS 2024) offers a comprehensive PINN benchmark with 20 PDE problems. PDEBench standardizes scientific ML evaluation, and DrivAerNet provides 4000+ automotive CFD cases for data-driven aerodynamic design.
+
 - [divelab/AIRS](https://github.com/divelab/AIRS) `Python` - AI for science benchmarks. Molecular, protein, climate, physics datasets.
 - [DrivAerNet](https://github.com/Mohamedelrefaie/DrivAerNet) `Python` - Large-scale automotive CFD dataset. 4000+ car designs with drag coefficients and surface fields.
 - [i207M/PINNacle](https://github.com/i207M/PINNacle) `Python` - Comprehensive PINN benchmark with 20 PDE problems across difficulty levels (NeurIPS 2024).
@@ -259,6 +283,8 @@ Simulation · Visualization · Design · Manufacturing
 ## Learning Resources
 
 > Tutorials, courses, and templates for learning computational engineering and scientific computing.
+
+Learning resources for AI-powered CAE span from classical CFD fundamentals (12 Steps to Navier-Stokes) to cutting-edge surveys of machine learning for simulation. Physics-Based Deep Learning from TUM provides the most comprehensive collection of ML-physics papers with code, while Awesome-AI4CFD covers the latest data-driven surrogates, PINNs, and ML-assisted numerical methods for computational fluid dynamics.
 
 - [Barba-group/CFDPython](https://github.com/barbagroup/CFDPython) `Python` - Classic "12 Steps to Navier-Stokes" tutorial. Learn CFD fundamentals with Python step by step.
 - [ikespand/awesome-machine-learning-fluid-mechanics](https://github.com/ikespand/awesome-machine-learning-fluid-mechanics) - Curated list of ML applications in fluid mechanics. Papers, code, and tutorials.
