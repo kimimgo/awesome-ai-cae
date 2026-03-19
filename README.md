@@ -19,7 +19,7 @@ Simulation · Visualization · Design · Manufacturing
 
 <br>
 
-<sub>104 open-source tools across 16 categories. Every tool is AI-ready: programmable via Python API, CLI, or MCP.</sub>
+<sub>113 open-source tools across 16 categories. Every tool is AI-ready: programmable via Python API, CLI, or MCP.</sub>
 
 <br>
 
@@ -111,14 +111,17 @@ Computational fluid dynamics is the CAE domain with the most advanced AI integra
 
 AI for finite element analysis is rapidly evolving. FEniCS offers the most Pythonic FEA interface, making it ideal for AI agent integration and ML-FEA hybrid workflows. MFEM from LLNL provides GPU-accelerated high-order elements, while Kratos supports multi-physics coupling. None yet have MCP servers, representing a major opportunity for AI-native FEA automation.
 
-- [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) `C++` `Python` - Next-generation FEniCS. Automated PDE solving with high-level Python/C++ interface. Parallel, scalable.
 - [CalculiX](http://www.calculix.de/) `Fortran` `C` - Free 3D structural FEM. Linear/nonlinear static, dynamic, thermal analysis. Abaqus INP compatible.
-- [mfem/mfem](https://github.com/mfem/mfem) `C++` - High-order finite element library. Supports GPU acceleration, AMR, and dozens of physics applications.
 - [dealii/dealii](https://github.com/dealii/dealii) `C++` - Adaptive finite elements. Supports hp-refinement, multigrid, and parallel distributed computing.
 - [ElmerCSC/elmerfem](https://github.com/ElmerCSC/elmerfem) `Fortran` `C++` - Multiphysics FEM solver. Fluid dynamics, structural mechanics, electromagnetics, heat transfer. CSC Finland.
+- [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) `C++` `Python` - Next-generation FEniCS. Automated PDE solving with high-level Python/C++ interface. Parallel, scalable.
+- [FreeFem/FreeFem-sources](https://github.com/FreeFem/FreeFem-sources) `C++` - Partial differential equation solver using finite element method. High-level scripting language for 2D/3D problems.
+- [idaholab/moose](https://github.com/idaholab/moose) `C++` `Python` - Multiphysics Object-Oriented Simulation Environment. Coupled physics FEM framework (Idaho National Lab).
 - [Kratos-Multiphysics](https://github.com/KratosMultiphysics/Kratos) `C++` `Python` - Framework for multi-physics FEM. Structural, fluid, thermal, contact, FSI.
+- [mfem/mfem](https://github.com/mfem/mfem) `C++` - High-order finite element library. Supports GPU acceleration, AMR, and dozens of physics applications.
 - [nschloe/meshio](https://github.com/nschloe/meshio) `Python` - I/O for mesh formats. Convert between Abaqus, Gmsh, VTK, XDMF, Exodus, and 30+ formats.
 - [OpenSees/OpenSees](https://github.com/OpenSees/OpenSees) `C++` - Open system for earthquake engineering simulation. Structural and geotechnical response analysis. Berkeley.
+- [sfepy/sfepy](https://github.com/sfepy/sfepy) `Python` - Simple Finite Elements in Python. Solve PDEs by FEM in 1D, 2D, and 3D with plain Python scripting.
 
 <sup>[back to top](#contents)</sup>
 
@@ -198,6 +201,7 @@ Differentiable simulation frameworks enable gradient-based optimization through 
 - [google/brax](https://github.com/google/brax) `Python` `JAX` - Massively parallel rigidbody physics on accelerator hardware. Millions of steps/second on TPU (NeurIPS 2021).
 - [jax-md/jax-md](https://github.com/jax-md/jax-md) `Python` `JAX` - Differentiable, hardware-accelerated molecular dynamics. Runs on CPU/GPU/TPU via XLA.
 - [gbionics/jaxsim](https://github.com/gbionics/jaxsim) `Python` `JAX` - Differentiable multibody dynamics engine. Hardware-accelerated robot learning and control via JAX.
+- [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) `C++` `Python` - Multi-joint dynamics with contact. General-purpose physics engine for robotics, biomechanics, and control (DeepMind).
 - [NVIDIA/warp](https://github.com/NVIDIA/warp) `Python` `CUDA` - Differentiable simulation and spatial computing. Reverse-mode AD, PyTorch/JAX interop.
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi) `Python` `CUDA` - Productive GPU programming with automatic differentiation. DiffTaichi for differentiable physics (ICLR 2020).
 - [tumaer/JAXFLUIDS](https://github.com/tumaer/JAXFLUIDS) `Python` `JAX` - Fully-differentiable CFD solver for 3D compressible single-phase and two-phase flows.
@@ -211,8 +215,10 @@ Differentiable simulation frameworks enable gradient-based optimization through 
 AI and machine learning for simulation is the fastest-growing area in computational engineering. Neural operators like FNO learn to solve entire families of PDEs in milliseconds, PySINDy discovers governing equations from data, and LLM agent frameworks like Foam-Agent and MetaOpenFOAM automate end-to-end CFD workflows from natural language. NVIDIA PhysicsNeMo (formerly Modulus) provides the most comprehensive physics-ML framework with PINNs, neural operators, and graph neural networks.
 
 - [csml-rpi/Foam-Agent](https://github.com/csml-rpi/Foam-Agent) `Python` `API` - AI agent for automated CFD workflows. LLM-driven OpenFOAM simulation setup and execution.
+- [deepmodeling/deepmd-kit](https://github.com/deepmodeling/deepmd-kit) `Python` `C++` - Deep learning for molecular dynamics. Neural network potentials for large-scale atomistic simulations.
 - [dynamicslab/pykoopman](https://github.com/dynamicslab/pykoopman) `Python` - Data-driven Koopman operator approximation. Dynamical system analysis and prediction from time series.
 - [dynamicslab/pysindy](https://github.com/dynamicslab/pysindy) `Python` - Sparse Identification of Nonlinear Dynamics. Data-driven discovery of governing equations from measurements.
+- [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) `Python` - Graph neural network for medium-range weather forecasting. Ten-day forecasts in under a minute (Nature 2023).
 - [google/jax-cfd](https://github.com/google/jax-cfd) `Python` - JAX-based CFD. Differentiable Navier-Stokes solvers. GPU-accelerated, auto-differentiable.
 - [Koopman-Laboratory/KoopmanLab](https://github.com/Koopman-Laboratory/KoopmanLab) `Python` - Koopman Neural Operator for mesh-free nonlinear PDE solving. Multi-scale decomposition.
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Deep learning library for PDEs. PINNs, DeepONet. Backends: TensorFlow, PyTorch, JAX, PaddlePaddle.
@@ -237,6 +243,7 @@ Physics-informed neural networks (PINNs) embed physical laws directly into neura
 - [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) `Python` - Symbolic AI for physics. Physics-informed neural networks with symbolic equation definition.
 - [rezaakb/pinns-torch](https://github.com/rezaakb/pinns-torch) `Python` `PyTorch` - Production-ready PINNs in PyTorch. Multi-physics support, inverse problems, uncertainty quantification.
 - [sciann/sciann](https://github.com/sciann/sciann) `Python` - Neural networks for scientific computing. Keras-based PINNs with custom loss and constraints.
+- [thuml/Neural-Solver-Library](https://github.com/thuml/Neural-Solver-Library) `Python` - Library for advanced neural PDE solvers. Benchmarking Transolver, FNO, and variants on diverse PDE families (Tsinghua).
 
 <sup>[back to top](#contents)</sup>
 
@@ -246,6 +253,7 @@ Physics-informed neural networks (PINNs) embed physical laws directly into neura
 
 AI-powered optimization combines gradient-based methods with neural networks for engineering design. OpenMDAO (NASA) is the standard for multidisciplinary design optimization with surrogate-assisted methods, while dl4to applies deep learning to 3D topology optimization using autograd. Multi-objective optimization via pymoo supports NSGA-II/III algorithms for Pareto-optimal engineering designs.
 
+- [meta-pytorch/botorch](https://github.com/meta-pytorch/botorch) `Python` `PyTorch` - Bayesian optimization in PyTorch. Sequential decision making, multi-objective optimization, batch acquisition (Meta).
 - [OpenMDAO/OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) `Python` - Multidisciplinary design optimization. NASA-developed. Gradient-based + surrogate-assisted optimization.
 - [airbus/pymoo](https://github.com/anyoptimization/pymoo) `Python` - Multi-objective optimization. NSGA-II/III, reference directions, constraint handling, parallelization.
 - [dl4to/dl4to](https://github.com/dl4to/dl4to) `Python` `PyTorch` - Deep learning for 3D topology optimization. Autograd + adjoint method for efficient neural optimization.
