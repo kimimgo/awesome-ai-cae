@@ -1,8 +1,8 @@
 # Awesome AI-CAE
 
-> A curated list of 104 AI-ready open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing.
+> A curated list of 113 AI-ready open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing.
 
-AI can theoretically handle 94% of computational tasks, but only 33% is actually used (Anthropic, 2026). In CAE, this gap is even wider: of 13 foundational solvers assessed, only OpenFOAM and ParaView have AI-native integration (MCP servers or LLM agent frameworks). This list curates tools that close that gap — tools that AI agents can call directly via MCP, API, or CLI, and AI/ML tools that are transforming how engineers simulate.
+AI can theoretically handle 94% of computational tasks, but only 33% is actually used (Anthropic, 2026). In CAE, this gap is even wider: of 17 foundational solvers assessed, only OpenFOAM and ParaView have AI-native integration (MCP servers or LLM agent frameworks). This list curates tools that close that gap — tools that AI agents can call directly via MCP, API, or CLI, and AI/ML tools that are transforming how engineers simulate.
 
 ## What is AI-CAE?
 
@@ -10,20 +10,20 @@ AI-CAE is the intersection of artificial intelligence and Computer-Aided Enginee
 
 ## Core Engine Readiness
 
-Thirteen foundational CAE solvers were assessed for AI-readiness. All support headless operation and Docker deployment. Five have native Python APIs (FEniCS, Gmsh, Taichi, PyFR, VTK/ParaView). Only two have AI-native integration: OpenFOAM (Foam-Agent, MetaOpenFOAM, MCP server) and ParaView (ParaView-MCP by LLNL). The most-cited engines are Gmsh (5100+ citations), OpenFOAM (4500+), and VTK/ParaView (3500+).
+Seventeen foundational CAE solvers were assessed for AI-readiness. All support headless operation and Docker deployment. Seven have native Python APIs (FEniCS, Gmsh, Taichi, PyFR, VTK/ParaView, SfePy, MuJoCo). Only two have AI-native integration: OpenFOAM (Foam-Agent, MetaOpenFOAM, MCP server) and ParaView (ParaView-MCP by LLNL). The most-cited engines are MuJoCo (6250+ citations), Gmsh (5100+), OpenFOAM (4500+), VTK/ParaView (3500+), FreeFEM (3040+), and MOOSE (1290+).
 
 ## Key Categories
 
-- [Core Engine Readiness](https://github.com/kimimgo/awesome-ai-cae#core-engine-readiness): AI-readiness assessment of 13 foundational solvers
+- [Core Engine Readiness](https://github.com/kimimgo/awesome-ai-cae#core-engine-readiness): AI-readiness assessment of 17 foundational solvers
 - [MCP Servers](https://github.com/kimimgo/awesome-ai-cae#mcp-servers): AI-native tool interfaces via Model Context Protocol (viznoir, ParaView-MCP, OpenFOAM MCP)
 - [CFD](https://github.com/kimimgo/awesome-ai-cae#cfd--computational-fluid-dynamics): OpenFOAM, SU2, PyFR, preCICE
-- [FEA](https://github.com/kimimgo/awesome-ai-cae#fea--finite-element-analysis): FEniCS, CalculiX, MFEM, deal.II, Elmer, Kratos, OpenSees
+- [FEA](https://github.com/kimimgo/awesome-ai-cae#fea--finite-element-analysis): FEniCS, CalculiX, MFEM, deal.II, Elmer, Kratos, OpenSees, MOOSE (1290+ citations), FreeFEM (3040+ citations), SfePy
 - [SPH](https://github.com/kimimgo/awesome-ai-cae#sph--smoothed-particle-hydrodynamics): DualSPHysics, SPlisHSPlasH, PySPH
 - [DEM](https://github.com/kimimgo/awesome-ai-cae#dem--discrete-element-method): LIGGGHTS, SudoDEM
-- [Differentiable Simulation](https://github.com/kimimgo/awesome-ai-cae#differentiable-simulation): XLB, Brax, jax-md, JaxSim, Warp, Taichi, JAXFLUIDS
-- [AI/ML for Simulation](https://github.com/kimimgo/awesome-ai-cae#aiml-for-simulation): Foam-Agent, PySINDy, PyKoopman, KoopmanLab, DeepXDE, PhiFlow, Neural Operators, PhysicsNeMo, MetaOpenFOAM, ClimaX
-- [Surrogate Models & PINNs](https://github.com/kimimgo/awesome-ai-cae#surrogate-models--pinns): DeepXDE, PINA, PyDMD, neurodiffeq, pinns-torch, SciANN, PhysicsNeMo-Sym
-- [Optimization](https://github.com/kimimgo/awesome-ai-cae#optimization): OpenMDAO, pymoo, dl4to, topy, OpenAeroStruct
+- [Differentiable Simulation](https://github.com/kimimgo/awesome-ai-cae#differentiable-simulation): XLB, Brax, jax-md, JaxSim, MuJoCo (6250+ citations), Warp, Taichi, JAXFLUIDS
+- [AI/ML for Simulation](https://github.com/kimimgo/awesome-ai-cae#aiml-for-simulation): Foam-Agent, DeepMD-kit, PySINDy, PyKoopman, KoopmanLab, DeepXDE, GraphCast (Nature 2023, 1160+ citations), PhiFlow, Neural Operators, PhysicsNeMo, MetaOpenFOAM, ClimaX
+- [Surrogate Models & PINNs](https://github.com/kimimgo/awesome-ai-cae#surrogate-models--pinns): DeepXDE, PINA, PyDMD, neurodiffeq, pinns-torch, SciANN, PhysicsNeMo-Sym, Neural-Solver-Library (ICML 2024)
+- [Optimization](https://github.com/kimimgo/awesome-ai-cae#optimization): BoTorch (NeurIPS 2020), OpenMDAO, pymoo, dl4to, topy, OpenAeroStruct
 - [Visualization](https://github.com/kimimgo/awesome-ai-cae#visualization--post-processing): viznoir MCP, VTK, PyVista, ParaView, napari, vedo, plotly
 - [CAD & Geometry](https://github.com/kimimgo/awesome-ai-cae#cad--geometry): CadQuery, FreeCAD, OpenCASCADE, trimesh, pygmsh
 - [Mesh Generation](https://github.com/kimimgo/awesome-ai-cae#mesh-generation): Gmsh, CGAL, Netgen, MeshAnything, MeshXL, PyMesh

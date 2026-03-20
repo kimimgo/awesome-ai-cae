@@ -55,7 +55,7 @@ Simulation · Visualization · Design · Manufacturing
 
 ## Core Engine Readiness
 
-> How AI-ready are the foundational CAE solvers? Each engine is assessed on Python API maturity, headless operation, and AI agent integration status.
+> How AI-ready are the foundational CAE solvers? We assessed 17 engines on Python API maturity, headless operation, Docker support, and AI agent integration. Only 2 of 17 have AI-native MCP integration. The most-cited are MuJoCo (6250+), Gmsh (5100+), and OpenFOAM (4500+).
 
 <table>
 <tr><th>Engine</th><th>Domain</th><th>Python API</th><th>Headless</th><th>Docker</th><th>🤖 AI-Native</th><th>Paper</th><th>Citations</th></tr>
@@ -96,9 +96,9 @@ MCP servers are the AI-native interface layer for CAE tools. They allow AI agent
 
 ## CFD — Computational Fluid Dynamics
 
-> Open-source solvers for fluid flow, heat transfer, and multiphysics simulation.
+> Six open-source solvers for fluid flow, heat transfer, and multiphysics. OpenFOAM is the only CFD solver with 3 AI agent frameworks.
 
-Computational fluid dynamics is the CAE domain with the most advanced AI integration. OpenFOAM leads with three LLM agent frameworks (Foam-Agent at 88% success rate, MetaOpenFOAM, and an MCP server), making it the most AI-ready CFD solver available. PyFR provides GPU-accelerated high-order methods, while preCICE enables AI-orchestrated multi-physics coupling for fluid-structure interaction.
+Computational fluid dynamics is the CAE domain with the most advanced AI integration. Our assessment found that OpenFOAM leads with three LLM agent frameworks (Foam-Agent at 88% success rate, MetaOpenFOAM, and an MCP server), making it the only CFD solver with full AI-native support. PyFR provides GPU-accelerated high-order methods, while preCICE enables AI-orchestrated multi-physics coupling for fluid-structure interaction.
 
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) `C++` - The open source CFD toolbox. Finite volume solvers for incompressible/compressible flow, multiphase, combustion, heat transfer.
 - [su2code/SU2](https://github.com/su2code/SU2) `C++` `Python` - Multiphysics simulation and design optimization. Compressible/incompressible flow, structural analysis, adjoint-based design.
@@ -111,9 +111,9 @@ Computational fluid dynamics is the CAE domain with the most advanced AI integra
 
 ## FEA — Finite Element Analysis
 
-> Structural, thermal, and multiphysics solvers using the finite element method.
+> Eleven structural, thermal, and multiphysics FEM solvers. Combined 5000+ citations. No MCP servers yet — a major opportunity.
 
-AI for finite element analysis is rapidly evolving. FEniCS offers the most Pythonic FEA interface, making it ideal for AI agent integration and ML-FEA hybrid workflows. MFEM from LLNL provides GPU-accelerated high-order elements, while Kratos supports multi-physics coupling. None yet have MCP servers, representing a major opportunity for AI-native FEA automation.
+AI for finite element analysis is rapidly evolving. Our assessment covers 11 solvers totaling over 5000 citations. FEniCS offers the most Pythonic FEA interface, making it ideal for AI agent integration. MOOSE (1290+ citations, Idaho National Lab) handles coupled multiphysics, FreeFEM (3040+ citations) provides a scripting language for PDEs, and MFEM from LLNL provides GPU-accelerated high-order elements. None yet have MCP servers, representing a major opportunity for AI-native FEA automation.
 
 - [CalculiX](http://www.calculix.de/) `Fortran` `C` - Free 3D structural FEM. Linear/nonlinear static, dynamic, thermal analysis. Abaqus INP compatible.
 - [dealii/dealii](https://github.com/dealii/dealii) `C++` - Adaptive finite elements. Supports hp-refinement, multigrid, and parallel distributed computing.
@@ -197,9 +197,9 @@ AI-driven mesh generation is transforming simulation preprocessing. Gmsh (5100+ 
 
 ## Differentiable Simulation
 
-> GPU-native, auto-differentiable frameworks designed for ML-physics integration.
+> Eight GPU-native differentiable frameworks. MuJoCo leads with 6250+ citations and 12.4k GitHub stars.
 
-Differentiable simulation frameworks enable gradient-based optimization through physical simulations, bridging the gap between machine learning and physics. JAX-based tools (XLB, Brax, jax-md, JAXFLUIDS) provide end-to-end differentiability on GPU/TPU, while NVIDIA Warp and Taichi (DiffTaichi, ICLR 2020) offer CUDA-native alternatives. These frameworks are essential for AI-for-science research, enabling neural network training that respects physical laws.
+Differentiable simulation frameworks enable gradient-based optimization through physical simulations, bridging the gap between machine learning and physics. MuJoCo (6250+ citations, DeepMind) is the most widely used physics engine for robotics and control. JAX-based tools (XLB, Brax, jax-md, JAXFLUIDS) provide end-to-end differentiability on GPU/TPU, while NVIDIA Warp and Taichi (DiffTaichi, ICLR 2020) offer CUDA-native alternatives.
 
 - [Autodesk/XLB](https://github.com/Autodesk/XLB) `Python` `JAX` - Differentiable Lattice Boltzmann for physics-ML. Scales to billions of cells on multi-GPU (CPC 2024).
 - [google/brax](https://github.com/google/brax) `Python` `JAX` - Massively parallel rigidbody physics on accelerator hardware. Millions of steps/second on TPU (NeurIPS 2021).
@@ -214,9 +214,9 @@ Differentiable simulation frameworks enable gradient-based optimization through 
 
 ## AI/ML for Simulation
 
-> Neural networks that learn physics: operator learning, foundation models, and ML-accelerated solvers.
+> Thirteen tools — from neural operators to LLM agents. GraphCast (Nature 2023, 1160+ citations) and PhysicsNeMo lead the field.
 
-AI and machine learning for simulation is the fastest-growing area in computational engineering. Neural operators like FNO learn to solve entire families of PDEs in milliseconds, PySINDy discovers governing equations from data, and LLM agent frameworks like Foam-Agent and MetaOpenFOAM automate end-to-end CFD workflows from natural language. NVIDIA PhysicsNeMo (formerly Modulus) provides the most comprehensive physics-ML framework with PINNs, neural operators, and graph neural networks.
+AI and machine learning for simulation is the fastest-growing area in computational engineering, with 13 tools spanning neural operators, LLM agents, and foundation models. GraphCast (DeepMind, Nature 2023) produces 10-day weather forecasts in under a minute. Neural operators like FNO learn to solve entire families of PDEs in milliseconds. LLM agent frameworks like Foam-Agent (88% success rate) and MetaOpenFOAM automate end-to-end CFD workflows from natural language. NVIDIA PhysicsNeMo provides the most comprehensive physics-ML framework.
 
 - [csml-rpi/Foam-Agent](https://github.com/csml-rpi/Foam-Agent) `Python` `API` - AI agent for automated CFD workflows. LLM-driven OpenFOAM simulation setup and execution.
 - [deepmodeling/deepmd-kit](https://github.com/deepmodeling/deepmd-kit) `Python` `C++` - Deep learning for molecular dynamics. Neural network potentials for large-scale atomistic simulations.
@@ -253,9 +253,9 @@ Physics-informed neural networks (PINNs) embed physical laws directly into neura
 
 ## Optimization
 
-> Topology optimization, multidisciplinary design, and gradient-based engineering optimization.
+> Six optimization tools — from Bayesian (BoTorch) to topology (dl4to) to multidisciplinary (OpenMDAO, NASA).
 
-AI-powered optimization combines gradient-based methods with neural networks for engineering design. OpenMDAO (NASA) is the standard for multidisciplinary design optimization with surrogate-assisted methods, while dl4to applies deep learning to 3D topology optimization using autograd. Multi-objective optimization via pymoo supports NSGA-II/III algorithms for Pareto-optimal engineering designs.
+AI-powered optimization combines gradient-based methods with neural networks for engineering design. BoTorch (Meta, NeurIPS 2020) provides Bayesian optimization in PyTorch for sample-efficient design. OpenMDAO (NASA) is the standard for multidisciplinary design optimization, while dl4to applies deep learning to 3D topology optimization. Multi-objective optimization via pymoo supports NSGA-II/III for Pareto-optimal engineering designs.
 
 - [meta-pytorch/botorch](https://github.com/meta-pytorch/botorch) `Python` `PyTorch` - Bayesian optimization in PyTorch. Sequential decision making, multi-objective optimization, batch acquisition (NeurIPS 2020, Meta).
 - [OpenMDAO/OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) `Python` - Multidisciplinary design optimization. NASA-developed. Gradient-based + surrogate-assisted optimization.
