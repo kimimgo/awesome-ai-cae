@@ -31,8 +31,8 @@ OPEN_PRS=$(gh api "repos/$REPO/pulls?state=open" --jq 'length' 2>/dev/null || ec
 # Cross-PRs
 PR_SCI=$(gh api "repos/nschloe/awesome-scientific-computing/pulls/105" --jq '.state' 2>/dev/null || echo "unknown")
 PR_ML=$(gh api "repos/josephmisiti/awesome-machine-learning/pulls/1134" --jq '.state' 2>/dev/null || echo "unknown")
-PR_MCP=$(gh api "repos/punkpeye/awesome-mcp-servers/pulls/3497" --jq '.state' 2>/dev/null || echo "unknown")
-PR_MCP_MERGED=$(gh api "repos/punkpeye/awesome-mcp-servers/pulls/3497" --jq '.merged' 2>/dev/null || echo "unknown")
+PR_MCP=$(gh api "repos/punkpeye/awesome-mcp-servers/pulls/3845" --jq '.state' 2>/dev/null || echo "unknown")
+PR_MCP_MERGED=$(gh api "repos/punkpeye/awesome-mcp-servers/pulls/3845" --jq '.merged' 2>/dev/null || echo "unknown")
 
 # Maintainer reactions
 MAINT_COMMENTS=0
@@ -125,7 +125,7 @@ MSG="<b>📊 awesome-ai-cae Daily KPI (D+${DAYS})</b>
 <b>Cross-PRs</b>
 • awesome-sci-computing #105: ${PR_SCI}
 • awesome-ml #1134: ${PR_ML}
-• awesome-mcp-servers #3497: ${PR_MCP} (merged: ${PR_MCP_MERGED})
+• awesome-mcp-servers #3845: ${PR_MCP} (merged: ${PR_MCP_MERGED})
 
 <b>Maintainer Outreach (11)</b>
 💬 Comments: ${MAINT_COMMENTS} ($(fmt_delta $DIFF_MAINT)) | 👍 Reactions: ${MAINT_REACTIONS}
