@@ -30,7 +30,7 @@ Pour ajouter un nouvel outil, veuillez lire le [guide de contribution](../CONTRI
 
 ## Liste complète
 
-**→ Consultez les 80+ entrées dans la [version anglaise (README.md)](../README.md).**
+**→ Consultez les 113 entrées dans la [version anglaise (README.md)](../README.md).**
 
 ## Licence
 

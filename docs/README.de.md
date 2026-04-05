@@ -30,7 +30,7 @@ Um ein neues Werkzeug hinzuzufügen, lesen Sie bitte die [Beitragsrichtlinien](.
 
 ## Vollständige Liste
 
-**→ Siehe alle 80+ Einträge in der [englischen Version (README.md)](../README.md).**
+**→ Siehe alle 113 Einträge in der [englischen Version (README.md)](../README.md).**
 
 ## Lizenz
 

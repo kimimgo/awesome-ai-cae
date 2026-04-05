@@ -30,7 +30,7 @@ Para agregar una nueva herramienta, lea la [guía de contribución](../CONTRIBUT
 
 ## Lista completa
 
-**→ Consulte las más de 80 entradas en la [versión en inglés (README.md)](../README.md).**
+**→ Consulte las 113 entradas en la [versión en inglés (README.md)](../README.md).**
 
 ## Licencia
 

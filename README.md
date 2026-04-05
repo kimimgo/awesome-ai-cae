@@ -58,24 +58,24 @@ Simulation · Visualization · Design · Manufacturing
 > How AI-ready are the foundational CAE solvers? We assessed 17 engines on Python API maturity, headless operation, Docker support, and AI agent integration. Only 2 of 17 have AI-native MCP integration. The most-cited are MuJoCo (6250+), Gmsh (5100+), and OpenFOAM (4500+).
 
 <table>
-<tr><th>Engine</th><th>Domain</th><th>Python API</th><th>Headless</th><th>Docker</th><th>🤖 AI-Native</th><th>Paper</th><th>Citations</th></tr>
-<tr><td><a href="https://github.com/OpenFOAM/OpenFOAM-dev">OpenFOAM</a></td><td>CFD</td><td>PyFoam, PythonFOAM</td><td>✅</td><td>✅</td><td>✅ Foam-Agent, MetaOpenFOAM, MCP</td><td>Weller 1998</td><td>4500+</td></tr>
-<tr><td><a href="https://github.com/FEniCS/dolfinx">FEniCS</a></td><td>FEA</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Baratta 2023</td><td>—</td></tr>
-<tr><td><a href="https://gitlab.onelab.info/gmsh/gmsh">Gmsh</a></td><td>Mesh</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Geuzaine 2009</td><td>5100+</td></tr>
-<tr><td><a href="https://github.com/Kitware/VTK">VTK</a> / <a href="https://github.com/Kitware/ParaView">ParaView</a></td><td>Viz</td><td>✅ Native</td><td>✅</td><td>✅</td><td>✅ ParaView-MCP (LLNL)</td><td>Schroeder 2006</td><td>3500+</td></tr>
-<tr><td><a href="https://github.com/su2code/SU2">SU2</a></td><td>CFD/MDO</td><td>pySU2 (SWIG)</td><td>✅</td><td>✅</td><td>—</td><td>Economon 2016</td><td>330+</td></tr>
-<tr><td><a href="https://github.com/mfem/mfem">MFEM</a></td><td>FEA</td><td>PyMFEM</td><td>✅</td><td>✅</td><td>—</td><td>Kolev 2024</td><td>—</td></tr>
-<tr><td><a href="https://github.com/dealii/dealii">deal.II</a></td><td>FEA</td><td>Limited</td><td>✅</td><td>✅</td><td>—</td><td>Arndt 2020</td><td>510+</td></tr>
-<tr><td><a href="https://github.com/DualSPHysics/DualSPHysics">DualSPHysics</a></td><td>SPH</td><td>Inductiva API</td><td>✅</td><td>✅</td><td>—</td><td>Crespo 2015</td><td>746</td></tr>
-<tr><td><a href="https://github.com/taichi-dev/taichi">Taichi</a></td><td>Diff. Sim</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Hu 2020 (ICLR)</td><td>—</td></tr>
-<tr><td><a href="https://github.com/PyFR/PyFR">PyFR</a></td><td>CFD</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Witherden 2014</td><td>202</td></tr>
-<tr><td><a href="http://www.calculix.de/">CalculiX</a></td><td>FEA</td><td>pycalculix</td><td>✅</td><td>✅</td><td>—</td><td>Dhondt 2004</td><td>—</td></tr>
-<tr><td><a href="https://github.com/ElmerCSC/elmerfem">Elmer</a></td><td>FEA</td><td>PyElmer</td><td>✅</td><td>✅</td><td>—</td><td>Malinen 2013</td><td>—</td></tr>
-<tr><td><a href="https://github.com/Open-Cascade-SAS/OCCT">OpenCASCADE</a></td><td>CAD</td><td>pythonOCC</td><td>✅</td><td>✅</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td><a href="https://github.com/idaholab/moose">MOOSE</a></td><td>FEA</td><td>Python scripting</td><td>✅</td><td>✅</td><td>—</td><td>Gaston 2009</td><td>1290+</td></tr>
-<tr><td><a href="https://github.com/FreeFem/FreeFem-sources">FreeFEM</a></td><td>FEA</td><td>FreeFem++</td><td>✅</td><td>✅</td><td>—</td><td>Hecht 2012</td><td>3040+</td></tr>
-<tr><td><a href="https://github.com/sfepy/sfepy">SfePy</a></td><td>FEA</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Cimrman 2019</td><td>—</td></tr>
-<tr><td><a href="https://github.com/google-deepmind/mujoco">MuJoCo</a></td><td>Diff. Sim</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Todorov 2012</td><td>6250+</td></tr>
+<tr><th>Engine</th><th>Domain</th><th>⭐</th><th>Python API</th><th>Headless</th><th>Docker</th><th>🤖 AI-Native</th><th>Paper</th></tr>
+<tr><td><a href="https://github.com/OpenFOAM/OpenFOAM-dev">OpenFOAM</a></td><td>CFD</td><td><img src="https://img.shields.io/github/stars/OpenFOAM/OpenFOAM-dev?style=flat-square&label=" alt="stars"></td><td>PyFoam, PythonFOAM</td><td>✅</td><td>✅</td><td>✅ Foam-Agent, MetaOpenFOAM, MCP</td><td>Weller 1998</td></tr>
+<tr><td><a href="https://github.com/FEniCS/dolfinx">FEniCS</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/FEniCS/dolfinx?style=flat-square&label=" alt="stars"></td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Baratta 2023</td></tr>
+<tr><td><a href="https://gitlab.onelab.info/gmsh/gmsh">Gmsh</a></td><td>Mesh</td><td>—</td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Geuzaine 2009</td></tr>
+<tr><td><a href="https://github.com/Kitware/VTK">VTK</a> / <a href="https://github.com/Kitware/ParaView">ParaView</a></td><td>Viz</td><td><img src="https://img.shields.io/github/stars/Kitware/VTK?style=flat-square&label=" alt="stars"></td><td>✅ Native</td><td>✅</td><td>✅</td><td>✅ ParaView-MCP (LLNL)</td><td>Schroeder 2006</td></tr>
+<tr><td><a href="https://github.com/su2code/SU2">SU2</a></td><td>CFD/MDO</td><td><img src="https://img.shields.io/github/stars/su2code/SU2?style=flat-square&label=" alt="stars"></td><td>pySU2 (SWIG)</td><td>✅</td><td>✅</td><td>—</td><td>Economon 2016</td></tr>
+<tr><td><a href="https://github.com/mfem/mfem">MFEM</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/mfem/mfem?style=flat-square&label=" alt="stars"></td><td>PyMFEM</td><td>✅</td><td>✅</td><td>—</td><td>Kolev 2024</td></tr>
+<tr><td><a href="https://github.com/dealii/dealii">deal.II</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/dealii/dealii?style=flat-square&label=" alt="stars"></td><td>Limited</td><td>✅</td><td>✅</td><td>—</td><td>Arndt 2020</td></tr>
+<tr><td><a href="https://github.com/DualSPHysics/DualSPHysics">DualSPHysics</a></td><td>SPH</td><td><img src="https://img.shields.io/github/stars/DualSPHysics/DualSPHysics?style=flat-square&label=" alt="stars"></td><td>Inductiva API</td><td>✅</td><td>✅</td><td>—</td><td>Crespo 2015</td></tr>
+<tr><td><a href="https://github.com/taichi-dev/taichi">Taichi</a></td><td>Diff. Sim</td><td><img src="https://img.shields.io/github/stars/taichi-dev/taichi?style=flat-square&label=" alt="stars"></td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Hu 2020 (ICLR)</td></tr>
+<tr><td><a href="https://github.com/PyFR/PyFR">PyFR</a></td><td>CFD</td><td><img src="https://img.shields.io/github/stars/PyFR/PyFR?style=flat-square&label=" alt="stars"></td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Witherden 2014</td></tr>
+<tr><td><a href="http://www.calculix.de/">CalculiX</a></td><td>FEA</td><td>—</td><td>pycalculix</td><td>✅</td><td>✅</td><td>—</td><td>Dhondt 2004</td></tr>
+<tr><td><a href="https://github.com/ElmerCSC/elmerfem">Elmer</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/ElmerCSC/elmerfem?style=flat-square&label=" alt="stars"></td><td>PyElmer</td><td>✅</td><td>✅</td><td>—</td><td>Malinen 2013</td></tr>
+<tr><td><a href="https://github.com/Open-Cascade-SAS/OCCT">OpenCASCADE</a></td><td>CAD</td><td><img src="https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=flat-square&label=" alt="stars"></td><td>pythonOCC</td><td>✅</td><td>✅</td><td>—</td><td>—</td></tr>
+<tr><td><a href="https://github.com/idaholab/moose">MOOSE</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/idaholab/moose?style=flat-square&label=" alt="stars"></td><td>Python scripting</td><td>✅</td><td>✅</td><td>—</td><td>Gaston 2009</td></tr>
+<tr><td><a href="https://github.com/FreeFem/FreeFem-sources">FreeFEM</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/FreeFem/FreeFem-sources?style=flat-square&label=" alt="stars"></td><td>FreeFem++</td><td>✅</td><td>✅</td><td>—</td><td>Hecht 2012</td></tr>
+<tr><td><a href="https://github.com/sfepy/sfepy">SfePy</a></td><td>FEA</td><td><img src="https://img.shields.io/github/stars/sfepy/sfepy?style=flat-square&label=" alt="stars"></td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Cimrman 2019</td></tr>
+<tr><td><a href="https://github.com/google-deepmind/mujoco">MuJoCo</a></td><td>Diff. Sim</td><td><img src="https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square&label=" alt="stars"></td><td>✅ Native</td><td>✅</td><td>✅</td><td>—</td><td>Todorov 2012</td></tr>
 </table>
 
 **Legend:** ✅ Available — 🤖 AI-Native = MCP server or LLM agent framework exists — Citations from Google Scholar
