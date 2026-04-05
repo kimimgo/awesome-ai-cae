@@ -81,8 +81,9 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) `C++` - The open source CFD toolbox. Finite volume solvers for incompressible/compressible flow, multiphase, combustion, heat transfer.
 - [su2code/SU2](https://github.com/su2code/SU2) `C++` `Python` - Multiphysics simulation and design optimization. Compressible/incompressible flow, structural analysis, adjoint-based design.
 - [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) `Fortran` - High-order spectral element CFD solver. DNS/LES of turbulent flows. Scalable to millions of cores.
-- [PyFR/PyFR](https://github.com/PyFR/PyFR) `Python` - High-order flux reconstruction CFD on mixed unstructured grids. GPU-accelerated (CUDA/OpenCL/HIP).
+- [Nek5000/nekRS](https://github.com/Nek5000/nekRS) `C++` `CUDA` - GPU-accelerated spectral element CFD. Successor to Nek5000 with native CUDA/HIP/OpenCL support.
 - [precice/precice](https://github.com/precice/precice) `C++` `Python` - Coupling library for multi-physics simulations. Fluid-structure interaction, conjugate heat transfer.
+- [PyFR/PyFR](https://github.com/PyFR/PyFR) `Python` - High-order flux reconstruction CFD on mixed unstructured grids. GPU-accelerated (CUDA/OpenCL/HIP).
 
 <sup>[back to top](#contents)</sup>
 
@@ -94,6 +95,7 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 - [dealii/dealii](https://github.com/dealii/dealii) `C++` - Adaptive finite elements. Supports hp-refinement, multigrid, and parallel distributed computing.
 - [ElmerCSC/elmerfem](https://github.com/ElmerCSC/elmerfem) `Fortran` `C++` - Multiphysics FEM solver. Fluid dynamics, structural mechanics, electromagnetics, heat transfer. CSC Finland.
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) `C++` `Python` - Next-generation FEniCS. Automated PDE solving with high-level Python/C++ interface. Parallel, scalable.
+- [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) `Python` - Automated FEM with code generation from high-level problem descriptions. UFL domain-specific language.
 - [FreeFem/FreeFem-sources](https://github.com/FreeFem/FreeFem-sources) `C++` - Partial differential equation solver using finite element method. High-level scripting language for 2D/3D problems.
 - [idaholab/moose](https://github.com/idaholab/moose) `C++` `Python` - Multiphysics Object-Oriented Simulation Environment. Coupled physics FEM framework from Idaho National Lab.
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) `C++` `Python` - Framework for multi-physics FEM. Structural, fluid, thermal, contact, FSI.
@@ -118,6 +120,7 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 > Particle-based simulation of granular materials, powders, and coupled particle-fluid systems.
 
 - [CFDEMproject/LIGGGHTS-PUBLIC](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC) `C++` - Industry-standard open-source DEM for granular materials. LAMMPS-based with heat transfer and CFD coupling.
+- [lammps/lammps](https://github.com/lammps/lammps) `C++` `Python` - Large-scale Atomic/Molecular Massively Parallel Simulator. Classical MD and DEM with granular package. Sandia National Labs.
 - [SudoDEM/SudoDEM](https://github.com/SudoDEM/SudoDEM) `C++` `Python` - DEM for non-spherical particles. Polyhedra, super-ellipsoids, and cylinders for realistic granular simulations.
 
 <sup>[back to top](#contents)</sup>
@@ -128,6 +131,7 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization MCP server. 22 tools, EGL/OSMesa headless, cinematic lighting, physics animations.
 - [Kitware/VTK](https://github.com/Kitware/VTK) `C++` `Python` - The Visualization Toolkit. 3D computer graphics, image processing, scientific visualization. Industry standard.
+- [nmwsharp/polyscope](https://github.com/nmwsharp/polyscope) `C++` `Python` - Lightweight 3D viewer for meshes, point clouds, and scalar fields. One-line visualization for geometry processing.
 - [pyvista/pyvista](https://github.com/pyvista/pyvista) `Python` - Pythonic VTK. Streamlined 3D plotting, mesh analysis, and interactive visualization.
 - [Kitware/ParaView](https://github.com/Kitware/ParaView) `C++` `Python` - Multi-platform data analysis and visualization. VTK-based GUI + Python scripting + client-server architecture.
 - [napari/napari](https://github.com/napari/napari) `Python` - Fast n-dimensional image viewer. Plugin ecosystem for biomedical and scientific imaging.
@@ -141,10 +145,13 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 > Parametric modeling, geometry processing, and CAD data exchange.
 
 - [CadQuery/cadquery](https://github.com/CadQuery/cadquery) `Python` - Parametric 3D CAD scripting. Build models with Python, export STEP/STL/IGES. OpenCASCADE kernel.
+- [CadQuery/OCP](https://github.com/CadQuery/OCP) `C++` `Python` - Python wrapper for OpenCASCADE via pybind11. Low-level foundation for CadQuery and build123d.
 - [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) `C++` `Python` - Open-source parametric 3D CAD modeler. Part design, FEM workbench, BIM, path (CAM).
-- [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT) `C++` - Open CASCADE Technology. Kernel for 3D surface and solid modeling, CAD data exchange (STEP/IGES).
+- [gumyr/build123d](https://github.com/gumyr/build123d) `Python` - Modern Python CAD with algebraic geometry API. Successor to CadQuery with cleaner builder pattern.
 - [mikedh/trimesh](https://github.com/mikedh/trimesh) `Python` - Load and manipulate triangular meshes. Boolean operations, ray tracing, convex hulls, format conversion.
 - [nschloe/pygmsh](https://github.com/nschloe/pygmsh) `Python` - Python interface for Gmsh. Scripted geometry + mesh generation with parametric control.
+- [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT) `C++` - Open CASCADE Technology. Kernel for 3D surface and solid modeling, CAD data exchange (STEP/IGES).
+- [SolidCode/SolidPython](https://github.com/SolidCode/SolidPython) `Python` - Python frontend for OpenSCAD. Generate 3D models programmatically with CSG operations.
 
 <sup>[back to top](#contents)</sup>
 
@@ -152,12 +159,17 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 
 > Structured, unstructured, and AI-driven mesh generation for simulation preprocessing.
 
-- [Gmsh](https://gitlab.onelab.info/gmsh/gmsh) `C++` `Python` - Full-featured 3D finite element mesh generator. CAD engine, structured/unstructured meshing, built-in post-processing.
-- [CGAL/cgal](https://github.com/CGAL/cgal) `C++` - Computational Geometry Algorithms Library. Mesh generation, triangulation, Boolean operations, convex hulls.
-- [NGSolve/netgen](https://github.com/NGSolve/netgen) `C++` `Python` - Automatic 3D tetrahedral mesh generator. CAD (OCC) integration, mesh optimization, parallel meshing.
 - [buaacyw/MeshAnything](https://github.com/buaacyw/MeshAnything) `Python` - Artist-quality mesh generation with autoregressive transformers. Any 3D input to mesh (ICLR 2025 spotlight).
+- [CGAL/cgal](https://github.com/CGAL/cgal) `C++` - Computational Geometry Algorithms Library. Mesh generation, triangulation, Boolean operations, convex hulls.
+- [Gmsh](https://gitlab.onelab.info/gmsh/gmsh) `C++` `Python` - Full-featured 3D finite element mesh generator. CAD engine, structured/unstructured meshing, built-in post-processing.
+- [libigl/libigl](https://github.com/libigl/libigl) `C++` `Python` - Header-only geometry processing library. Mesh parameterization, deformation, Boolean ops. Eurographics award winner.
+- [MmgTools/mmg](https://github.com/MmgTools/mmg) `C` - Anisotropic mesh adaptation for 2D/3D surface and volume remeshing. Metric-based automatic refinement.
+- [NGSolve/netgen](https://github.com/NGSolve/netgen) `C++` `Python` - Automatic 3D tetrahedral mesh generator. CAD (OCC) integration, mesh optimization, parallel meshing.
+- [nmwsharp/geometry-central](https://github.com/nmwsharp/geometry-central) `C++` - Applied geometry algorithms for surfaces and volumes. Geodesics, vector fields, intrinsic triangulations.
 - [OpenMeshLab/MeshXL](https://github.com/OpenMeshLab/MeshXL) `Python` - Foundation model for 3D mesh generation. Pre-trained on Objaverse, text-to-mesh capable (NeurIPS 2024).
 - [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh) `Python` `C++` - Geometry processing library. Boolean, convex hull, remeshing, self-intersection repair.
+- [pyvista/tetgen](https://github.com/pyvista/tetgen) `C++` `Python` - Python interface to TetGen tetrahedral mesh generator. Constrained Delaunay tetrahedralization with quality control.
+- [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) `C++` - Fast and robust tetrahedral meshing. Handles self-intersections and degenerate input. Ten times faster than TetWild.
 
 <sup>[back to top](#contents)</sup>
 
@@ -188,6 +200,7 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 - [google/jax-cfd](https://github.com/google/jax-cfd) `Python` - JAX-based CFD. Differentiable Navier-Stokes solvers. GPU-accelerated, auto-differentiable.
 - [Koopman-Laboratory/KoopmanLab](https://github.com/Koopman-Laboratory/KoopmanLab) `Python` - Koopman Neural Operator for mesh-free nonlinear PDE solving. Multi-scale decomposition.
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Deep learning library for PDEs. PINNs, DeepONet. Backends: TensorFlow, PyTorch, JAX, PaddlePaddle.
+- [microsoft/aurora](https://github.com/microsoft/aurora) `Python` - Foundation model for Earth system prediction. Atmosphere, ocean, air quality. Pre-trained on ERA5 and CMIP6.
 - [microsoft/ClimaX](https://github.com/microsoft/ClimaX) `Python` - Foundation model for weather and climate. Pre-trained on CMIP6, fine-tunable for downstream tasks.
 - [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) `Python` - Neural operators in PyTorch. FNO, SFNO, UNO for learning PDE solution operators.
 - [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) `Python` `CUDA` - Physics-ML framework (formerly Modulus). PINNs, neural operators, GNNs, diffusion models. Apache 2.0.
@@ -241,6 +254,7 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 > Standardized datasets and benchmarks for training and evaluating scientific ML models.
 
 - [divelab/AIRS](https://github.com/divelab/AIRS) `Python` - AI for science benchmarks. Molecular, protein, climate, physics datasets.
+- [Extrality/AirfRANS](https://github.com/Extrality/AirfRANS) `Python` - RANS simulation dataset for airfoils. 1000 simulations with Reynolds-averaged fields (NeurIPS 2022).
 - [Mohamedelrefaie/DrivAerNet](https://github.com/Mohamedelrefaie/DrivAerNet) `Python` - Large-scale automotive CFD dataset. 4000+ car designs with drag coefficients and surface fields.
 - [i207M/PINNacle](https://github.com/i207M/PINNacle) `Python` - Comprehensive PINN benchmark with 20 PDE problems across difficulty levels (NeurIPS 2024).
 - [NASA TMR](https://turbmodels.larc.nasa.gov/) - Turbulence Modeling Resource. Validation cases for CFD turbulence models with experimental data.
