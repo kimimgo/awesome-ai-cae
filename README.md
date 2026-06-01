@@ -47,20 +47,20 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 <table>
 <tr><th>#</th><th>Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th>⭐</th></tr>
 <tr><td>1</td><td><b>94</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python, pip</td><td>49</td></tr>
-<tr><td>2</td><td><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip</td><td>12</td></tr>
+<tr><td>2</td><td><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip</td><td>13</td></tr>
 <tr><td>3</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip</td><td>28,222</td></tr>
 <tr><td>4</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td>13,697</td></tr>
 <tr><td>5</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td>6,716</td></tr>
 <tr><td>6</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td>6,670</td></tr>
 <tr><td>7</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td>5,895</td></tr>
-<tr><td>8</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td>5,236</td></tr>
+<tr><td>8</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td>5,238</td></tr>
 <tr><td>9</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td>5,023</td></tr>
-<tr><td>10</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td>4,201</td></tr>
-<tr><td>11</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip</td><td>3,682</td></tr>
+<tr><td>10</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td>4,202</td></tr>
+<tr><td>11</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip</td><td>3,683</td></tr>
 <tr><td>12</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td>3,663</td></tr>
-<tr><td>13</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip</td><td>3,579</td></tr>
+<tr><td>13</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip</td><td>3,580</td></tr>
 <tr><td>14</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/meta-pytorch/botorch">meta-pytorch/botorch</a></td><td>Python, pip</td><td>3,535</td></tr>
-<tr><td>15</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td>3,387</td></tr>
+<tr><td>15</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td>3,391</td></tr>
 </table>
 
 <sub>🟢 2 AI-Native · 🔵 56 Agent-Ready · 🟡 23 Scriptable · ⚪ 21 Experimental — across 102 ranked tools (updated 2026-06-01). <a href="READINESS.md">Full ranking →</a></sub>
@@ -153,7 +153,9 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 
 - [CFDEMproject/LIGGGHTS-PUBLIC](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC) `C++` - Industry-standard open-source DEM for granular materials. LAMMPS-based with heat transfer and CFD coupling.
 - [lammps/lammps](https://github.com/lammps/lammps) `C++` `Python` - Large-scale Atomic/Molecular Massively Parallel Simulator. Classical MD and DEM with granular package. Sandia National Labs.
+- [MercuryDPM](https://bitbucket.org/mercurydpm/mercurydpm) `C++` - Open-source DEM for granular and particle-laden flows. Coarse-graining, contact models, and the MercuryCG analysis toolkit.
 - [SudoDEM/SudoDEM](https://github.com/SudoDEM/SudoDEM) `C++` `Python` - DEM for non-spherical particles. Polyhedra, super-ellipsoids, and cylinders for realistic granular simulations.
+- [Yade](https://gitlab.com/yade-dev/trunk) `C++` `Python` - Extensible open-source DEM framework. Python scripting, deformable particles, coupled DEM-FEM and DEM-fluid problems.
 
 <sup>[back to top](#contents)</sup>
 

@@ -1,7 +1,7 @@
 {
   "generated": "2026-06-01",
   "methodology": "AI-Readiness Score v2.1: mcp35 python25 cli15 maintained15 adoption10 + pip15 bonus (capped 100)",
-  "count": 105,
+  "count": 107,
   "tools": [
     {
       "name": "kimimgo/viznoir",
@@ -13,7 +13,7 @@
       ],
       "score": 93,
       "grade": "AI-Native",
-      "stars": 12,
+      "stars": 13,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": true,
@@ -21,7 +21,7 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 2.8
+        "adoption_score": 2.9
       }
     },
     {
@@ -93,7 +93,7 @@
       ],
       "score": 48,
       "grade": "Scriptable",
-      "stars": 1712,
+      "stars": 1713,
       "last_push": "2026-05-31",
       "signals": {
         "mcp": false,
@@ -505,6 +505,26 @@
       }
     },
     {
+      "name": "MercuryDPM",
+      "url": "https://bitbucket.org/mercurydpm/mercurydpm",
+      "repo": null,
+      "categories": [
+        "DEM"
+      ],
+      "score": 0,
+      "grade": "Experimental",
+      "stars": null,
+      "last_push": null,
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "pip": false,
+        "maintained_score": 0,
+        "adoption_score": 0
+      }
+    },
+    {
       "name": "SudoDEM/SudoDEM",
       "url": "https://github.com/SudoDEM/SudoDEM",
       "repo": "SudoDEM/SudoDEM",
@@ -522,6 +542,26 @@
         "pip": false,
         "maintained_score": 15,
         "adoption_score": 5.0
+      }
+    },
+    {
+      "name": "Yade",
+      "url": "https://gitlab.com/yade-dev/trunk",
+      "repo": null,
+      "categories": [
+        "DEM"
+      ],
+      "score": 40,
+      "grade": "Scriptable",
+      "stars": null,
+      "last_push": null,
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": true,
+        "maintained_score": 0,
+        "adoption_score": 0
       }
     },
     {
@@ -574,7 +614,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 3682,
+      "stars": 3683,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -634,7 +674,7 @@
       ],
       "score": 63,
       "grade": "Agent-Ready",
-      "stars": 2252,
+      "stars": 2253,
       "last_push": "2026-04-29",
       "signals": {
         "mcp": false,
@@ -674,7 +714,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 5236,
+      "stars": 5238,
       "last_push": "2026-05-27",
       "signals": {
         "mcp": false,
@@ -714,7 +754,7 @@
       ],
       "score": 50,
       "grade": "Agent-Ready",
-      "stars": 31258,
+      "stars": 31261,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
@@ -734,7 +774,7 @@
       ],
       "score": 63,
       "grade": "Agent-Ready",
-      "stars": 2376,
+      "stars": 2377,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -754,7 +794,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 3579,
+      "stars": 3580,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -1234,7 +1274,7 @@
       ],
       "score": 63,
       "grade": "Agent-Ready",
-      "stars": 1944,
+      "stars": 1945,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
@@ -1355,7 +1395,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 4201,
+      "stars": 4202,
       "last_push": "2026-03-01",
       "signals": {
         "mcp": false,
@@ -1435,7 +1475,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 2863,
+      "stars": 2865,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -1455,7 +1495,7 @@
       ],
       "score": 61,
       "grade": "Agent-Ready",
-      "stars": 196,
+      "stars": 197,
       "last_push": "2026-04-10",
       "signals": {
         "mcp": false,
@@ -1495,7 +1535,7 @@
       ],
       "score": 62,
       "grade": "Agent-Ready",
-      "stars": 752,
+      "stars": 753,
       "last_push": "2026-05-26",
       "signals": {
         "mcp": false,
@@ -1935,7 +1975,7 @@
       ],
       "score": 63,
       "grade": "Agent-Ready",
-      "stars": 1146,
+      "stars": 1147,
       "last_push": "2026-03-30",
       "signals": {
         "mcp": false,
@@ -1955,7 +1995,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 3387,
+      "stars": 3391,
       "last_push": "2026-03-25",
       "signals": {
         "mcp": false,
