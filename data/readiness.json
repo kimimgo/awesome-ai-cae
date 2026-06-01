@@ -1,0 +1,2005 @@
+{
+  "generated": "2026-06-01",
+  "methodology": "AI-Readiness Score v2: mcp35 python25 cli15 maintained15 adoption10",
+  "count": 105,
+  "tools": [
+    {
+      "name": "kimimgo/viznoir",
+      "url": "https://github.com/kimimgo/viznoir",
+      "repo": "kimimgo/viznoir",
+      "categories": [
+        "MCP Servers",
+        "Visualization & Post-processing"
+      ],
+      "score": 78,
+      "grade": "AI-Native",
+      "stars": 12,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": true,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 2.8
+      }
+    },
+    {
+      "name": "llnl/paraview_mcp",
+      "url": "https://github.com/llnl/paraview_mcp",
+      "repo": "llnl/paraview_mcp",
+      "categories": [
+        "MCP Servers"
+      ],
+      "score": 79,
+      "grade": "AI-Native",
+      "stars": 49,
+      "last_push": "2026-04-22",
+      "signals": {
+        "mcp": true,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 4.2
+      }
+    },
+    {
+      "name": "webworn/openfoam-mcp-server",
+      "url": "https://github.com/webworn/openfoam-mcp-server",
+      "repo": "webworn/openfoam-mcp-server",
+      "categories": [
+        "MCP Servers"
+      ],
+      "score": 55,
+      "grade": "Agent-Ready",
+      "stars": 100,
+      "last_push": "2026-01-18",
+      "signals": {
+        "mcp": true,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 5.0
+      }
+    },
+    {
+      "name": "OpenFOAM/OpenFOAM-dev",
+      "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
+      "repo": "OpenFOAM/OpenFOAM-dev",
+      "categories": [
+        "CFD"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "stars": 2093,
+      "last_push": "2026-05-31",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.3
+      }
+    },
+    {
+      "name": "su2code/SU2",
+      "url": "https://github.com/su2code/SU2",
+      "repo": "su2code/SU2",
+      "categories": [
+        "CFD"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1712,
+      "last_push": "2026-05-31",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.1
+      }
+    },
+    {
+      "name": "LLNL/Nek5000",
+      "url": "https://github.com/Nek5000/Nek5000",
+      "repo": "Nek5000/Nek5000",
+      "categories": [
+        "CFD"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 467,
+      "last_push": "2026-05-20",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.7
+      }
+    },
+    {
+      "name": "Nek5000/nekRS",
+      "url": "https://github.com/Nek5000/nekRS",
+      "repo": "Nek5000/nekRS",
+      "categories": [
+        "CFD"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 400,
+      "last_push": "2026-05-24",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.5
+      }
+    },
+    {
+      "name": "precice/precice",
+      "url": "https://github.com/precice/precice",
+      "repo": "precice/precice",
+      "categories": [
+        "CFD"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 933,
+      "last_push": "2026-05-30",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.4
+      }
+    },
+    {
+      "name": "PyFR/PyFR",
+      "url": "https://github.com/PyFR/PyFR",
+      "repo": "PyFR/PyFR",
+      "categories": [
+        "CFD"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 555,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.9
+      }
+    },
+    {
+      "name": "CalculiX",
+      "url": "http://www.calculix.de/",
+      "repo": null,
+      "categories": [
+        "FEA"
+      ],
+      "score": 0,
+      "grade": "Experimental",
+      "stars": null,
+      "last_push": null,
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 0
+      }
+    },
+    {
+      "name": "dealii/dealii",
+      "url": "https://github.com/dealii/dealii",
+      "repo": "dealii/dealii",
+      "categories": [
+        "FEA"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "stars": 1676,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.1
+      }
+    },
+    {
+      "name": "ElmerCSC/elmerfem",
+      "url": "https://github.com/ElmerCSC/elmerfem",
+      "repo": "ElmerCSC/elmerfem",
+      "categories": [
+        "FEA"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "stars": 1585,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.0
+      }
+    },
+    {
+      "name": "FEniCS/dolfinx",
+      "url": "https://github.com/FEniCS/dolfinx",
+      "repo": "FEniCS/dolfinx",
+      "categories": [
+        "FEA"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1135,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.6
+      }
+    },
+    {
+      "name": "firedrakeproject/firedrake",
+      "url": "https://github.com/firedrakeproject/firedrake",
+      "repo": "firedrakeproject/firedrake",
+      "categories": [
+        "FEA"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 658,
+      "last_push": "2026-05-30",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.0
+      }
+    },
+    {
+      "name": "FreeFem/FreeFem-sources",
+      "url": "https://github.com/FreeFem/FreeFem-sources",
+      "repo": "FreeFem/FreeFem-sources",
+      "categories": [
+        "FEA"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 919,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.4
+      }
+    },
+    {
+      "name": "idaholab/moose",
+      "url": "https://github.com/idaholab/moose",
+      "repo": "idaholab/moose",
+      "categories": [
+        "FEA"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 2250,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.4
+      }
+    },
+    {
+      "name": "KratosMultiphysics/Kratos",
+      "url": "https://github.com/KratosMultiphysics/Kratos",
+      "repo": "KratosMultiphysics/Kratos",
+      "categories": [
+        "FEA"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1274,
+      "last_push": "2026-05-30",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.8
+      }
+    },
+    {
+      "name": "mfem/mfem",
+      "url": "https://github.com/mfem/mfem",
+      "repo": "mfem/mfem",
+      "categories": [
+        "FEA"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "stars": 2174,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.3
+      }
+    },
+    {
+      "name": "OpenSees/OpenSees",
+      "url": "https://github.com/OpenSees/OpenSees",
+      "repo": "OpenSees/OpenSees",
+      "categories": [
+        "FEA"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 770,
+      "last_push": "2026-05-28",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.2
+      }
+    },
+    {
+      "name": "sfepy/sfepy",
+      "url": "https://github.com/sfepy/sfepy",
+      "repo": "sfepy/sfepy",
+      "categories": [
+        "FEA"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 831,
+      "last_push": "2026-05-15",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.3
+      }
+    },
+    {
+      "name": "DualSPHysics/DualSPHysics",
+      "url": "https://github.com/DualSPHysics/DualSPHysics",
+      "repo": "DualSPHysics/DualSPHysics",
+      "categories": [
+        "SPH"
+      ],
+      "score": 7,
+      "grade": "Experimental",
+      "stars": 724,
+      "last_push": "2025-04-16",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 7.2
+      }
+    },
+    {
+      "name": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH",
+      "repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "categories": [
+        "SPH"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "stars": 1845,
+      "last_push": "2026-05-12",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.2
+      }
+    },
+    {
+      "name": "pypr/pysph",
+      "url": "https://github.com/pypr/pysph",
+      "repo": "pypr/pysph",
+      "categories": [
+        "SPH"
+      ],
+      "score": 40,
+      "grade": "Scriptable",
+      "stars": 536,
+      "last_push": "2025-10-26",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 8,
+        "adoption_score": 6.8
+      }
+    },
+    {
+      "name": "CFDEMproject/LIGGGHTS-PUBLIC",
+      "url": "https://github.com/CFDEMproject/LIGGGHTS-PUBLIC",
+      "repo": "CFDEMproject/LIGGGHTS-PUBLIC",
+      "categories": [
+        "DEM"
+      ],
+      "score": 21,
+      "grade": "Experimental",
+      "stars": 335,
+      "last_push": "2026-05-18",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.3
+      }
+    },
+    {
+      "name": "lammps/lammps",
+      "url": "https://github.com/lammps/lammps",
+      "repo": "lammps/lammps",
+      "categories": [
+        "DEM"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 2924,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.7
+      }
+    },
+    {
+      "name": "SudoDEM/SudoDEM",
+      "url": "https://github.com/SudoDEM/SudoDEM",
+      "repo": "SudoDEM/SudoDEM",
+      "categories": [
+        "DEM"
+      ],
+      "score": 45,
+      "grade": "Scriptable",
+      "stars": 96,
+      "last_push": "2026-03-27",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 5.0
+      }
+    },
+    {
+      "name": "Kitware/VTK",
+      "url": "https://github.com/Kitware/VTK",
+      "repo": "Kitware/VTK",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3157,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.7
+      }
+    },
+    {
+      "name": "nmwsharp/polyscope",
+      "url": "https://github.com/nmwsharp/polyscope",
+      "repo": "nmwsharp/polyscope",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 2169,
+      "last_push": "2026-05-20",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.3
+      }
+    },
+    {
+      "name": "pyvista/pyvista",
+      "url": "https://github.com/pyvista/pyvista",
+      "repo": "pyvista/pyvista",
+      "categories": [
+        "Visualization & Post-processing",
+        "Data Formats & I/O"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3682,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.9
+      }
+    },
+    {
+      "name": "Kitware/ParaView",
+      "url": "https://github.com/Kitware/ParaView",
+      "repo": "Kitware/ParaView",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1633,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.0
+      }
+    },
+    {
+      "name": "napari/napari",
+      "url": "https://github.com/napari/napari",
+      "repo": "napari/napari",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 2664,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.6
+      }
+    },
+    {
+      "name": "marcomusy/vedo",
+      "url": "https://github.com/marcomusy/vedo",
+      "repo": "marcomusy/vedo",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 2252,
+      "last_push": "2026-04-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.4
+      }
+    },
+    {
+      "name": "plotly/plotly.py",
+      "url": "https://github.com/plotly/plotly.py",
+      "repo": "plotly/plotly.py",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "stars": 18570,
+      "last_push": "2026-05-21",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 10
+      }
+    },
+    {
+      "name": "CadQuery/cadquery",
+      "url": "https://github.com/CadQuery/cadquery",
+      "repo": "CadQuery/cadquery",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 5236,
+      "last_push": "2026-05-27",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.3
+      }
+    },
+    {
+      "name": "CadQuery/OCP",
+      "url": "https://github.com/CadQuery/OCP",
+      "repo": "CadQuery/OCP",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 180,
+      "last_push": "2026-05-25",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 5.6
+      }
+    },
+    {
+      "name": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "repo": "FreeCAD/FreeCAD",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "stars": 31258,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 10
+      }
+    },
+    {
+      "name": "gumyr/build123d",
+      "url": "https://github.com/gumyr/build123d",
+      "repo": "gumyr/build123d",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 2375,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.4
+      }
+    },
+    {
+      "name": "mikedh/trimesh",
+      "url": "https://github.com/mikedh/trimesh",
+      "repo": "mikedh/trimesh",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3579,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.9
+      }
+    },
+    {
+      "name": "nschloe/pygmsh",
+      "url": "https://github.com/nschloe/pygmsh",
+      "repo": "nschloe/pygmsh",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 32,
+      "grade": "Scriptable",
+      "stars": 962,
+      "last_push": "2023-10-04",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 7.5
+      }
+    },
+    {
+      "name": "Open-Cascade-SAS/OCCT",
+      "url": "https://github.com/Open-Cascade-SAS/OCCT",
+      "repo": "Open-Cascade-SAS/OCCT",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 24,
+      "grade": "Experimental",
+      "stars": 2516,
+      "last_push": "2026-05-07",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.5
+      }
+    },
+    {
+      "name": "SolidCode/SolidPython",
+      "url": "https://github.com/SolidCode/SolidPython",
+      "repo": "SolidCode/SolidPython",
+      "categories": [
+        "CAD & Geometry"
+      ],
+      "score": 41,
+      "grade": "Scriptable",
+      "stars": 1253,
+      "last_push": "2025-10-08",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 8,
+        "adoption_score": 7.7
+      }
+    },
+    {
+      "name": "buaacyw/MeshAnything",
+      "url": "https://github.com/buaacyw/MeshAnything",
+      "repo": "buaacyw/MeshAnything",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 33,
+      "grade": "Scriptable",
+      "stars": 2284,
+      "last_push": "2025-04-28",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 8.4
+      }
+    },
+    {
+      "name": "CGAL/cgal",
+      "url": "https://github.com/CGAL/cgal",
+      "repo": "CGAL/cgal",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 24,
+      "grade": "Experimental",
+      "stars": 5921,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.4
+      }
+    },
+    {
+      "name": "Gmsh",
+      "url": "https://gitlab.onelab.info/gmsh/gmsh",
+      "repo": null,
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 25,
+      "grade": "Experimental",
+      "stars": null,
+      "last_push": null,
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 0
+      }
+    },
+    {
+      "name": "libigl/libigl",
+      "url": "https://github.com/libigl/libigl",
+      "repo": "libigl/libigl",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 5023,
+      "last_push": "2026-05-07",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.3
+      }
+    },
+    {
+      "name": "MmgTools/mmg",
+      "url": "https://github.com/MmgTools/mmg",
+      "repo": "MmgTools/mmg",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 468,
+      "last_push": "2026-05-11",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.7
+      }
+    },
+    {
+      "name": "NGSolve/netgen",
+      "url": "https://github.com/NGSolve/netgen",
+      "repo": "NGSolve/netgen",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 377,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.4
+      }
+    },
+    {
+      "name": "nmwsharp/geometry-central",
+      "url": "https://github.com/nmwsharp/geometry-central",
+      "repo": "nmwsharp/geometry-central",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "stars": 1313,
+      "last_push": "2026-05-19",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.8
+      }
+    },
+    {
+      "name": "OpenMeshLab/MeshXL",
+      "url": "https://github.com/OpenMeshLab/MeshXL",
+      "repo": "OpenMeshLab/MeshXL",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 31,
+      "grade": "Scriptable",
+      "stars": 336,
+      "last_push": "2025-04-04",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 6.3
+      }
+    },
+    {
+      "name": "PyMesh/PyMesh",
+      "url": "https://github.com/PyMesh/PyMesh",
+      "repo": "PyMesh/PyMesh",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 33,
+      "grade": "Scriptable",
+      "stars": 2037,
+      "last_push": "2024-08-08",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 8.3
+      }
+    },
+    {
+      "name": "pyvista/tetgen",
+      "url": "https://github.com/pyvista/tetgen",
+      "repo": "pyvista/tetgen",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 302,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.2
+      }
+    },
+    {
+      "name": "wildmeshing/fTetWild",
+      "url": "https://github.com/wildmeshing/fTetWild",
+      "repo": "wildmeshing/fTetWild",
+      "categories": [
+        "Mesh Generation"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 574,
+      "last_push": "2026-05-05",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.9
+      }
+    },
+    {
+      "name": "Autodesk/XLB",
+      "url": "https://github.com/Autodesk/XLB",
+      "repo": "Autodesk/XLB",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 475,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.7
+      }
+    },
+    {
+      "name": "google/brax",
+      "url": "https://github.com/google/brax",
+      "repo": "google/brax",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3175,
+      "last_push": "2026-05-18",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.8
+      }
+    },
+    {
+      "name": "jax-md/jax-md",
+      "url": "https://github.com/jax-md/jax-md",
+      "repo": "jax-md/jax-md",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1420,
+      "last_push": "2026-05-20",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.9
+      }
+    },
+    {
+      "name": "gbionics/jaxsim",
+      "url": "https://github.com/gbionics/jaxsim",
+      "repo": "gbionics/jaxsim",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 197,
+      "last_push": "2026-05-08",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 5.7
+      }
+    },
+    {
+      "name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "repo": "google-deepmind/mujoco",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "stars": 13697,
+      "last_push": "2026-05-31",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 10
+      }
+    },
+    {
+      "name": "NVIDIA/warp",
+      "url": "https://github.com/NVIDIA/warp",
+      "repo": "NVIDIA/warp",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "stars": 6716,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.6
+      }
+    },
+    {
+      "name": "taichi-dev/taichi",
+      "url": "https://github.com/taichi-dev/taichi",
+      "repo": "taichi-dev/taichi",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "stars": 28222,
+      "last_push": "2026-04-06",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 10
+      }
+    },
+    {
+      "name": "tumaer/JAXFLUIDS",
+      "url": "https://github.com/tumaer/JAXFLUIDS",
+      "repo": "tumaer/JAXFLUIDS",
+      "categories": [
+        "Differentiable Simulation"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 584,
+      "last_push": "2026-05-19",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.9
+      }
+    },
+    {
+      "name": "csml-rpi/Foam-Agent",
+      "url": "https://github.com/csml-rpi/Foam-Agent",
+      "repo": "csml-rpi/Foam-Agent",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 61,
+      "grade": "Agent-Ready",
+      "stars": 242,
+      "last_push": "2026-05-25",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": true,
+        "maintained_score": 15,
+        "adoption_score": 6.0
+      }
+    },
+    {
+      "name": "deepmodeling/deepmd-kit",
+      "url": "https://github.com/deepmodeling/deepmd-kit",
+      "repo": "deepmodeling/deepmd-kit",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1944,
+      "last_push": "2026-06-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.2
+      }
+    },
+    {
+      "name": "dynamicslab/pykoopman",
+      "url": "https://github.com/dynamicslab/pykoopman",
+      "repo": "dynamicslab/pykoopman",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 430,
+      "last_push": "2026-01-22",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.6
+      }
+    },
+    {
+      "name": "dynamicslab/pysindy",
+      "url": "https://github.com/dynamicslab/pysindy",
+      "repo": "dynamicslab/pysindy",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1836,
+      "last_push": "2026-03-24",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.2
+      }
+    },
+    {
+      "name": "google-deepmind/graphcast",
+      "url": "https://github.com/google-deepmind/graphcast",
+      "repo": "google-deepmind/graphcast",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "stars": 6670,
+      "last_push": "2026-03-30",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.6
+      }
+    },
+    {
+      "name": "google/jax-cfd",
+      "url": "https://github.com/google/jax-cfd",
+      "repo": "google/jax-cfd",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 948,
+      "last_push": "2026-02-24",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.4
+      }
+    },
+    {
+      "name": "Koopman-Laboratory/KoopmanLab",
+      "url": "https://github.com/Koopman-Laboratory/KoopmanLab",
+      "repo": "Koopman-Laboratory/KoopmanLab",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 31,
+      "grade": "Scriptable",
+      "stars": 329,
+      "last_push": "2024-10-05",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 6.3
+      }
+    },
+    {
+      "name": "lululxvi/deepxde",
+      "url": "https://github.com/lululxvi/deepxde",
+      "repo": "lululxvi/deepxde",
+      "categories": [
+        "AI/ML for Simulation",
+        "Surrogate Models & PINNs"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 4201,
+      "last_push": "2026-03-01",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.1
+      }
+    },
+    {
+      "name": "microsoft/aurora",
+      "url": "https://github.com/microsoft/aurora",
+      "repo": "microsoft/aurora",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 40,
+      "grade": "Scriptable",
+      "stars": 907,
+      "last_push": "2025-11-20",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 8,
+        "adoption_score": 7.4
+      }
+    },
+    {
+      "name": "microsoft/ClimaX",
+      "url": "https://github.com/microsoft/ClimaX",
+      "repo": "microsoft/ClimaX",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 32,
+      "grade": "Scriptable",
+      "stars": 698,
+      "last_push": "2023-09-30",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 7.1
+      }
+    },
+    {
+      "name": "NeuralOperator/neuraloperator",
+      "url": "https://github.com/NeuralOperator/neuraloperator",
+      "repo": "NeuralOperator/neuraloperator",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3663,
+      "last_push": "2026-05-11",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.9
+      }
+    },
+    {
+      "name": "NVIDIA/physicsnemo",
+      "url": "https://github.com/NVIDIA/physicsnemo",
+      "repo": "NVIDIA/physicsnemo",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 2863,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.6
+      }
+    },
+    {
+      "name": "Terry-cyx/MetaOpenFOAM",
+      "url": "https://github.com/Terry-cyx/MetaOpenFOAM",
+      "repo": "Terry-cyx/MetaOpenFOAM",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 61,
+      "grade": "Agent-Ready",
+      "stars": 196,
+      "last_push": "2026-04-10",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": true,
+        "maintained_score": 15,
+        "adoption_score": 5.7
+      }
+    },
+    {
+      "name": "tum-pbs/PhiFlow",
+      "url": "https://github.com/tum-pbs/PhiFlow",
+      "repo": "tum-pbs/PhiFlow",
+      "categories": [
+        "AI/ML for Simulation"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1875,
+      "last_push": "2026-05-31",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.2
+      }
+    },
+    {
+      "name": "mathLab/PINA",
+      "url": "https://github.com/mathLab/PINA",
+      "repo": "mathLab/PINA",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 752,
+      "last_push": "2026-05-26",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.2
+      }
+    },
+    {
+      "name": "mathLab/PyDMD",
+      "url": "https://github.com/mathLab/PyDMD",
+      "repo": "mathLab/PyDMD",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 30,
+      "grade": "Scriptable",
+      "stars": 122,
+      "last_push": "2025-03-06",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 5.2
+      }
+    },
+    {
+      "name": "NeuroDiffGym/neurodiffeq",
+      "url": "https://github.com/NeuroDiffGym/neurodiffeq",
+      "repo": "NeuroDiffGym/neurodiffeq",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 785,
+      "last_push": "2026-04-22",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.2
+      }
+    },
+    {
+      "name": "NVIDIA/physicsnemo-sym",
+      "url": "https://github.com/NVIDIA/physicsnemo-sym",
+      "repo": "NVIDIA/physicsnemo-sym",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 332,
+      "last_push": "2026-04-28",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.3
+      }
+    },
+    {
+      "name": "rezaakb/pinns-torch",
+      "url": "https://github.com/rezaakb/pinns-torch",
+      "repo": "rezaakb/pinns-torch",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 896,
+      "last_push": "2026-02-08",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.4
+      }
+    },
+    {
+      "name": "sciann/sciann",
+      "url": "https://github.com/sciann/sciann",
+      "repo": "sciann/sciann",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 26,
+      "grade": "Experimental",
+      "stars": 1,
+      "last_push": "2024-09-26",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 0.8
+      }
+    },
+    {
+      "name": "thuml/Neural-Solver-Library",
+      "url": "https://github.com/thuml/Neural-Solver-Library",
+      "repo": "thuml/Neural-Solver-Library",
+      "categories": [
+        "Surrogate Models & PINNs"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 319,
+      "last_push": "2026-03-10",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.3
+      }
+    },
+    {
+      "name": "meta-pytorch/botorch",
+      "url": "https://github.com/meta-pytorch/botorch",
+      "repo": "meta-pytorch/botorch",
+      "categories": [
+        "Optimization"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3535,
+      "last_push": "2026-05-28",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.9
+      }
+    },
+    {
+      "name": "OpenMDAO/OpenMDAO",
+      "url": "https://github.com/OpenMDAO/OpenMDAO",
+      "repo": "OpenMDAO/OpenMDAO",
+      "categories": [
+        "Optimization"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 730,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.2
+      }
+    },
+    {
+      "name": "anyoptimization/pymoo",
+      "url": "https://github.com/anyoptimization/pymoo",
+      "repo": "anyoptimization/pymoo",
+      "categories": [
+        "Optimization"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 2881,
+      "last_push": "2026-02-22",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.6
+      }
+    },
+    {
+      "name": "dl4to/dl4to",
+      "url": "https://github.com/dl4to/dl4to",
+      "repo": "dl4to/dl4to",
+      "categories": [
+        "Optimization"
+      ],
+      "score": 30,
+      "grade": "Scriptable",
+      "stars": 135,
+      "last_push": "2024-11-19",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 5.3
+      }
+    },
+    {
+      "name": "williamhunter/topy",
+      "url": "https://github.com/williamhunter/topy",
+      "repo": "williamhunter/topy",
+      "categories": [
+        "Optimization"
+      ],
+      "score": 32,
+      "grade": "Scriptable",
+      "stars": 564,
+      "last_push": "2022-08-31",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 6.9
+      }
+    },
+    {
+      "name": "mdolab/OpenAeroStruct",
+      "url": "https://github.com/mdolab/OpenAeroStruct",
+      "repo": "mdolab/OpenAeroStruct",
+      "categories": [
+        "Optimization"
+      ],
+      "score": 39,
+      "grade": "Scriptable",
+      "stars": 261,
+      "last_push": "2025-10-06",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 8,
+        "adoption_score": 6.0
+      }
+    },
+    {
+      "name": "nschloe/meshio",
+      "url": "https://github.com/nschloe/meshio",
+      "repo": "nschloe/meshio",
+      "categories": [
+        "Data Formats & I/O"
+      ],
+      "score": 33,
+      "grade": "Scriptable",
+      "stars": 2297,
+      "last_push": "2024-07-23",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 8.4
+      }
+    },
+    {
+      "name": "h5py/h5py",
+      "url": "https://github.com/h5py/h5py",
+      "repo": "h5py/h5py",
+      "categories": [
+        "Data Formats & I/O"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 2229,
+      "last_push": "2026-05-29",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.4
+      }
+    },
+    {
+      "name": "Unidata/netcdf4-python",
+      "url": "https://github.com/Unidata/netcdf4-python",
+      "repo": "Unidata/netcdf4-python",
+      "categories": [
+        "Data Formats & I/O"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 829,
+      "last_push": "2026-04-26",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.3
+      }
+    },
+    {
+      "name": "CGNS/CGNS",
+      "url": "https://github.com/CGNS/CGNS",
+      "repo": "CGNS/CGNS",
+      "categories": [
+        "Data Formats & I/O"
+      ],
+      "score": 21,
+      "grade": "Experimental",
+      "stars": 268,
+      "last_push": "2026-05-22",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.1
+      }
+    },
+    {
+      "name": "divelab/AIRS",
+      "url": "https://github.com/divelab/AIRS",
+      "repo": "divelab/AIRS",
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 772,
+      "last_push": "2026-04-22",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.2
+      }
+    },
+    {
+      "name": "Extrality/AirfRANS",
+      "url": "https://github.com/Extrality/AirfRANS",
+      "repo": "Extrality/AirfRANS",
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 30,
+      "grade": "Scriptable",
+      "stars": 63,
+      "last_push": "2025-01-09",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 4.5
+      }
+    },
+    {
+      "name": "Mohamedelrefaie/DrivAerNet",
+      "url": "https://github.com/Mohamedelrefaie/DrivAerNet",
+      "repo": "Mohamedelrefaie/DrivAerNet",
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 513,
+      "last_push": "2026-05-14",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.8
+      }
+    },
+    {
+      "name": "i207M/PINNacle",
+      "url": "https://github.com/i207M/PINNacle",
+      "repo": "i207M/PINNacle",
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 47,
+      "grade": "Scriptable",
+      "stars": 424,
+      "last_push": "2026-02-11",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.6
+      }
+    },
+    {
+      "name": "NASA TMR",
+      "url": "https://turbmodels.larc.nasa.gov/",
+      "repo": null,
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 0,
+      "grade": "Experimental",
+      "stars": null,
+      "last_push": null,
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 0
+      }
+    },
+    {
+      "name": "pdebench/PDEBench",
+      "url": "https://github.com/pdebench/PDEBench",
+      "repo": "pdebench/PDEBench",
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "stars": 1146,
+      "last_push": "2026-03-30",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.6
+      }
+    },
+    {
+      "name": "PolymathicAI/the_well",
+      "url": "https://github.com/PolymathicAI/the_well",
+      "repo": "PolymathicAI/the_well",
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 3387,
+      "last_push": "2026-03-25",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 8.8
+      }
+    },
+    {
+      "name": "barbagroup/CFDPython",
+      "url": "https://github.com/barbagroup/CFDPython",
+      "repo": "barbagroup/CFDPython",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 34,
+      "grade": "Scriptable",
+      "stars": 4016,
+      "last_push": "2024-03-19",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 9.0
+      }
+    },
+    {
+      "name": "ikespand/awesome-machine-learning-fluid-mechanics",
+      "url": "https://github.com/ikespand/awesome-machine-learning-fluid-mechanics",
+      "repo": "ikespand/awesome-machine-learning-fluid-mechanics",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 21,
+      "grade": "Experimental",
+      "stars": 244,
+      "last_push": "2026-05-17",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.0
+      }
+    },
+    {
+      "name": "jxx123/simglucose",
+      "url": "https://github.com/jxx123/simglucose",
+      "repo": "jxx123/simglucose",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 46,
+      "grade": "Scriptable",
+      "stars": 335,
+      "last_push": "2026-04-17",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 6.3
+      }
+    },
+    {
+      "name": "kks32/phd-thesis-template",
+      "url": "https://github.com/kks32/phd-thesis-template",
+      "repo": "kks32/phd-thesis-template",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 22,
+      "grade": "Experimental",
+      "stars": 891,
+      "last_push": "2026-04-28",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 7.4
+      }
+    },
+    {
+      "name": "maziarraissi/PINNs",
+      "url": "https://github.com/maziarraissi/PINNs",
+      "repo": "maziarraissi/PINNs",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 49,
+      "grade": "Scriptable",
+      "stars": 5895,
+      "last_push": "2026-02-11",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "maintained_score": 15,
+        "adoption_score": 9.4
+      }
+    },
+    {
+      "name": "thunil/Physics-Based-Deep-Learning",
+      "url": "https://github.com/thunil/Physics-Based-Deep-Learning",
+      "repo": "thunil/Physics-Based-Deep-Learning",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 16,
+      "grade": "Experimental",
+      "stars": 1889,
+      "last_push": "2025-10-10",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 8,
+        "adoption_score": 8.2
+      }
+    },
+    {
+      "name": "WillDreamer/Awesome-AI4CFD",
+      "url": "https://github.com/WillDreamer/Awesome-AI4CFD",
+      "repo": "WillDreamer/Awesome-AI4CFD",
+      "categories": [
+        "Learning Resources"
+      ],
+      "score": 6,
+      "grade": "Experimental",
+      "stars": 347,
+      "last_push": "2025-06-04",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "maintained_score": 0,
+        "adoption_score": 6.4
+      }
+    }
+  ]
+}

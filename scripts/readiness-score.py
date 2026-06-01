@@ -1,192 +1,338 @@
 #!/usr/bin/env python3
-"""AI-Readiness Score v1 — GitHub API only.
+"""AI-Readiness Score v2 — the metric behind the AI-Readiness Index.
 
-Parses README.md, extracts GitHub tool URLs, queries GitHub API for
-stars and last-commit date, computes a simple readiness score, and
-outputs a Markdown report.
+Parses README.md (the single source of truth), de-duplicates entries,
+enriches GitHub-hosted tools via the GitHub API, and computes an
+AI-Readiness Score that rewards *agent-callability* over popularity.
 
-Score formula (v1, GitHub-only):
-  stars_score   = min(stars / 100, 25)        # max 25
-  activity      = 15 if < 6 months, 8 if < 12, 0 if stale
-  has_python    = 10 if 'Python' tag in entry
-  has_cli       = 10 if CLI/headless mentioned
-  has_mcp       = 25 if 'MCP' tag in entry
-  has_package   = 15 if pip-installable (TODO v2)
-  ---
-  Total max = 100
+Outputs:
+  - READINESS.md          full ranked table + summary (human-facing)
+  - data/readiness.json   machine-readable, citable data asset
+  - data/readiness.csv    spreadsheet-friendly export
+
+Score philosophy (max 100): a tool is "AI-ready" when an autonomous agent
+can drive it without a GUI. So MCP/Python/CLI weigh far more than stars.
+
+  mcp        35   has an MCP server (`MCP` tag)        — the differentiator
+  python     25   native Python API (`Python` tag)
+  cli_api    15   LLM/agent interface (`API` tag)
+  maintained 15   pushed < 6 mo (15) / < 12 mo (8) / else 0
+  adoption   10   log10(stars) scaled, capped          — popularity, on purpose small
+  -----------------------------------------------------------------------
+  Grades: AI-Native 75+ · Agent-Ready 50-74 · Scriptable 30-49 · Experimental <30
+
+Non-GitHub entries (GitLab/self-hosted) have no stars/activity data; they are
+scored on interface signals only and reported in a separate section rather
+than mis-ranked at the bottom.
 """
 
+import csv
 import json
+import math
 import os
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone
 
-README = os.path.join(os.path.dirname(__file__), "..", "README.md")
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+README = os.path.join(ROOT, "README.md")
+DATA_DIR = os.path.join(ROOT, "data")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
 
+# Sections that are not tool lists.
+SKIP_SECTIONS = {"Contents", "Core Engine Readiness", "Contributing", "License"}
 
-def gh_get(path: str) -> dict | None:
+SECTION_RE = re.compile(r"^##\s+(.+?)\s*$")
+# - [Name](URL) `tag` `tag` - Description.   (tags + description optional)
+ENTRY_RE = re.compile(
+    r"^- \[([^\]]+)\]\((https?://[^)]+)\)\s*((?:`[^`]+`\s*)*)(?:-\s*(.*))?$"
+)
+GITHUB_RE = re.compile(r"github\.com/([^/]+/[^/#?]+)")
+
+
+def gh_get(path: str, retries: int = 3) -> dict | None:
     url = f"{API}{path}"
-    req = urllib.request.Request(url)
-    req.add_header("Accept", "application/vnd.github+json")
-    if GITHUB_TOKEN:
-        req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
-    try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            return json.loads(resp.read())
-    except Exception:
-        return None
+    for attempt in range(retries):
+        req = urllib.request.Request(url)
+        req.add_header("Accept", "application/vnd.github+json")
+        if GITHUB_TOKEN:
+            req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            # 403 → rate limit; back off and retry rather than silently zeroing.
+            if e.code in (403, 429) and attempt < retries - 1:
+                reset = e.headers.get("X-RateLimit-Reset")
+                wait = 5
+                if reset:
+                    wait = max(1, int(reset) - int(time.time())) + 1
+                print(f"    rate-limited, waiting {wait}s...", file=sys.stderr)
+                time.sleep(min(wait, 60))
+                continue
+            return None
+        except Exception:
+            if attempt < retries - 1:
+                time.sleep(2)
+                continue
+            return None
+    return None
 
 
-def parse_tools(readme_path: str) -> list[dict]:
-    """Extract tool entries from README.md list items."""
-    pattern = re.compile(
-        r"^- \[([^\]]+)\]\((https?://github\.com/([^/)]+/[^/)]+))[^)]*\)"
-        r"\s*(`[^`]+`(?:\s*`[^`]+`)*)\s*-\s*(.+)$"
-    )
-    tools = []
-    with open(readme_path) as f:
-        for line in f:
-            m = pattern.match(line.strip())
+def parse_readme(path: str) -> list[dict]:
+    """Extract de-duplicated tool entries with their category membership."""
+    by_key: dict[str, dict] = {}
+    section = None
+    with open(path) as f:
+        for raw in f:
+            line = raw.rstrip("\n")
+            sec = SECTION_RE.match(line)
+            if sec:
+                section = sec.group(1).strip()
+                continue
+            if section in SKIP_SECTIONS or section is None:
+                continue
+            m = ENTRY_RE.match(line.strip())
             if not m:
                 continue
-            name, url, repo, tags_raw, desc = m.groups()
-            tags = re.findall(r"`([^`]+)`", tags_raw)
-            tools.append(
-                {
-                    "name": name,
-                    "url": url,
-                    "repo": repo,
-                    "tags": tags,
-                    "desc": desc.strip().rstrip("."),
-                }
-            )
-    return tools
+            name, url, tags_raw, desc = m.groups()
+            tags = re.findall(r"`([^`]+)`", tags_raw or "")
+            gh = GITHUB_RE.search(url)
+            repo = gh.group(1).rstrip("/") if gh else None
+            # Category name is the short label before any em-dash.
+            category = re.split(r"\s+[—–-]\s+", section)[0].strip()
+            key = repo.lower() if repo else url.lower()
+            if key in by_key:
+                # Intentional double-link: merge categories, keep first entry.
+                if category not in by_key[key]["categories"]:
+                    by_key[key]["categories"].append(category)
+                continue
+            by_key[key] = {
+                "name": name,
+                "url": url,
+                "repo": repo,
+                "tags": tags,
+                "categories": [category],
+                "desc": (desc or "").strip().rstrip("."),
+            }
+    return list(by_key.values())
 
 
 def score_tool(tool: dict) -> dict:
-    """Query GitHub API and compute readiness score."""
-    repo_data = gh_get(f"/repos/{tool['repo']}")
-    if not repo_data:
-        return {**tool, "stars": 0, "last_push": "unknown", "score": 0, "grade": "?"}
-
-    stars = repo_data.get("stargazers_count", 0)
-    pushed = repo_data.get("pushed_at", "")
     tags = [t.lower() for t in tool["tags"]]
+    has_mcp = "mcp" in tags
+    has_python = "python" in tags
+    has_cli_api = "api" in tags
 
-    # Stars score (max 25)
-    stars_score = min(stars / 100, 25)
+    stars = None
+    pushed = None
+    months_ago = None
+    if tool["repo"]:
+        data = gh_get(f"/repos/{tool['repo']}")
+        if data:
+            stars = data.get("stargazers_count", 0)
+            pushed = (data.get("pushed_at") or "")[:10]
+            if pushed:
+                pushed_dt = datetime.fromisoformat(pushed + "T00:00:00+00:00")
+                months_ago = (datetime.now(timezone.utc) - pushed_dt).days / 30
 
-    # Activity score (max 15)
-    activity = 0
-    if pushed:
-        pushed_dt = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
-        months_ago = (datetime.now(timezone.utc) - pushed_dt).days / 30
-        if months_ago < 6:
-            activity = 15
-        elif months_ago < 12:
-            activity = 8
+    # Component scores
+    s_mcp = 35 if has_mcp else 0
+    s_python = 25 if has_python else 0
+    s_cli = 15 if has_cli_api else 0
+    if months_ago is None:
+        s_maint = 0
+    elif months_ago < 6:
+        s_maint = 15
+    elif months_ago < 12:
+        s_maint = 8
+    else:
+        s_maint = 0
+    s_adopt = 0 if not stars else min(math.log10(stars + 1) / 4 * 10, 10)
 
-    # Python API (max 10)
-    has_python = 10 if "python" in tags else 0
-
-    # CLI/headless (max 10)
-    has_cli = 10 if any(t in tags for t in ("api", "cli")) else 0
-
-    # MCP (max 25)
-    has_mcp = 25 if "mcp" in tags else 0
-
-    # Package (max 15) — v2 will check PyPI
-    has_package = 15 if "python" in tags else 0
-
-    total = int(stars_score + activity + has_python + has_cli + has_mcp + has_package)
+    total = round(s_mcp + s_python + s_cli + s_maint + s_adopt)
     total = min(total, 100)
 
-    if total >= 80:
+    if total >= 75:
         grade = "AI-Native"
     elif total >= 50:
-        grade = "API-Ready"
-    elif total >= 20:
-        grade = "ML-Powered"
+        grade = "Agent-Ready"
+    elif total >= 30:
+        grade = "Scriptable"
     else:
-        grade = "Not Ready"
+        grade = "Experimental"
 
     return {
         **tool,
         "stars": stars,
-        "last_push": pushed[:10] if pushed else "unknown",
+        "last_push": pushed,
         "score": total,
         "grade": grade,
+        "has_github_metrics": tool["repo"] is not None and stars is not None,
+        "signals": {
+            "mcp": has_mcp,
+            "python": has_python,
+            "cli_api": has_cli_api,
+            "maintained_score": s_maint,
+            "adoption_score": round(s_adopt, 1),
+        },
     }
 
 
-def generate_report(scored: list[dict]) -> str:
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+GRADE_EMOJI = {
+    "AI-Native": "🟢",
+    "Agent-Ready": "🔵",
+    "Scriptable": "🟡",
+    "Experimental": "⚪",
+}
+
+
+def iface_badges(t: dict) -> str:
+    b = []
+    if t["signals"]["mcp"]:
+        b.append("MCP")
+    if t["signals"]["python"]:
+        b.append("Py")
+    if t["signals"]["cli_api"]:
+        b.append("API")
+    return " ".join(f"`{x}`" for x in b) or "—"
+
+
+def write_readiness_md(ranked: list[dict], partial: list[dict], now: str) -> None:
     lines = [
         "# AI-Readiness Scores",
         "",
         f"> Auto-generated on {now} by [`readiness-score.py`](scripts/readiness-score.py).",
-        "> Methodology: [Issue #2](https://github.com/kimimgo/awesome-ai-cae/issues/2)",
+        "> Ranks tools by **agent-callability** (MCP / Python / CLI / maintenance), not popularity.",
+        "> Machine-readable: [`data/readiness.json`](data/readiness.json) · [`data/readiness.csv`](data/readiness.csv)",
         "",
-        "| Score | Grade | Tool | ⭐ Stars | Last Push | Tags |",
-        "|------:|-------|------|--------:|-----------|------|",
+        "| # | Score | Grade | Tool | Interfaces | ⭐ | Last Push |",
+        "|--:|------:|-------|------|------------|--:|-----------|",
     ]
-
-    for t in sorted(scored, key=lambda x: x["score"], reverse=True):
-        tags_str = ", ".join(f"`{tag}`" for tag in t["tags"][:3])
+    for i, t in enumerate(ranked, 1):
+        stars = f"{t['stars']:,}" if t["stars"] is not None else "—"
         lines.append(
-            f"| {t['score']} | {t['grade']} "
-            f"| [{t['name']}]({t['url']}) "
-            f"| {t['stars']:,} | {t['last_push']} | {tags_str} |"
+            f"| {i} | {t['score']} | {GRADE_EMOJI[t['grade']]} {t['grade']} "
+            f"| [{t['name']}]({t['url']}) | {iface_badges(t)} "
+            f"| {stars} | {t['last_push'] or '—'} |"
         )
 
-    # Summary stats
-    grades = {}
-    for t in scored:
+    grades: dict[str, int] = {}
+    for t in ranked:
         grades[t["grade"]] = grades.get(t["grade"], 0) + 1
-
-    lines.extend(
-        [
+    lines += [
+        "",
+        "## Summary",
+        "",
+        f"- **Tools ranked**: {len(ranked)}",
+        f"- 🟢 **AI-Native (75+)**: {grades.get('AI-Native', 0)}",
+        f"- 🔵 **Agent-Ready (50-74)**: {grades.get('Agent-Ready', 0)}",
+        f"- 🟡 **Scriptable (30-49)**: {grades.get('Scriptable', 0)}",
+        f"- ⚪ **Experimental (<30)**: {grades.get('Experimental', 0)}",
+    ]
+    if partial:
+        lines += [
             "",
-            "## Summary",
+            "## Interface-tagged (metrics unavailable)",
             "",
-            f"- **Total tools scored**: {len(scored)}",
-            f"- **AI-Native (80+)**: {grades.get('AI-Native', 0)}",
-            f"- **API-Ready (50-79)**: {grades.get('API-Ready', 0)}",
-            f"- **ML-Powered (20-49)**: {grades.get('ML-Powered', 0)}",
-            f"- **Not Ready (<20)**: {grades.get('Not Ready', 0)}",
-            "",
-            "## Stale Tools (>12 months inactive)",
+            "> Non-GitHub hosts (GitLab/self-hosted) — scored on interface tags only.",
             "",
         ]
+        for t in partial:
+            lines.append(f"- [{t['name']}]({t['url']}) — {iface_badges(t)}")
+    lines.append("")
+    with open(os.path.join(ROOT, "READINESS.md"), "w") as f:
+        f.write("\n".join(lines))
+
+
+INDEX_START = "<!-- AI-READINESS-INDEX:START -->"
+INDEX_END = "<!-- AI-READINESS-INDEX:END -->"
+TOP_N = 15
+
+
+def inject_readme_index(ranked: list[dict], now: str) -> bool:
+    """Replace the region between the index markers in README.md with a
+    freshly generated Top-N leaderboard. Returns False if markers absent."""
+    with open(README) as f:
+        content = f.read()
+    if INDEX_START not in content or INDEX_END not in content:
+        print("    README index markers not found — skipping injection", file=sys.stderr)
+        return False
+
+    rows = ["<table>", "<tr><th>#</th><th>Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th>⭐</th></tr>"]
+    for i, t in enumerate(ranked[:TOP_N], 1):
+        stars = f"{t['stars']:,}" if t["stars"] is not None else "—"
+        ifaces = ", ".join(
+            x for x, on in (("MCP", t["signals"]["mcp"]), ("Python", t["signals"]["python"]), ("CLI/API", t["signals"]["cli_api"])) if on
+        ) or "—"
+        rows.append(
+            f'<tr><td>{i}</td><td><b>{t["score"]}</b></td>'
+            f'<td>{GRADE_EMOJI[t["grade"]]} {t["grade"]}</td>'
+            f'<td><a href="{t["url"]}">{t["name"]}</a></td>'
+            f"<td>{ifaces}</td><td>{stars}</td></tr>"
+        )
+    rows.append("</table>")
+
+    grades: dict[str, int] = {}
+    for t in ranked:
+        grades[t["grade"]] = grades.get(t["grade"], 0) + 1
+    dist = (
+        f"\n<sub>🟢 {grades.get('AI-Native', 0)} AI-Native · "
+        f"🔵 {grades.get('Agent-Ready', 0)} Agent-Ready · "
+        f"🟡 {grades.get('Scriptable', 0)} Scriptable · "
+        f"⚪ {grades.get('Experimental', 0)} Experimental — across {len(ranked)} ranked tools "
+        f"(updated {now}). <a href=\"READINESS.md\">Full ranking →</a></sub>\n"
     )
 
-    stale = [t for t in scored if t.get("last_push", "unknown") != "unknown"]
-    stale = [
-        t
-        for t in stale
-        if (
-            datetime.now(timezone.utc)
-            - datetime.fromisoformat(t["last_push"] + "T00:00:00+00:00")
-        ).days
-        > 365
-    ]
-    if stale:
-        for t in stale:
-            lines.append(f"- [{t['name']}]({t['url']}) — last push {t['last_push']}")
-    else:
-        lines.append("None detected.")
-
-    lines.append("")
-    return "\n".join(lines)
+    block = f"{INDEX_START}\n\n" + "\n".join(rows) + "\n" + dist + f"\n{INDEX_END}"
+    pre = content.split(INDEX_START)[0]
+    post = content.split(INDEX_END)[1]
+    with open(README, "w") as f:
+        f.write(pre + block + post)
+    print(f"    Injected Top-{TOP_N} index into README.md", file=sys.stderr)
+    return True
 
 
-def main():
-    tools = parse_tools(README)
-    print(f"Found {len(tools)} GitHub tools in README.md", file=sys.stderr)
+def write_data(all_scored: list[dict], now: str) -> None:
+    os.makedirs(DATA_DIR, exist_ok=True)
+    payload = {
+        "generated": now,
+        "methodology": "AI-Readiness Score v2: mcp35 python25 cli15 maintained15 adoption10",
+        "count": len(all_scored),
+        "tools": [
+            {
+                "name": t["name"],
+                "url": t["url"],
+                "repo": t["repo"],
+                "categories": t["categories"],
+                "score": t["score"],
+                "grade": t["grade"],
+                "stars": t["stars"],
+                "last_push": t["last_push"],
+                "signals": t["signals"],
+            }
+            for t in all_scored
+        ],
+    }
+    with open(os.path.join(DATA_DIR, "readiness.json"), "w") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    with open(os.path.join(DATA_DIR, "readiness.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["score", "grade", "name", "repo", "categories", "stars", "last_push", "mcp", "python", "cli_api"])
+        for t in all_scored:
+            w.writerow([
+                t["score"], t["grade"], t["name"], t["repo"] or "",
+                "|".join(t["categories"]), t["stars"] if t["stars"] is not None else "",
+                t["last_push"] or "", t["signals"]["mcp"], t["signals"]["python"], t["signals"]["cli_api"],
+            ])
+
+
+def main() -> None:
+    tools = parse_readme(README)
+    print(f"Parsed {len(tools)} unique tool entries from README.md", file=sys.stderr)
 
     scored = []
     for i, tool in enumerate(tools):
@@ -197,12 +343,21 @@ def main():
             file=sys.stderr,
         )
 
-    report = generate_report(scored)
+    ranked = sorted(
+        [t for t in scored if t["has_github_metrics"]],
+        key=lambda x: (-x["score"], -(x["stars"] or 0), x["name"].lower()),
+    )
+    partial = [t for t in scored if not t["has_github_metrics"]]
 
-    out_path = os.path.join(os.path.dirname(__file__), "..", "READINESS.md")
-    with open(out_path, "w") as f:
-        f.write(report)
-    print(f"\nReport written to READINESS.md ({len(scored)} tools)", file=sys.stderr)
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    write_readiness_md(ranked, partial, now)
+    write_data(scored, now)
+    inject_readme_index(ranked, now)
+    print(
+        f"\nWrote READINESS.md ({len(ranked)} ranked, {len(partial)} partial) "
+        f"+ data/readiness.json + data/readiness.csv",
+        file=sys.stderr,
+    )
 
 
 if __name__ == "__main__":

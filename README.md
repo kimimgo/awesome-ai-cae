@@ -20,6 +20,7 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 
 ## Contents
 
+- [AI-Readiness Index](#ai-readiness-index)
 - [Core Engine Readiness](#core-engine-readiness)
 - [MCP Servers](#mcp-servers)
 - [CFD — Computational Fluid Dynamics](#cfd--computational-fluid-dynamics)
@@ -36,6 +37,37 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 - [Data Formats & I/O](#data-formats--io)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Learning Resources](#learning-resources)
+
+## AI-Readiness Index
+
+> The headline metric: tools ranked by **agent-callability** — MCP, Python API, CLI, maintenance — not stars. Auto-updated weekly by [`readiness-score.py`](scripts/readiness-score.py). Full table: [READINESS.md](READINESS.md) · machine-readable: [`data/readiness.json`](data/readiness.json).
+
+<!-- AI-READINESS-INDEX:START -->
+
+<table>
+<tr><th>#</th><th>Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th>⭐</th></tr>
+<tr><td>1</td><td><b>79</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python</td><td>49</td></tr>
+<tr><td>2</td><td><b>78</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python</td><td>12</td></tr>
+<tr><td>3</td><td><b>61</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/csml-rpi/Foam-Agent">csml-rpi/Foam-Agent</a></td><td>Python, CLI/API</td><td>242</td></tr>
+<tr><td>4</td><td><b>61</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/Terry-cyx/MetaOpenFOAM">Terry-cyx/MetaOpenFOAM</a></td><td>Python, CLI/API</td><td>196</td></tr>
+<tr><td>5</td><td><b>55</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/webworn/openfoam-mcp-server">webworn/openfoam-mcp-server</a></td><td>MCP</td><td>100</td></tr>
+<tr><td>6</td><td><b>50</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/FreeCAD/FreeCAD">FreeCAD/FreeCAD</a></td><td>Python</td><td>31,258</td></tr>
+<tr><td>7</td><td><b>50</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python</td><td>28,222</td></tr>
+<tr><td>8</td><td><b>50</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/plotly/plotly.py">plotly/plotly.py</a></td><td>Python</td><td>18,570</td></tr>
+<tr><td>9</td><td><b>50</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python</td><td>13,697</td></tr>
+<tr><td>10</td><td><b>50</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python</td><td>6,716</td></tr>
+<tr><td>11</td><td><b>50</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python</td><td>6,670</td></tr>
+<tr><td>12</td><td><b>49</b></td><td>🟡 Scriptable</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python</td><td>5,895</td></tr>
+<tr><td>13</td><td><b>49</b></td><td>🟡 Scriptable</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python</td><td>5,236</td></tr>
+<tr><td>14</td><td><b>49</b></td><td>🟡 Scriptable</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python</td><td>5,023</td></tr>
+<tr><td>15</td><td><b>49</b></td><td>🟡 Scriptable</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python</td><td>4,201</td></tr>
+</table>
+
+<sub>🟢 2 AI-Native · 🔵 9 Agent-Ready · 🟡 69 Scriptable · ⚪ 22 Experimental — across 102 ranked tools (updated 2026-06-01). <a href="READINESS.md">Full ranking →</a></sub>
+
+<!-- AI-READINESS-INDEX:END -->
+
+<sup>[back to top](#contents)</sup>
 
 ## Core Engine Readiness
 
