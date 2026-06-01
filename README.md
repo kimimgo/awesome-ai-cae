@@ -11,8 +11,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/kimimgo/awesome-ai-cae)
 
-**A curated list of AI-ready tools for Computer-Aided Engineering.**<br>
-Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
+### The CAE tools an AI agent can actually call
+
+**Open-source simulation, CAD & meshing tools for agentic / LLM-driven engineering** — every one driveable headless via **MCP, Python, or CLI** (no GUI-only tools), **ranked weekly by an AI-Readiness Score**. Ranked by *callability*, not stars.
+
+**100+ tools** · **3 MCP servers** · **2 AI-Native** · machine-readable [JSON](data/readiness.json) / [CSV](data/readiness.csv) · weekly-regenerated [ranking](READINESS.md)
+
+[**🚀 Quickstart**](#quickstart--give-your-agent-a-cae-tool) · [**🏆 Index**](#ai-readiness-index) · [**📊 Methodology**](#how-the-score-works)
 
 [한국어](docs/README.ko.md) · [中文](docs/README.zh.md) · [日本語](docs/README.ja.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md) · [Español](docs/README.es.md) · [Português](docs/README.pt.md)
 
@@ -20,7 +25,9 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 
 ## Contents
 
+- [Quickstart](#quickstart--give-your-agent-a-cae-tool)
 - [AI-Readiness Index](#ai-readiness-index)
+- [How the Score Works](#how-the-score-works)
 - [Core Engine Readiness](#core-engine-readiness)
 - [MCP Servers](#mcp-servers)
 - [CFD — Computational Fluid Dynamics](#cfd--computational-fluid-dynamics)
@@ -37,6 +44,30 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 - [Data Formats & I/O](#data-formats--io)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Learning Resources](#learning-resources)
+- [Star History](#star-history)
+
+## Quickstart — give your agent a CAE tool
+
+> Three tools here ship a [Model Context Protocol](https://modelcontextprotocol.io/) server, so an agent (Claude Desktop, Cursor, Cline…) drives them with zero glue code. Add one to your MCP client config:
+
+```jsonc
+{
+  "mcpServers": {
+    "viznoir": { "command": "uvx", "args": ["viznoir"] }
+  }
+}
+```
+
+<table>
+<tr><th>MCP server</th><th>Ask your agent</th><th>Install</th></tr>
+<tr><td><a href="https://github.com/kimimgo/viznoir">viznoir</a></td><td><i>"Render this OpenFOAM case as a cinematic volume animation."</i></td><td><code>uvx viznoir</code></td></tr>
+<tr><td><a href="https://github.com/llnl/paraview_mcp">ParaView-MCP</a></td><td><i>"Open this VTK file, color by pressure, screenshot it."</i></td><td>see repo</td></tr>
+<tr><td><a href="https://github.com/webworn/openfoam-mcp-server">OpenFOAM-MCP</a></td><td><i>"Set up a pipe-flow case and explain the turbulence model."</i></td><td>see repo</td></tr>
+</table>
+
+<sub>Exact launch command lives in each server's README. No MCP? Every other tool is Python/CLI-scriptable — your agent calls it the same way you would.</sub>
+
+<sup>[back to top](#contents)</sup>
 
 ## AI-Readiness Index
 
@@ -53,9 +84,9 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 <tr><td>5</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td>6,716</td></tr>
 <tr><td>6</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td>6,670</td></tr>
 <tr><td>7</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td>5,895</td></tr>
-<tr><td>8</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td>5,238</td></tr>
+<tr><td>8</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td>5,239</td></tr>
 <tr><td>9</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td>5,023</td></tr>
-<tr><td>10</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td>4,202</td></tr>
+<tr><td>10</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td>4,203</td></tr>
 <tr><td>11</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip</td><td>3,683</td></tr>
 <tr><td>12</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td>3,663</td></tr>
 <tr><td>13</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip</td><td>3,580</td></tr>
@@ -63,9 +94,29 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 <tr><td>15</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td>3,391</td></tr>
 </table>
 
-<sub>🟢 2 AI-Native · 🔵 56 Agent-Ready · 🟡 23 Scriptable · ⚪ 21 Experimental — across 102 ranked tools (updated 2026-06-01). <a href="READINESS.md">Full ranking →</a></sub>
+<sub>🟢 2 AI-Native · 🔵 56 Agent-Ready · 🟡 23 Scriptable · ⚪ 20 Experimental — across 101 ranked tools (updated 2026-06-01). <a href="READINESS.md">Full ranking →</a></sub>
 
 <!-- AI-READINESS-INDEX:END -->
+
+<sup>[back to top](#contents)</sup>
+
+## How the Score Works
+
+> The **AI-Readiness Score** (0–100) ranks tools by how directly an autonomous agent can drive them — *callability over popularity*.
+
+<table>
+<tr><th>Signal</th><th>Points</th><th>Why it matters to an agent</th></tr>
+<tr><td>MCP server</td><td>35</td><td>The agent calls it with zero glue code</td></tr>
+<tr><td>Python API</td><td>25</td><td>Native scripting</td></tr>
+<tr><td>CLI / REST</td><td>15</td><td>Headless automation</td></tr>
+<tr><td>pip-installable</td><td>+15</td><td>One-command install (verified on PyPI)</td></tr>
+<tr><td>Maintained (&lt;6 mo)</td><td>15</td><td>Won't rot mid-project</td></tr>
+<tr><td>Adoption (stars)</td><td>10</td><td>log-scaled — popularity barely moves the needle</td></tr>
+</table>
+
+**Grades:** 🟢 AI-Native (75+) · 🔵 Agent-Ready (50–74) · 🟡 Scriptable (30–49) · ⚪ Experimental (<30).
+
+Scores regenerate weekly from `README.md` via [`readiness-score.py`](scripts/readiness-score.py) — fully reproducible, no hand-tuning. Open a PR adding a tool and [a bot scores it automatically](.github/workflows/pr-readiness.yml).
 
 <sup>[back to top](#contents)</sup>
 
@@ -304,16 +355,23 @@ Every tool is programmable via Python API, CLI, or MCP — no GUI-only tools.
 - [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython) `Python` - Classic "12 Steps to Navier-Stokes" tutorial. Learn CFD fundamentals with Python step by step.
 - [ikespand/awesome-machine-learning-fluid-mechanics](https://github.com/ikespand/awesome-machine-learning-fluid-mechanics) - Curated list of ML applications in fluid mechanics. Papers, code, and tutorials.
 - [jxx123/simglucose](https://github.com/jxx123/simglucose) `Python` - Type 1 diabetes simulator. Example of AI-in-the-loop biomedical simulation.
-- [kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template) `LaTeX` - Clean PhD thesis template. Widely used in computational mechanics community.
 - [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) `Python` - The foundational PINN reference implementation. Data-driven PDE solutions and discovery (JCP 2019).
 - [thunil/Physics-Based-Deep-Learning](https://github.com/thunil/Physics-Based-Deep-Learning) - Comprehensive collection of physics-based deep learning resources. Papers, code links, and tutorials from TUM.
 - [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) - Survey of ML for CFD covering data-driven surrogates, PINNs, and ML-assisted numerical solvers.
 
 <sup>[back to top](#contents)</sup>
 
+## Star History
+
+<a href="https://star-history.com/#kimimgo/awesome-ai-cae&Date">
+  <img src="https://api.star-history.com/svg?repos=kimimgo/awesome-ai-cae&type=Date" alt="Star History Chart" width="600">
+</a>
+
+<sup>[back to top](#contents)</sup>
+
 ## Contributing
 
-Contributions welcome! Read the [contributing guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Read the [contributing guidelines](CONTRIBUTING.md) first — adding a tool triggers an [automatic AI-Readiness score](.github/workflows/pr-readiness.yml) on your PR.
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 

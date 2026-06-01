@@ -1,7 +1,7 @@
 {
   "generated": "2026-06-01",
   "methodology": "AI-Readiness Score v2.1: mcp35 python25 cli15 maintained15 adoption10 + pip15 bonus (capped 100)",
-  "count": 107,
+  "count": 106,
   "tools": [
     {
       "name": "kimimgo/viznoir",
@@ -714,7 +714,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 5238,
+      "stars": 5239,
       "last_push": "2026-05-27",
       "signals": {
         "mcp": false,
@@ -1395,7 +1395,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 4202,
+      "stars": 4203,
       "last_push": "2026-03-01",
       "signals": {
         "mcp": false,
@@ -1475,7 +1475,7 @@
       ],
       "score": 64,
       "grade": "Agent-Ready",
-      "stars": 2865,
+      "stars": 2866,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -2064,26 +2064,6 @@
         "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.3
-      }
-    },
-    {
-      "name": "kks32/phd-thesis-template",
-      "url": "https://github.com/kks32/phd-thesis-template",
-      "repo": "kks32/phd-thesis-template",
-      "categories": [
-        "Learning Resources"
-      ],
-      "score": 22,
-      "grade": "Experimental",
-      "stars": 891,
-      "last_push": "2026-04-28",
-      "signals": {
-        "mcp": false,
-        "python": false,
-        "cli_api": false,
-        "pip": false,
-        "maintained_score": 15,
-        "adoption_score": 7.4
       }
     },
     {

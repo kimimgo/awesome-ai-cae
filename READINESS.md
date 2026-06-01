@@ -13,9 +13,9 @@
 | 5 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 6,716 | 2026-06-01 |
 | 6 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 6,670 | 2026-03-30 |
 | 7 | 64 | 🔵 Agent-Ready | [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) | `Py` `pip` | 5,895 | 2026-02-11 |
-| 8 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` | 5,238 | 2026-05-27 |
+| 8 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` | 5,239 | 2026-05-27 |
 | 9 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,023 | 2026-05-07 |
-| 10 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,202 | 2026-03-01 |
+| 10 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,203 | 2026-03-01 |
 | 11 | 64 | 🔵 Agent-Ready | [pyvista/pyvista](https://github.com/pyvista/pyvista) | `Py` `pip` | 3,683 | 2026-05-29 |
 | 12 | 64 | 🔵 Agent-Ready | [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) | `Py` `pip` | 3,663 | 2026-05-11 |
 | 13 | 64 | 🔵 Agent-Ready | [mikedh/trimesh](https://github.com/mikedh/trimesh) | `Py` `pip` | 3,580 | 2026-05-29 |
@@ -25,7 +25,7 @@
 | 17 | 64 | 🔵 Agent-Ready | [Kitware/VTK](https://github.com/Kitware/VTK) | `Py` `pip` | 3,157 | 2026-06-01 |
 | 18 | 64 | 🔵 Agent-Ready | [lammps/lammps](https://github.com/lammps/lammps) | `Py` `pip` | 2,924 | 2026-06-01 |
 | 19 | 64 | 🔵 Agent-Ready | [anyoptimization/pymoo](https://github.com/anyoptimization/pymoo) | `Py` `pip` | 2,881 | 2026-02-22 |
-| 20 | 64 | 🔵 Agent-Ready | [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) | `Py` `pip` | 2,865 | 2026-05-29 |
+| 20 | 64 | 🔵 Agent-Ready | [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) | `Py` `pip` | 2,866 | 2026-05-29 |
 | 21 | 64 | 🔵 Agent-Ready | [napari/napari](https://github.com/napari/napari) | `Py` `pip` | 2,664 | 2026-05-29 |
 | 22 | 63 | 🔵 Agent-Ready | [gumyr/build123d](https://github.com/gumyr/build123d) | `Py` `pip` | 2,377 | 2026-05-29 |
 | 23 | 63 | 🔵 Agent-Ready | [marcomusy/vedo](https://github.com/marcomusy/vedo) | `Py` `pip` | 2,253 | 2026-04-29 |
@@ -96,26 +96,25 @@
 | 88 | 23 | ⚪ Experimental | [ElmerCSC/elmerfem](https://github.com/ElmerCSC/elmerfem) | — | 1,585 | 2026-05-29 |
 | 89 | 23 | ⚪ Experimental | [nmwsharp/geometry-central](https://github.com/nmwsharp/geometry-central) | — | 1,313 | 2026-05-19 |
 | 90 | 22 | ⚪ Experimental | [FreeFem/FreeFem-sources](https://github.com/FreeFem/FreeFem-sources) | — | 919 | 2026-06-01 |
-| 91 | 22 | ⚪ Experimental | [kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template) | — | 891 | 2026-04-28 |
-| 92 | 22 | ⚪ Experimental | [OpenSees/OpenSees](https://github.com/OpenSees/OpenSees) | — | 770 | 2026-05-28 |
-| 93 | 22 | ⚪ Experimental | [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) | — | 574 | 2026-05-05 |
-| 94 | 22 | ⚪ Experimental | [MmgTools/mmg](https://github.com/MmgTools/mmg) | — | 468 | 2026-05-11 |
-| 95 | 22 | ⚪ Experimental | [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) | — | 467 | 2026-05-20 |
-| 96 | 22 | ⚪ Experimental | [Nek5000/nekRS](https://github.com/Nek5000/nekRS) | — | 400 | 2026-05-24 |
-| 97 | 21 | ⚪ Experimental | [CFDEMproject/LIGGGHTS-PUBLIC](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC) | — | 335 | 2026-05-18 |
-| 98 | 21 | ⚪ Experimental | [CGNS/CGNS](https://github.com/CGNS/CGNS) | — | 268 | 2026-05-22 |
-| 99 | 21 | ⚪ Experimental | [ikespand/awesome-machine-learning-fluid-mechanics](https://github.com/ikespand/awesome-machine-learning-fluid-mechanics) | — | 244 | 2026-05-17 |
-| 100 | 16 | ⚪ Experimental | [thunil/Physics-Based-Deep-Learning](https://github.com/thunil/Physics-Based-Deep-Learning) | — | 1,889 | 2025-10-10 |
-| 101 | 7 | ⚪ Experimental | [DualSPHysics/DualSPHysics](https://github.com/DualSPHysics/DualSPHysics) | — | 724 | 2025-04-16 |
-| 102 | 6 | ⚪ Experimental | [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) | — | 347 | 2025-06-04 |
+| 91 | 22 | ⚪ Experimental | [OpenSees/OpenSees](https://github.com/OpenSees/OpenSees) | — | 770 | 2026-05-28 |
+| 92 | 22 | ⚪ Experimental | [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) | — | 574 | 2026-05-05 |
+| 93 | 22 | ⚪ Experimental | [MmgTools/mmg](https://github.com/MmgTools/mmg) | — | 468 | 2026-05-11 |
+| 94 | 22 | ⚪ Experimental | [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) | — | 467 | 2026-05-20 |
+| 95 | 22 | ⚪ Experimental | [Nek5000/nekRS](https://github.com/Nek5000/nekRS) | — | 400 | 2026-05-24 |
+| 96 | 21 | ⚪ Experimental | [CFDEMproject/LIGGGHTS-PUBLIC](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC) | — | 335 | 2026-05-18 |
+| 97 | 21 | ⚪ Experimental | [CGNS/CGNS](https://github.com/CGNS/CGNS) | — | 268 | 2026-05-22 |
+| 98 | 21 | ⚪ Experimental | [ikespand/awesome-machine-learning-fluid-mechanics](https://github.com/ikespand/awesome-machine-learning-fluid-mechanics) | — | 244 | 2026-05-17 |
+| 99 | 16 | ⚪ Experimental | [thunil/Physics-Based-Deep-Learning](https://github.com/thunil/Physics-Based-Deep-Learning) | — | 1,889 | 2025-10-10 |
+| 100 | 7 | ⚪ Experimental | [DualSPHysics/DualSPHysics](https://github.com/DualSPHysics/DualSPHysics) | — | 724 | 2025-04-16 |
+| 101 | 6 | ⚪ Experimental | [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) | — | 347 | 2025-06-04 |
 
 ## Summary
 
-- **Tools ranked**: 102
+- **Tools ranked**: 101
 - 🟢 **AI-Native (75+)**: 2
 - 🔵 **Agent-Ready (50-74)**: 56
 - 🟡 **Scriptable (30-49)**: 23
-- ⚪ **Experimental (<30)**: 21
+- ⚪ **Experimental (<30)**: 20
 
 ## Interface-tagged (metrics unavailable)
 
