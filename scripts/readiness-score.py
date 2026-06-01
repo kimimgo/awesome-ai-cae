@@ -254,7 +254,10 @@ def iface_badges(t: dict) -> str:
         b.append("API")
     if t["signals"]["pip"]:
         b.append("pip")
-    return " ".join(f"`{x}`" for x in b) or "—"
+    out = " ".join(f"`{x}`" for x in b) or "—"
+    if t["signals"].get("verified"):
+        out += " ✅"
+    return out
 
 
 def write_readiness_md(ranked: list[dict], partial: list[dict], now: str) -> None:
@@ -326,6 +329,8 @@ def inject_readme_index(ranked: list[dict], now: str) -> bool:
         ifaces = ", ".join(
             x for x, on in (("MCP", t["signals"]["mcp"]), ("Python", t["signals"]["python"]), ("CLI/API", t["signals"]["cli_api"]), ("pip", t["signals"]["pip"])) if on
         ) or "—"
+        if t["signals"].get("verified"):
+            ifaces += ' <b title="install + import smoke-tested">✅</b>'
         rows.append(
             f'<tr><td align="center">{rank}</td><td align="right"><b>{t["score"]}</b></td>'
             f'<td>{GRADE_EMOJI[t["grade"]]} {t["grade"]}</td>'
@@ -342,7 +347,8 @@ def inject_readme_index(ranked: list[dict], now: str) -> bool:
         f"🔵 {grades.get('Agent-Ready', 0)} Agent-Ready · "
         f"🟡 {grades.get('Scriptable', 0)} Scriptable · "
         f"⚪ {grades.get('Experimental', 0)} Experimental — across {len(ranked)} ranked tools "
-        f"(updated {now}). <a href=\"READINESS.md\">Full ranking →</a></sub>\n"
+        f"(updated {now}). ✅ = install + import <a href=\"data/verified.json\">execution-verified</a>. "
+        f"<a href=\"READINESS.md\">Full ranking →</a></sub>\n"
     )
 
     block = f"{INDEX_START}\n\n" + "\n".join(rows) + "\n" + dist + f"\n{INDEX_END}"
@@ -388,13 +394,27 @@ def write_data(all_scored: list[dict], now: str) -> None:
             ])
 
 
+def load_verified() -> set[str]:
+    """Repos/names that passed the execution smoke-test (data/verified.json)."""
+    path = os.path.join(DATA_DIR, "verified.json")
+    try:
+        with open(path) as f:
+            data = json.load(f)
+    except Exception:
+        return set()
+    return {r["name"].lower() for r in data.get("results", []) if r.get("verified")}
+
+
 def main() -> None:
     tools = parse_readme(README)
     print(f"Parsed {len(tools)} unique tool entries from README.md", file=sys.stderr)
 
+    verified = load_verified()
     scored = []
     for i, tool in enumerate(tools):
         result = score_tool(tool)
+        keys = {(result["repo"] or "").lower(), result["name"].lower()}
+        result["signals"]["verified"] = bool(keys & verified)
         scored.append(result)
         print(
             f"  [{i + 1}/{len(tools)}] {result['name']}: {result['score']} ({result['grade']})",

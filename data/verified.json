@@ -1,0 +1,107 @@
+{
+  "method": "isolated uv venv: `uv pip install <pkg>` then `import` — execution-verified, not declarative",
+  "verified": 8,
+  "total": 10,
+  "results": [
+    {
+      "name": "kimimgo/viznoir",
+      "pkg": "viznoir",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "0.9.1",
+      "error": null,
+      "secs": 89.6
+    },
+    {
+      "name": "pyvista/pyvista",
+      "pkg": "pyvista",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "0.48.4",
+      "error": null,
+      "secs": 1.7
+    },
+    {
+      "name": "mikedh/trimesh",
+      "pkg": "trimesh",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "4.12.2",
+      "error": null,
+      "secs": 0.9
+    },
+    {
+      "name": "nschloe/meshio",
+      "pkg": "meshio",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "5.3.5",
+      "error": null,
+      "secs": 0.7
+    },
+    {
+      "name": "CadQuery/cadquery",
+      "pkg": "cadquery",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "2.7.0",
+      "error": null,
+      "secs": 91.7
+    },
+    {
+      "name": "anyoptimization/pymoo",
+      "pkg": "pymoo",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "0.6.1.6",
+      "error": null,
+      "secs": 4.1
+    },
+    {
+      "name": "Gmsh",
+      "pkg": "gmsh",
+      "verified": false,
+      "install_ok": true,
+      "import_ok": false,
+      "version": null,
+      "error": "__.py\", line 390, in __init__\n    self._handle = _dlopen(self._name, mode)\n                   ~~~~~~~^^^^^^^^^^^^^^^^^^\nOSError: libGLU.so.1: cannot open shared object file: No such file or directory",
+      "secs": 37.2
+    },
+    {
+      "name": "h5py/h5py",
+      "pkg": "h5py",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "3.16.0",
+      "error": null,
+      "secs": 1.9
+    },
+    {
+      "name": "taichi-dev/taichi",
+      "pkg": "taichi",
+      "verified": true,
+      "install_ok": true,
+      "import_ok": true,
+      "version": "[Taichi] version 1.7.4, llvm 15.0.4, commit b4b956fd, linux, python 3.13.5\n(1, 7, 4)",
+      "error": null,
+      "secs": 22.1
+    },
+    {
+      "name": "lululxvi/deepxde",
+      "pkg": "deepxde",
+      "verified": false,
+      "install_ok": true,
+      "import_ok": false,
+      "version": null,
+      "error": "No backend selected.\nFinding available backend...\nCannot find available backend.\nNo available backend found.\nPlease manually install a backend, and run DeepXDE again.",
+      "secs": 1.1
+    }
+  ]
+}

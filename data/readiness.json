@@ -21,7 +21,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 2.9
+        "adoption_score": 2.9,
+        "verified": true
       }
     },
     {
@@ -41,7 +42,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 4.2
+        "adoption_score": 4.2,
+        "verified": false
       }
     },
     {
@@ -61,7 +63,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 5.0
+        "adoption_score": 5.0,
+        "verified": false
       }
     },
     {
@@ -81,7 +84,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.3
+        "adoption_score": 8.3,
+        "verified": false
       }
     },
     {
@@ -101,7 +105,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.1
+        "adoption_score": 8.1,
+        "verified": false
       }
     },
     {
@@ -121,7 +126,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.7
+        "adoption_score": 6.7,
+        "verified": false
       }
     },
     {
@@ -141,7 +147,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.5
+        "adoption_score": 6.5,
+        "verified": false
       }
     },
     {
@@ -161,7 +168,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.4
+        "adoption_score": 7.4,
+        "verified": false
       }
     },
     {
@@ -181,7 +189,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.9
+        "adoption_score": 6.9,
+        "verified": false
       }
     },
     {
@@ -201,7 +210,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 0
+        "adoption_score": 0,
+        "verified": false
       }
     },
     {
@@ -221,7 +231,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.1
+        "adoption_score": 8.1,
+        "verified": false
       }
     },
     {
@@ -241,7 +252,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.0
+        "adoption_score": 8.0,
+        "verified": false
       }
     },
     {
@@ -261,7 +273,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.6
+        "adoption_score": 7.6,
+        "verified": false
       }
     },
     {
@@ -281,7 +294,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.0
+        "adoption_score": 7.0,
+        "verified": false
       }
     },
     {
@@ -301,7 +315,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.4
+        "adoption_score": 7.4,
+        "verified": false
       }
     },
     {
@@ -321,7 +336,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.4
+        "adoption_score": 8.4,
+        "verified": false
       }
     },
     {
@@ -334,14 +350,15 @@
       "score": 63,
       "grade": "Agent-Ready",
       "stars": 1274,
-      "last_push": "2026-05-30",
+      "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.8
+        "adoption_score": 7.8,
+        "verified": false
       }
     },
     {
@@ -361,7 +378,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.3
+        "adoption_score": 8.3,
+        "verified": false
       }
     },
     {
@@ -381,7 +399,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.2
+        "adoption_score": 7.2,
+        "verified": false
       }
     },
     {
@@ -401,7 +420,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.3
+        "adoption_score": 7.3,
+        "verified": false
       }
     },
     {
@@ -421,7 +441,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 7.2
+        "adoption_score": 7.2,
+        "verified": false
       }
     },
     {
@@ -441,7 +462,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.2
+        "adoption_score": 8.2,
+        "verified": false
       }
     },
     {
@@ -461,7 +483,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 8,
-        "adoption_score": 6.8
+        "adoption_score": 6.8,
+        "verified": false
       }
     },
     {
@@ -481,7 +504,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.3
+        "adoption_score": 6.3,
+        "verified": false
       }
     },
     {
@@ -501,7 +525,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.7
+        "adoption_score": 8.7,
+        "verified": false
       }
     },
     {
@@ -521,7 +546,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 0
+        "adoption_score": 0,
+        "verified": false
       }
     },
     {
@@ -541,7 +567,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 5.0
+        "adoption_score": 5.0,
+        "verified": false
       }
     },
     {
@@ -561,7 +588,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 0
+        "adoption_score": 0,
+        "verified": false
       }
     },
     {
@@ -581,7 +609,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.7
+        "adoption_score": 8.7,
+        "verified": false
       }
     },
     {
@@ -601,7 +630,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.3
+        "adoption_score": 8.3,
+        "verified": false
       }
     },
     {
@@ -622,7 +652,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.9
+        "adoption_score": 8.9,
+        "verified": true
       }
     },
     {
@@ -642,7 +673,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.0
+        "adoption_score": 8.0,
+        "verified": false
       }
     },
     {
@@ -662,7 +694,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.6
+        "adoption_score": 8.6,
+        "verified": false
       }
     },
     {
@@ -682,7 +715,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.4
+        "adoption_score": 8.4,
+        "verified": false
       }
     },
     {
@@ -702,7 +736,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 10
+        "adoption_score": 10,
+        "verified": false
       }
     },
     {
@@ -722,7 +757,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 9.3
+        "adoption_score": 9.3,
+        "verified": true
       }
     },
     {
@@ -742,7 +778,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 5.6
+        "adoption_score": 5.6,
+        "verified": false
       }
     },
     {
@@ -754,7 +791,7 @@
       ],
       "score": 50,
       "grade": "Agent-Ready",
-      "stars": 31262,
+      "stars": 31263,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
@@ -762,7 +799,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 10
+        "adoption_score": 10,
+        "verified": false
       }
     },
     {
@@ -782,7 +820,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.4
+        "adoption_score": 8.4,
+        "verified": false
       }
     },
     {
@@ -802,7 +841,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.9
+        "adoption_score": 8.9,
+        "verified": true
       }
     },
     {
@@ -822,7 +862,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 7.5
+        "adoption_score": 7.5,
+        "verified": false
       }
     },
     {
@@ -842,7 +883,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 8.5
+        "adoption_score": 8.5,
+        "verified": false
       }
     },
     {
@@ -862,7 +904,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 8,
-        "adoption_score": 7.7
+        "adoption_score": 7.7,
+        "verified": false
       }
     },
     {
@@ -882,7 +925,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 8.4
+        "adoption_score": 8.4,
+        "verified": false
       }
     },
     {
@@ -902,7 +946,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 9.4
+        "adoption_score": 9.4,
+        "verified": false
       }
     },
     {
@@ -922,7 +967,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 0
+        "adoption_score": 0,
+        "verified": false
       }
     },
     {
@@ -942,7 +988,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 9.3
+        "adoption_score": 9.3,
+        "verified": false
       }
     },
     {
@@ -962,7 +1009,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.7
+        "adoption_score": 6.7,
+        "verified": false
       }
     },
     {
@@ -982,7 +1030,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.4
+        "adoption_score": 6.4,
+        "verified": false
       }
     },
     {
@@ -1002,7 +1051,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.8
+        "adoption_score": 7.8,
+        "verified": false
       }
     },
     {
@@ -1022,7 +1072,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 6.3
+        "adoption_score": 6.3,
+        "verified": false
       }
     },
     {
@@ -1042,7 +1093,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 8.3
+        "adoption_score": 8.3,
+        "verified": false
       }
     },
     {
@@ -1062,7 +1114,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.2
+        "adoption_score": 6.2,
+        "verified": false
       }
     },
     {
@@ -1082,7 +1135,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.9
+        "adoption_score": 6.9,
+        "verified": false
       }
     },
     {
@@ -1102,7 +1156,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.7
+        "adoption_score": 6.7,
+        "verified": false
       }
     },
     {
@@ -1122,7 +1177,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.8
+        "adoption_score": 8.8,
+        "verified": false
       }
     },
     {
@@ -1142,7 +1198,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.9
+        "adoption_score": 7.9,
+        "verified": false
       }
     },
     {
@@ -1162,7 +1219,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 5.7
+        "adoption_score": 5.7,
+        "verified": false
       }
     },
     {
@@ -1174,7 +1232,7 @@
       ],
       "score": 65,
       "grade": "Agent-Ready",
-      "stars": 13698,
+      "stars": 13699,
       "last_push": "2026-05-31",
       "signals": {
         "mcp": false,
@@ -1182,7 +1240,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 10
+        "adoption_score": 10,
+        "verified": false
       }
     },
     {
@@ -1202,7 +1261,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 9.6
+        "adoption_score": 9.6,
+        "verified": false
       }
     },
     {
@@ -1222,7 +1282,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 10
+        "adoption_score": 10,
+        "verified": true
       }
     },
     {
@@ -1242,7 +1303,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.9
+        "adoption_score": 6.9,
+        "verified": false
       }
     },
     {
@@ -1262,7 +1324,8 @@
         "cli_api": true,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.0
+        "adoption_score": 6.0,
+        "verified": false
       }
     },
     {
@@ -1282,7 +1345,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.2
+        "adoption_score": 8.2,
+        "verified": false
       }
     },
     {
@@ -1302,7 +1366,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.6
+        "adoption_score": 6.6,
+        "verified": false
       }
     },
     {
@@ -1322,7 +1387,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.2
+        "adoption_score": 8.2,
+        "verified": false
       }
     },
     {
@@ -1342,7 +1408,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 9.6
+        "adoption_score": 9.6,
+        "verified": false
       }
     },
     {
@@ -1362,7 +1429,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.4
+        "adoption_score": 7.4,
+        "verified": false
       }
     },
     {
@@ -1382,7 +1450,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 6.3
+        "adoption_score": 6.3,
+        "verified": false
       }
     },
     {
@@ -1403,7 +1472,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 9.1
+        "adoption_score": 9.1,
+        "verified": false
       }
     },
     {
@@ -1423,7 +1493,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 8,
-        "adoption_score": 7.4
+        "adoption_score": 7.4,
+        "verified": false
       }
     },
     {
@@ -1443,7 +1514,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 7.1
+        "adoption_score": 7.1,
+        "verified": false
       }
     },
     {
@@ -1463,7 +1535,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.9
+        "adoption_score": 8.9,
+        "verified": false
       }
     },
     {
@@ -1483,7 +1556,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.6
+        "adoption_score": 8.6,
+        "verified": false
       }
     },
     {
@@ -1503,7 +1577,8 @@
         "cli_api": true,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 5.7
+        "adoption_score": 5.7,
+        "verified": false
       }
     },
     {
@@ -1523,7 +1598,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.2
+        "adoption_score": 8.2,
+        "verified": false
       }
     },
     {
@@ -1543,7 +1619,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.2
+        "adoption_score": 7.2,
+        "verified": false
       }
     },
     {
@@ -1563,7 +1640,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 5.2
+        "adoption_score": 5.2,
+        "verified": false
       }
     },
     {
@@ -1583,7 +1661,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.2
+        "adoption_score": 7.2,
+        "verified": false
       }
     },
     {
@@ -1603,7 +1682,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.3
+        "adoption_score": 6.3,
+        "verified": false
       }
     },
     {
@@ -1623,7 +1703,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.4
+        "adoption_score": 7.4,
+        "verified": false
       }
     },
     {
@@ -1643,7 +1724,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 0.8
+        "adoption_score": 0.8,
+        "verified": false
       }
     },
     {
@@ -1663,7 +1745,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.3
+        "adoption_score": 6.3,
+        "verified": false
       }
     },
     {
@@ -1683,7 +1766,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.9
+        "adoption_score": 8.9,
+        "verified": false
       }
     },
     {
@@ -1703,7 +1787,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.2
+        "adoption_score": 7.2,
+        "verified": false
       }
     },
     {
@@ -1723,7 +1808,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.6
+        "adoption_score": 8.6,
+        "verified": true
       }
     },
     {
@@ -1743,7 +1829,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 5.3
+        "adoption_score": 5.3,
+        "verified": false
       }
     },
     {
@@ -1763,7 +1850,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 6.9
+        "adoption_score": 6.9,
+        "verified": false
       }
     },
     {
@@ -1783,7 +1871,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 8,
-        "adoption_score": 6.0
+        "adoption_score": 6.0,
+        "verified": false
       }
     },
     {
@@ -1803,7 +1892,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 8.4
+        "adoption_score": 8.4,
+        "verified": true
       }
     },
     {
@@ -1823,7 +1913,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.4
+        "adoption_score": 8.4,
+        "verified": true
       }
     },
     {
@@ -1843,7 +1934,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 7.3
+        "adoption_score": 7.3,
+        "verified": false
       }
     },
     {
@@ -1863,7 +1955,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.1
+        "adoption_score": 6.1,
+        "verified": false
       }
     },
     {
@@ -1883,7 +1976,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.2
+        "adoption_score": 7.2,
+        "verified": false
       }
     },
     {
@@ -1903,7 +1997,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 4.5
+        "adoption_score": 4.5,
+        "verified": false
       }
     },
     {
@@ -1923,7 +2018,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.8
+        "adoption_score": 6.8,
+        "verified": false
       }
     },
     {
@@ -1943,7 +2039,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.6
+        "adoption_score": 6.6,
+        "verified": false
       }
     },
     {
@@ -1963,7 +2060,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 0
+        "adoption_score": 0,
+        "verified": false
       }
     },
     {
@@ -1983,7 +2081,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.6
+        "adoption_score": 7.6,
+        "verified": false
       }
     },
     {
@@ -2003,7 +2102,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 8.8
+        "adoption_score": 8.8,
+        "verified": false
       }
     },
     {
@@ -2023,7 +2123,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 9.0
+        "adoption_score": 9.0,
+        "verified": false
       }
     },
     {
@@ -2043,7 +2144,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 15,
-        "adoption_score": 6.0
+        "adoption_score": 6.0,
+        "verified": false
       }
     },
     {
@@ -2063,7 +2165,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 6.3
+        "adoption_score": 6.3,
+        "verified": false
       }
     },
     {
@@ -2083,7 +2186,8 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 9.4
+        "adoption_score": 9.4,
+        "verified": false
       }
     },
     {
@@ -2103,7 +2207,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 8,
-        "adoption_score": 8.2
+        "adoption_score": 8.2,
+        "verified": false
       }
     },
     {
@@ -2123,7 +2228,8 @@
         "cli_api": false,
         "pip": false,
         "maintained_score": 0,
-        "adoption_score": 6.4
+        "adoption_score": 6.4,
+        "verified": false
       }
     }
   ]

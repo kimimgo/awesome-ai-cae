@@ -15,7 +15,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,658,2026-05-30,False,True,False,True
 22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,919,2026-06-01,False,False,False,False
 63,Agent-Ready,idaholab/moose,idaholab/moose,FEA,2250,2026-06-01,False,True,False,True
-63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1274,2026-05-30,False,True,False,True
+63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1274,2026-06-01,False,True,False,True
 23,Experimental,mfem/mfem,mfem/mfem,FEA,2174,2026-06-01,False,False,False,False
 22,Experimental,OpenSees/OpenSees,OpenSees/OpenSees,FEA,770,2026-05-28,False,False,False,False
 62,Agent-Ready,sfepy/sfepy,sfepy/sfepy,FEA,831,2026-05-15,False,True,False,True
@@ -36,7 +36,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18570,2026-05-21,False,True,False,False
 64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5239,2026-05-27,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,180,2026-05-25,False,True,False,True
-50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,31262,2026-06-01,False,True,False,False
+50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,31263,2026-06-01,False,True,False,False
 63,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2377,2026-05-29,False,True,False,True
 64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3580,2026-05-29,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,962,2023-10-04,False,True,False,True
@@ -57,7 +57,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3175,2026-05-18,False,True,False,True
 63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1420,2026-05-20,False,True,False,True
 61,Agent-Ready,gbionics/jaxsim,gbionics/jaxsim,Differentiable Simulation,197,2026-05-08,False,True,False,True
-65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,13698,2026-05-31,False,True,False,True
+65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,13699,2026-05-31,False,True,False,True
 65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,6716,2026-06-01,False,True,False,True
 65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28222,2026-04-06,False,True,False,True
 47,Scriptable,tumaer/JAXFLUIDS,tumaer/JAXFLUIDS,Differentiable Simulation,584,2026-05-19,False,True,False,False

@@ -1,0 +1,41 @@
+name: Verify installs
+
+# Execution-verified readiness: smoke-test that flagship tools actually
+# `pip install` + `import` in an isolated uv venv. Records evidence to
+# data/verified.json (consumed by readiness-score.py to mark ✅ in the Index).
+# Not a required check — failures are recorded honestly, not fatal.
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Monday 08:00 UTC (after the readiness run)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System libs for headless GL imports (Gmsh etc.)
+        run: sudo apt-get update && sudo apt-get install -y libglu1-mesa libgl1
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Smoke-test install + import
+        run: python scripts/verify_install.py
+
+      - name: Refresh the ✅ markers in the Index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/readiness-score.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/verified.json data/readiness.json data/readiness.csv READINESS.md README.md
+          git diff --cached --quiet || git commit -m "chore: refresh execution-verified readiness [skip ci]"
+          git push

@@ -94,23 +94,23 @@
 <table>
 <tr><th align="center">#</th><th align="right">Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th align="right">⭐</th></tr>
 <tr><td align="center">🥇</td><td align="right"><b>94</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python, pip</td><td align="right">49</td></tr>
-<tr><td align="center">🥈</td><td align="right"><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip</td><td align="right">13</td></tr>
-<tr><td align="center">🥉</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip</td><td align="right">28,222</td></tr>
-<tr><td align="center">4</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td align="right">13,698</td></tr>
+<tr><td align="center">🥈</td><td align="right"><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">13</td></tr>
+<tr><td align="center">🥉</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">28,222</td></tr>
+<tr><td align="center">4</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td align="right">13,699</td></tr>
 <tr><td align="center">5</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td align="right">6,716</td></tr>
 <tr><td align="center">6</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td align="right">6,670</td></tr>
 <tr><td align="center">7</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td align="right">5,895</td></tr>
-<tr><td align="center">8</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td align="right">5,239</td></tr>
+<tr><td align="center">8</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">5,239</td></tr>
 <tr><td align="center">9</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td align="right">5,023</td></tr>
 <tr><td align="center">10</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td align="right">4,203</td></tr>
-<tr><td align="center">11</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip</td><td align="right">3,683</td></tr>
+<tr><td align="center">11</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">3,683</td></tr>
 <tr><td align="center">12</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td align="right">3,664</td></tr>
-<tr><td align="center">13</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip</td><td align="right">3,580</td></tr>
+<tr><td align="center">13</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">3,580</td></tr>
 <tr><td align="center">14</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/meta-pytorch/botorch">meta-pytorch/botorch</a></td><td>Python, pip</td><td align="right">3,535</td></tr>
 <tr><td align="center">15</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td align="right">3,391</td></tr>
 </table>
 
-<sub>🟢 2 AI-Native · 🔵 56 Agent-Ready · 🟡 23 Scriptable · ⚪ 20 Experimental — across 101 ranked tools (updated 2026-06-01). <a href="READINESS.md">Full ranking →</a></sub>
+<sub>🟢 2 AI-Native · 🔵 56 Agent-Ready · 🟡 23 Scriptable · ⚪ 20 Experimental — across 101 ranked tools (updated 2026-06-01). ✅ = install + import <a href="data/verified.json">execution-verified</a>. <a href="READINESS.md">Full ranking →</a></sub>
 
 <!-- AI-READINESS-INDEX:END -->
 
@@ -135,6 +135,16 @@ The five base signals (MCP + Python + CLI + Maintained + Adoption) total **100**
 **Grades:** ![AI-Native 75+](https://img.shields.io/badge/🟢_AI--Native-75%2B-2ea44f?style=flat-square) ![Agent-Ready 50-74](https://img.shields.io/badge/🔵_Agent--Ready-50--74-00d4ff?style=flat-square) ![Scriptable 30-49](https://img.shields.io/badge/🟡_Scriptable-30--49-f5a623?style=flat-square) ![Experimental under 30](https://img.shields.io/badge/⚪_Experimental-%3C30-9e9e9e?style=flat-square)
 
 Scores regenerate weekly from `README.md` via [`readiness-score.py`](scripts/readiness-score.py) — fully reproducible, no hand-tuning. Open a PR adding a tool and [a bot scores it automatically](.github/workflows/pr-readiness.yml).
+
+### Verified vs declared
+
+Honest about what's checked.
+
+**Verified** (objective, reproducible) — live GitHub stars/activity; PyPI availability; and an **install + import smoke-test** ([`verify_install.py`](scripts/verify_install.py) → [`data/verified.json`](data/verified.json)) that spins up an isolated `uv` venv, runs `pip install` + `import`, and records the result. Tools that pass are marked **✅** in the Index. *Current run: 8/10 flagship tools pass; the 2 misses are recorded honestly — Gmsh needs a system GL lib, DeepXDE needs a chosen backend.*
+
+**Declared** (from the entry's tags) — `MCP` and `CLI/API`. We link the server/CLI; we don't yet replay an end-to-end agent call.
+
+**Roadmap** (deepening the moat) — execution-verified MCP handshakes and headless runs, plus a per-tool *agent-call transcript*, so the score reflects tools an agent has actually driven, not just ones that expose an interface.
 
 <sup>[back to top](#contents)</sup>
 
