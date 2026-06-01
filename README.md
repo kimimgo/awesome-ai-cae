@@ -13,9 +13,11 @@
 
 ### The CAE tools an AI agent can actually call
 
-**Open-source simulation, CAD & meshing tools for agentic / LLM-driven engineering** — every one driveable headless via **MCP, Python, or CLI** (no GUI-only tools), **ranked weekly by an AI-Readiness Score**. Ranked by *callability*, not stars.
+**Open-source simulation, CAD & meshing tools for agentic / LLM-driven engineering** — driveable headless via **MCP, Python, or CLI** (no GUI-only tools). The **only CAE list with a weekly agent-callability ranking**. Ranked by *callability*, not stars.
 
 **100+ tools** · **3 MCP servers** · **2 AI-Native** · machine-readable [JSON](data/readiness.json) / [CSV](data/readiness.csv) · weekly-regenerated [ranking](READINESS.md)
+
+<sub>Scope: agent-callable CAE/CAD/CAM **tools**, plus a small set of **adjacent** Datasets & Learning Resources for context.</sub>
 
 [**🚀 Quickstart**](#quickstart--give-your-agent-a-cae-tool) · [**🏆 Index**](#ai-readiness-index) · [**📊 Methodology**](#how-the-score-works)
 
@@ -114,6 +116,8 @@
 <tr><td>Adoption (stars)</td><td>10</td><td>log-scaled — popularity barely moves the needle</td></tr>
 </table>
 
+The five base signals (MCP + Python + CLI + Maintained + Adoption) total **100**; **pip is an additive bonus**, and the final score is **capped at 100**. So a tool can reach 100 several ways, but only MCP servers clear the AI-Native bar.
+
 **Grades:** 🟢 AI-Native (75+) · 🔵 Agent-Ready (50–74) · 🟡 Scriptable (30–49) · ⚪ Experimental (<30).
 
 Scores regenerate weekly from `README.md` via [`readiness-score.py`](scripts/readiness-score.py) — fully reproducible, no hand-tuning. Open a PR adding a tool and [a bot scores it automatically](.github/workflows/pr-readiness.yml).
@@ -122,7 +126,7 @@ Scores regenerate weekly from `README.md` via [`readiness-score.py`](scripts/rea
 
 ## Core Engine Readiness
 
-> AI-readiness of 17 foundational CAE solvers. Only 2 have MCP integration today.
+> A **hand-curated editorial** deep-dive on 17 foundational solvers — capability columns (Python binding, headless, Docker, AI-native) reflect maintainer judgment, ⭐ is live. This complements the auto-generated [Index](#ai-readiness-index) above, which stays the single source of truth for scores. Only 2 engines have MCP integration today.
 
 <table>
 <tr><th>Engine</th><th>Domain</th><th>⭐</th><th>Python API</th><th>Headless</th><th>Docker</th><th>🤖 AI-Native</th></tr>
