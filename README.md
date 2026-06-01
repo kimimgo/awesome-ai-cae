@@ -60,6 +60,10 @@
 
 ## Quickstart — give your agent a CAE tool
 
+<div align="center">
+<img src="media/diagram-concept.png" width="720" alt="Pipeline diagram: an AI agent calls a CAE tool via MCP, Python, or CLI and gets a simulation result">
+</div>
+
 > Three tools here ship a [Model Context Protocol](https://modelcontextprotocol.io/) server, so an agent (Claude Desktop, Cursor, Cline…) drives them with zero glue code. Add one to your MCP client config:
 
 ```jsonc
