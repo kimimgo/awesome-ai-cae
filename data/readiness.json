@@ -279,7 +279,7 @@
       "grade": "Scriptable",
       "confidence": "declared",
       "stars": 1135,
-      "last_push": "2026-05-29",
+      "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
@@ -763,7 +763,7 @@
       "score": 50,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 18570,
+      "stars": 18571,
       "last_push": "2026-05-21",
       "signals": {
         "mcp": false,
@@ -983,7 +983,7 @@
       "score": 24,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 5921,
+      "stars": 5922,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -1072,7 +1072,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 377,
-      "last_push": "2026-05-29",
+      "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1379,7 +1379,7 @@
       "score": 61,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 242,
+      "stars": 243,
       "last_push": "2026-05-25",
       "signals": {
         "mcp": false,
@@ -1467,7 +1467,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 6670,
+      "stars": 6669,
       "last_push": "2026-03-30",
       "signals": {
         "mcp": false,
@@ -1534,7 +1534,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 4203,
+      "stars": 4204,
       "last_push": "2026-03-01",
       "signals": {
         "mcp": false,
@@ -1886,7 +1886,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 2881,
+      "stars": 2882,
       "last_push": "2026-02-22",
       "signals": {
         "mcp": false,
