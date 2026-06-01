@@ -318,17 +318,19 @@ def inject_readme_index(ranked: list[dict], now: str) -> bool:
         print("    README index markers not found — skipping injection", file=sys.stderr)
         return False
 
-    rows = ["<table>", "<tr><th>#</th><th>Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th>⭐</th></tr>"]
+    rows = ["<table>", '<tr><th align="center">#</th><th align="right">Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th align="right">⭐</th></tr>']
+    medals = {1: "🥇", 2: "🥈", 3: "🥉"}
     for i, t in enumerate(ranked[:TOP_N], 1):
+        rank = medals.get(i, str(i))
         stars = f"{t['stars']:,}" if t["stars"] is not None else "—"
         ifaces = ", ".join(
             x for x, on in (("MCP", t["signals"]["mcp"]), ("Python", t["signals"]["python"]), ("CLI/API", t["signals"]["cli_api"]), ("pip", t["signals"]["pip"])) if on
         ) or "—"
         rows.append(
-            f'<tr><td>{i}</td><td><b>{t["score"]}</b></td>'
+            f'<tr><td align="center">{rank}</td><td align="right"><b>{t["score"]}</b></td>'
             f'<td>{GRADE_EMOJI[t["grade"]]} {t["grade"]}</td>'
             f'<td><a href="{t["url"]}">{t["name"]}</a></td>'
-            f"<td>{ifaces}</td><td>{stars}</td></tr>"
+            f"<td>{ifaces}</td><td align=\"right\">{stars}</td></tr>"
         )
     rows.append("</table>")
 

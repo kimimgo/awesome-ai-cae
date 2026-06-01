@@ -7,9 +7,15 @@
 <br><br>
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/kimimgo/awesome-ai-cae)
+[![awesome-lint](https://img.shields.io/github/actions/workflow/status/kimimgo/awesome-ai-cae/lint.yml?branch=main&style=flat-square&label=awesome-lint&labelColor=0a0a0f&color=00d4ff)](https://github.com/kimimgo/awesome-ai-cae/actions/workflows/lint.yml)
+[![License CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-7c3aed?style=flat-square&labelColor=0a0a0f)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-2ea44f?style=flat-square&labelColor=0a0a0f)](CONTRIBUTING.md)
+
+[![Stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat-square&labelColor=0a0a0f&color=f472b6)](https://github.com/kimimgo/awesome-ai-cae/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/kimimgo/awesome-ai-cae?style=flat-square&labelColor=0a0a0f&color=00d4ff)](https://github.com/kimimgo/awesome-ai-cae/commits/main)
+[![Tools](https://img.shields.io/badge/tools-100%2B-00d4ff?style=flat-square&labelColor=0a0a0f)](READINESS.md)
+[![AI-Native](https://img.shields.io/badge/🟢_AI--Native-2-2ea44f?style=flat-square&labelColor=0a0a0f)](READINESS.md)
+[![Ranking](https://img.shields.io/badge/ranking-weekly-7c3aed?style=flat-square&labelColor=0a0a0f)](.github/workflows/readiness.yml)
 
 ### The CAE tools an AI agent can actually call
 
@@ -22,6 +28,10 @@
 [**🚀 Quickstart**](#quickstart--give-your-agent-a-cae-tool) · [**🏆 Index**](#ai-readiness-index) · [**📊 Methodology**](#how-the-score-works)
 
 [한국어](docs/README.ko.md) · [中文](docs/README.zh.md) · [日本語](docs/README.ja.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md) · [Español](docs/README.es.md) · [Português](docs/README.pt.md)
+
+<br>
+
+<img src="media/divider.svg" width="100%" alt="">
 
 </div>
 
@@ -78,22 +88,22 @@
 <!-- AI-READINESS-INDEX:START -->
 
 <table>
-<tr><th>#</th><th>Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th>⭐</th></tr>
-<tr><td>1</td><td><b>94</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python, pip</td><td>49</td></tr>
-<tr><td>2</td><td><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip</td><td>13</td></tr>
-<tr><td>3</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip</td><td>28,222</td></tr>
-<tr><td>4</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td>13,697</td></tr>
-<tr><td>5</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td>6,716</td></tr>
-<tr><td>6</td><td><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td>6,670</td></tr>
-<tr><td>7</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td>5,895</td></tr>
-<tr><td>8</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td>5,239</td></tr>
-<tr><td>9</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td>5,023</td></tr>
-<tr><td>10</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td>4,203</td></tr>
-<tr><td>11</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip</td><td>3,683</td></tr>
-<tr><td>12</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td>3,663</td></tr>
-<tr><td>13</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip</td><td>3,580</td></tr>
-<tr><td>14</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/meta-pytorch/botorch">meta-pytorch/botorch</a></td><td>Python, pip</td><td>3,535</td></tr>
-<tr><td>15</td><td><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td>3,391</td></tr>
+<tr><th align="center">#</th><th align="right">Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th align="right">⭐</th></tr>
+<tr><td align="center">🥇</td><td align="right"><b>94</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python, pip</td><td align="right">49</td></tr>
+<tr><td align="center">🥈</td><td align="right"><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip</td><td align="right">13</td></tr>
+<tr><td align="center">🥉</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip</td><td align="right">28,222</td></tr>
+<tr><td align="center">4</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td align="right">13,698</td></tr>
+<tr><td align="center">5</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td align="right">6,716</td></tr>
+<tr><td align="center">6</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td align="right">6,670</td></tr>
+<tr><td align="center">7</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td align="right">5,895</td></tr>
+<tr><td align="center">8</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip</td><td align="right">5,239</td></tr>
+<tr><td align="center">9</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td align="right">5,023</td></tr>
+<tr><td align="center">10</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td align="right">4,203</td></tr>
+<tr><td align="center">11</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip</td><td align="right">3,683</td></tr>
+<tr><td align="center">12</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td align="right">3,664</td></tr>
+<tr><td align="center">13</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip</td><td align="right">3,580</td></tr>
+<tr><td align="center">14</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/meta-pytorch/botorch">meta-pytorch/botorch</a></td><td>Python, pip</td><td align="right">3,535</td></tr>
+<tr><td align="center">15</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td align="right">3,391</td></tr>
 </table>
 
 <sub>🟢 2 AI-Native · 🔵 56 Agent-Ready · 🟡 23 Scriptable · ⚪ 20 Experimental — across 101 ranked tools (updated 2026-06-01). <a href="READINESS.md">Full ranking →</a></sub>
@@ -118,7 +128,7 @@
 
 The five base signals (MCP + Python + CLI + Maintained + Adoption) total **100**; **pip is an additive bonus**, and the final score is **capped at 100**. So a tool can reach 100 several ways, but only MCP servers clear the AI-Native bar.
 
-**Grades:** 🟢 AI-Native (75+) · 🔵 Agent-Ready (50–74) · 🟡 Scriptable (30–49) · ⚪ Experimental (<30).
+**Grades:** ![AI-Native 75+](https://img.shields.io/badge/🟢_AI--Native-75%2B-2ea44f?style=flat-square&labelColor=0a0a0f) ![Agent-Ready 50-74](https://img.shields.io/badge/🔵_Agent--Ready-50--74-00d4ff?style=flat-square&labelColor=0a0a0f) ![Scriptable 30-49](https://img.shields.io/badge/🟡_Scriptable-30--49-f5a623?style=flat-square&labelColor=0a0a0f) ![Experimental under 30](https://img.shields.io/badge/⚪_Experimental-%3C30-9e9e9e?style=flat-square&labelColor=0a0a0f)
 
 Scores regenerate weekly from `README.md` via [`readiness-score.py`](scripts/readiness-score.py) — fully reproducible, no hand-tuning. Open a PR adding a tool and [a bot scores it automatically](.github/workflows/pr-readiness.yml).
 
@@ -367,11 +377,15 @@ Scores regenerate weekly from `README.md` via [`readiness-score.py`](scripts/rea
 
 ## Star History
 
+<div align="center">
 <a href="https://star-history.com/#kimimgo/awesome-ai-cae&Date">
   <img src="https://api.star-history.com/svg?repos=kimimgo/awesome-ai-cae&type=Date" alt="Star History Chart" width="600">
 </a>
+</div>
 
 <sup>[back to top](#contents)</sup>
+
+<img src="media/divider.svg" width="100%" alt="">
 
 ## Contributing
 
