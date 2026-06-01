@@ -1,0 +1,67 @@
+name: PR AI-Readiness
+
+# Auto-ranking pipeline: when a PR adds tool entries to README.md, compute
+# each new entry's AI-Readiness Score and surface it (job summary + PR comment),
+# so a proposer sees how their tool ranks the moment they open the PR.
+#
+# Format enforcement ("강제조건") is handled separately by the required
+# awesome-lint check (lint.yml); this workflow only surfaces the score.
+#
+# Uses the `pull_request` event (safe: read-only token on forks). On fork PRs
+# the comment step may be skipped by branch protection — the job summary always
+# shows the score. Upgrade path for fork comments: pull_request_target with a
+# data-only (no PR-code-execution) job.
+
+on:
+  pull_request:
+    paths:
+      - README.md
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compute AI-Readiness scores for added entries
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python scripts/pr_score_comment.py "$BASE_SHA" | tee comment.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upsert PR comment with score
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('comment.md', 'utf8');
+            const marker = '<!-- ai-readiness-pr-bot -->';
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c => c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                comment_id: existing.id, body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: context.issue.number, body,
+              });
+            }
