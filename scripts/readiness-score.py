@@ -374,6 +374,7 @@ def write_data(all_scored: list[dict], now: str) -> None:
                 "categories": t["categories"],
                 "score": t["score"],
                 "grade": t["grade"],
+                "confidence": "verified" if t["signals"].get("verified") else "declared",
                 "stars": t["stars"],
                 "last_push": t["last_push"],
                 "signals": t["signals"],

@@ -29,7 +29,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 40,Scriptable,Yade,,DEM,,,False,True,False,True
 64,Agent-Ready,Kitware/VTK,Kitware/VTK,Visualization & Post-processing,3157,2026-06-01,False,True,False,True
 63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2169,2026-05-20,False,True,False,True
-64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3683,2026-05-29,False,True,False,True
+64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3683,2026-06-01,False,True,False,True
 48,Scriptable,Kitware/ParaView,Kitware/ParaView,Visualization & Post-processing,1633,2026-06-01,False,True,False,False
 64,Agent-Ready,napari/napari,napari/napari,Visualization & Post-processing,2664,2026-05-29,False,True,False,True
 63,Agent-Ready,marcomusy/vedo,marcomusy/vedo,Visualization & Post-processing,2253,2026-04-29,False,True,False,True
@@ -52,7 +52,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 31,Scriptable,OpenMeshLab/MeshXL,OpenMeshLab/MeshXL,Mesh Generation,336,2025-04-04,False,True,False,False
 48,Scriptable,PyMesh/PyMesh,PyMesh/PyMesh,Mesh Generation,2037,2024-08-08,False,True,False,True
 61,Agent-Ready,pyvista/tetgen,pyvista/tetgen,Mesh Generation,302,2026-06-01,False,True,False,True
-22,Experimental,wildmeshing/fTetWild,wildmeshing/fTetWild,Mesh Generation,574,2026-05-05,False,False,False,False
+22,Experimental,wildmeshing/fTetWild,wildmeshing/fTetWild,Mesh Generation,575,2026-05-05,False,False,False,False
 62,Agent-Ready,Autodesk/XLB,Autodesk/XLB,Differentiable Simulation,475,2026-05-29,False,True,False,True
 64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3175,2026-05-18,False,True,False,True
 63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1420,2026-05-20,False,True,False,True

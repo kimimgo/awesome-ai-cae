@@ -16,7 +16,7 @@
 | 8 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,239 | 2026-05-27 |
 | 9 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,023 | 2026-05-07 |
 | 10 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,203 | 2026-03-01 |
-| 11 | 64 | 🔵 Agent-Ready | [pyvista/pyvista](https://github.com/pyvista/pyvista) | `Py` `pip` ✅ | 3,683 | 2026-05-29 |
+| 11 | 64 | 🔵 Agent-Ready | [pyvista/pyvista](https://github.com/pyvista/pyvista) | `Py` `pip` ✅ | 3,683 | 2026-06-01 |
 | 12 | 64 | 🔵 Agent-Ready | [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) | `Py` `pip` | 3,664 | 2026-05-11 |
 | 13 | 64 | 🔵 Agent-Ready | [mikedh/trimesh](https://github.com/mikedh/trimesh) | `Py` `pip` ✅ | 3,580 | 2026-05-29 |
 | 14 | 64 | 🔵 Agent-Ready | [meta-pytorch/botorch](https://github.com/meta-pytorch/botorch) | `Py` `pip` | 3,535 | 2026-05-28 |
@@ -97,7 +97,7 @@
 | 89 | 23 | ⚪ Experimental | [nmwsharp/geometry-central](https://github.com/nmwsharp/geometry-central) | — | 1,313 | 2026-05-19 |
 | 90 | 22 | ⚪ Experimental | [FreeFem/FreeFem-sources](https://github.com/FreeFem/FreeFem-sources) | — | 919 | 2026-06-01 |
 | 91 | 22 | ⚪ Experimental | [OpenSees/OpenSees](https://github.com/OpenSees/OpenSees) | — | 770 | 2026-05-28 |
-| 92 | 22 | ⚪ Experimental | [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) | — | 574 | 2026-05-05 |
+| 92 | 22 | ⚪ Experimental | [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) | — | 575 | 2026-05-05 |
 | 93 | 22 | ⚪ Experimental | [MmgTools/mmg](https://github.com/MmgTools/mmg) | — | 468 | 2026-05-11 |
 | 94 | 22 | ⚪ Experimental | [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) | — | 467 | 2026-05-20 |
 | 95 | 22 | ⚪ Experimental | [Nek5000/nekRS](https://github.com/Nek5000/nekRS) | — | 400 | 2026-05-24 |
