@@ -82,6 +82,53 @@ def gh_get(path: str, retries: int = 3) -> dict | None:
     return None
 
 
+# Known PyPI package names that differ from the repo basename (reduces false
+# negatives). Add here when the heuristic below misses a real package.
+PYPI_OVERRIDES = {
+    "google-deepmind/mujoco": "mujoco",
+    "nvidia/warp": "warp-lang",
+    "tum-pbs/phiflow": "phiflow",
+    "nvidia/physicsnemo": "nvidia-physicsnemo",
+    "anyoptimization/pymoo": "pymoo",
+    "meta-pytorch/botorch": "botorch",
+    "neuraloperator/neuraloperator": "neuraloperator",
+}
+_pypi_cache: dict[str, bool] = {}
+
+
+def pypi_has(pkg: str) -> bool:
+    if pkg in _pypi_cache:
+        return _pypi_cache[pkg]
+    try:
+        req = urllib.request.Request(f"https://pypi.org/pypi/{pkg}/json")
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            _pypi_cache[pkg] = resp.status == 200
+    except Exception:
+        _pypi_cache[pkg] = False
+    return _pypi_cache[pkg]
+
+
+def is_pip_installable(tool: dict) -> bool:
+    """Conservative PyPI check: confirm a match, never penalise a miss.
+
+    Only Python tools are checked. Tries an override map, then the repo
+    basename and the display name as candidate package names.
+    """
+    if "python" not in [t.lower() for t in tool["tags"]]:
+        return False
+    candidates = []
+    if tool["repo"]:
+        key = tool["repo"].lower()
+        if key in PYPI_OVERRIDES:
+            candidates.append(PYPI_OVERRIDES[key])
+        candidates.append(tool["repo"].split("/")[-1].lower())
+    candidates.append(re.sub(r"[^a-z0-9]+", "-", tool["name"].lower()).strip("-"))
+    for c in dict.fromkeys(c for c in candidates if c):
+        if pypi_has(c):
+            return True
+    return False
+
+
 def parse_readme(path: str) -> list[dict]:
     """Extract de-duplicated tool entries with their category membership."""
     by_key: dict[str, dict] = {}
@@ -153,7 +200,13 @@ def score_tool(tool: dict) -> dict:
         s_maint = 0
     s_adopt = 0 if not stars else min(math.log10(stars + 1) / 4 * 10, 10)
 
-    total = round(s_mcp + s_python + s_cli + s_maint + s_adopt)
+    # pip-installability: additive bonus (v2.1). Lifts confirmed-PyPI tools;
+    # a miss never scores worse than v2.0 (no penalty), so PyPI false negatives
+    # add no public-ranking noise.
+    has_pip = is_pip_installable(tool)
+    s_pip = 15 if has_pip else 0
+
+    total = round(s_mcp + s_python + s_cli + s_maint + s_adopt + s_pip)
     total = min(total, 100)
 
     if total >= 75:
@@ -176,6 +229,7 @@ def score_tool(tool: dict) -> dict:
             "mcp": has_mcp,
             "python": has_python,
             "cli_api": has_cli_api,
+            "pip": has_pip,
             "maintained_score": s_maint,
             "adoption_score": round(s_adopt, 1),
         },
@@ -198,6 +252,8 @@ def iface_badges(t: dict) -> str:
         b.append("Py")
     if t["signals"]["cli_api"]:
         b.append("API")
+    if t["signals"]["pip"]:
+        b.append("pip")
     return " ".join(f"`{x}`" for x in b) or "—"
 
 
@@ -266,7 +322,7 @@ def inject_readme_index(ranked: list[dict], now: str) -> bool:
     for i, t in enumerate(ranked[:TOP_N], 1):
         stars = f"{t['stars']:,}" if t["stars"] is not None else "—"
         ifaces = ", ".join(
-            x for x, on in (("MCP", t["signals"]["mcp"]), ("Python", t["signals"]["python"]), ("CLI/API", t["signals"]["cli_api"])) if on
+            x for x, on in (("MCP", t["signals"]["mcp"]), ("Python", t["signals"]["python"]), ("CLI/API", t["signals"]["cli_api"]), ("pip", t["signals"]["pip"])) if on
         ) or "—"
         rows.append(
             f'<tr><td>{i}</td><td><b>{t["score"]}</b></td>'
@@ -300,7 +356,7 @@ def write_data(all_scored: list[dict], now: str) -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     payload = {
         "generated": now,
-        "methodology": "AI-Readiness Score v2: mcp35 python25 cli15 maintained15 adoption10",
+        "methodology": "AI-Readiness Score v2.1: mcp35 python25 cli15 maintained15 adoption10 + pip15 bonus (capped 100)",
         "count": len(all_scored),
         "tools": [
             {
@@ -321,12 +377,12 @@ def write_data(all_scored: list[dict], now: str) -> None:
         json.dump(payload, f, indent=2, ensure_ascii=False)
     with open(os.path.join(DATA_DIR, "readiness.csv"), "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["score", "grade", "name", "repo", "categories", "stars", "last_push", "mcp", "python", "cli_api"])
+        w.writerow(["score", "grade", "name", "repo", "categories", "stars", "last_push", "mcp", "python", "cli_api", "pip"])
         for t in all_scored:
             w.writerow([
                 t["score"], t["grade"], t["name"], t["repo"] or "",
                 "|".join(t["categories"]), t["stars"] if t["stars"] is not None else "",
-                t["last_push"] or "", t["signals"]["mcp"], t["signals"]["python"], t["signals"]["cli_api"],
+                t["last_push"] or "", t["signals"]["mcp"], t["signals"]["python"], t["signals"]["cli_api"], t["signals"]["pip"],
             ])
 
 

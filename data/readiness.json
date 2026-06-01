@@ -1,6 +1,6 @@
 {
   "generated": "2026-06-01",
-  "methodology": "AI-Readiness Score v2: mcp35 python25 cli15 maintained15 adoption10",
+  "methodology": "AI-Readiness Score v2.1: mcp35 python25 cli15 maintained15 adoption10 + pip15 bonus (capped 100)",
   "count": 105,
   "tools": [
     {
@@ -11,7 +11,7 @@
         "MCP Servers",
         "Visualization & Post-processing"
       ],
-      "score": 78,
+      "score": 93,
       "grade": "AI-Native",
       "stars": 12,
       "last_push": "2026-06-01",
@@ -19,6 +19,7 @@
         "mcp": true,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 2.8
       }
@@ -30,7 +31,7 @@
       "categories": [
         "MCP Servers"
       ],
-      "score": 79,
+      "score": 94,
       "grade": "AI-Native",
       "stars": 49,
       "last_push": "2026-04-22",
@@ -38,6 +39,7 @@
         "mcp": true,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 4.2
       }
@@ -57,6 +59,7 @@
         "mcp": true,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 5.0
       }
@@ -76,6 +79,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.3
       }
@@ -95,6 +99,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.1
       }
@@ -114,6 +119,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.7
       }
@@ -133,6 +139,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.5
       }
@@ -152,6 +159,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.4
       }
@@ -163,14 +171,15 @@
       "categories": [
         "CFD"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 555,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.9
       }
@@ -190,6 +199,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 0
       }
@@ -209,6 +219,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.1
       }
@@ -228,6 +239,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.0
       }
@@ -247,6 +259,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.6
       }
@@ -258,14 +271,15 @@
       "categories": [
         "FEA"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 658,
       "last_push": "2026-05-30",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.0
       }
@@ -285,6 +299,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.4
       }
@@ -296,14 +311,15 @@
       "categories": [
         "FEA"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 2250,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.4
       }
@@ -315,14 +331,15 @@
       "categories": [
         "FEA"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 1274,
       "last_push": "2026-05-30",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.8
       }
@@ -342,6 +359,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.3
       }
@@ -361,6 +379,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.2
       }
@@ -372,14 +391,15 @@
       "categories": [
         "FEA"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 831,
       "last_push": "2026-05-15",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.3
       }
@@ -399,6 +419,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 7.2
       }
@@ -418,6 +439,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.2
       }
@@ -429,14 +451,15 @@
       "categories": [
         "SPH"
       ],
-      "score": 40,
-      "grade": "Scriptable",
+      "score": 55,
+      "grade": "Agent-Ready",
       "stars": 536,
       "last_push": "2025-10-26",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 8,
         "adoption_score": 6.8
       }
@@ -456,6 +479,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.3
       }
@@ -467,14 +491,15 @@
       "categories": [
         "DEM"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 2924,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.7
       }
@@ -494,6 +519,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 5.0
       }
@@ -505,14 +531,15 @@
       "categories": [
         "Visualization & Post-processing"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3157,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.7
       }
@@ -524,14 +551,15 @@
       "categories": [
         "Visualization & Post-processing"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 2169,
       "last_push": "2026-05-20",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.3
       }
@@ -544,14 +572,15 @@
         "Visualization & Post-processing",
         "Data Formats & I/O"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3682,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.9
       }
@@ -571,6 +600,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.0
       }
@@ -582,14 +612,15 @@
       "categories": [
         "Visualization & Post-processing"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 2664,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.6
       }
@@ -601,14 +632,15 @@
       "categories": [
         "Visualization & Post-processing"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 2252,
       "last_push": "2026-04-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.4
       }
@@ -628,6 +660,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 10
       }
@@ -639,14 +672,15 @@
       "categories": [
         "CAD & Geometry"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 5236,
       "last_push": "2026-05-27",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 9.3
       }
@@ -658,14 +692,15 @@
       "categories": [
         "CAD & Geometry"
       ],
-      "score": 46,
-      "grade": "Scriptable",
+      "score": 61,
+      "grade": "Agent-Ready",
       "stars": 180,
       "last_push": "2026-05-25",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 5.6
       }
@@ -685,6 +720,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 10
       }
@@ -696,14 +732,15 @@
       "categories": [
         "CAD & Geometry"
       ],
-      "score": 48,
-      "grade": "Scriptable",
-      "stars": 2375,
+      "score": 63,
+      "grade": "Agent-Ready",
+      "stars": 2376,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.4
       }
@@ -715,14 +752,15 @@
       "categories": [
         "CAD & Geometry"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3579,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.9
       }
@@ -734,7 +772,7 @@
       "categories": [
         "CAD & Geometry"
       ],
-      "score": 32,
+      "score": 47,
       "grade": "Scriptable",
       "stars": 962,
       "last_push": "2023-10-04",
@@ -742,6 +780,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 7.5
       }
@@ -761,6 +800,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 8.5
       }
@@ -772,14 +812,15 @@
       "categories": [
         "CAD & Geometry"
       ],
-      "score": 41,
-      "grade": "Scriptable",
+      "score": 56,
+      "grade": "Agent-Ready",
       "stars": 1253,
       "last_push": "2025-10-08",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 8,
         "adoption_score": 7.7
       }
@@ -799,6 +840,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 8.4
       }
@@ -818,6 +860,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 9.4
       }
@@ -829,14 +872,15 @@
       "categories": [
         "Mesh Generation"
       ],
-      "score": 25,
-      "grade": "Experimental",
+      "score": 40,
+      "grade": "Scriptable",
       "stars": null,
       "last_push": null,
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 0
       }
@@ -848,14 +892,15 @@
       "categories": [
         "Mesh Generation"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 5023,
       "last_push": "2026-05-07",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 9.3
       }
@@ -875,6 +920,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.7
       }
@@ -886,14 +932,15 @@
       "categories": [
         "Mesh Generation"
       ],
-      "score": 46,
-      "grade": "Scriptable",
+      "score": 61,
+      "grade": "Agent-Ready",
       "stars": 377,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.4
       }
@@ -913,6 +960,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.8
       }
@@ -932,6 +980,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 6.3
       }
@@ -943,7 +992,7 @@
       "categories": [
         "Mesh Generation"
       ],
-      "score": 33,
+      "score": 48,
       "grade": "Scriptable",
       "stars": 2037,
       "last_push": "2024-08-08",
@@ -951,6 +1000,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 8.3
       }
@@ -962,14 +1012,15 @@
       "categories": [
         "Mesh Generation"
       ],
-      "score": 46,
-      "grade": "Scriptable",
+      "score": 61,
+      "grade": "Agent-Ready",
       "stars": 302,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.2
       }
@@ -989,6 +1040,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.9
       }
@@ -1000,14 +1052,15 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 475,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.7
       }
@@ -1019,14 +1072,15 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3175,
       "last_push": "2026-05-18",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.8
       }
@@ -1038,14 +1092,15 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 1420,
       "last_push": "2026-05-20",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.9
       }
@@ -1057,14 +1112,15 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 46,
-      "grade": "Scriptable",
+      "score": 61,
+      "grade": "Agent-Ready",
       "stars": 197,
       "last_push": "2026-05-08",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 5.7
       }
@@ -1076,7 +1132,7 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 50,
+      "score": 65,
       "grade": "Agent-Ready",
       "stars": 13697,
       "last_push": "2026-05-31",
@@ -1084,6 +1140,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 10
       }
@@ -1095,7 +1152,7 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 50,
+      "score": 65,
       "grade": "Agent-Ready",
       "stars": 6716,
       "last_push": "2026-06-01",
@@ -1103,6 +1160,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 9.6
       }
@@ -1114,7 +1172,7 @@
       "categories": [
         "Differentiable Simulation"
       ],
-      "score": 50,
+      "score": 65,
       "grade": "Agent-Ready",
       "stars": 28222,
       "last_push": "2026-04-06",
@@ -1122,6 +1180,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 10
       }
@@ -1141,6 +1200,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.9
       }
@@ -1160,6 +1220,7 @@
         "mcp": false,
         "python": true,
         "cli_api": true,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.0
       }
@@ -1171,14 +1232,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 1944,
       "last_push": "2026-06-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.2
       }
@@ -1190,14 +1252,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 430,
       "last_push": "2026-01-22",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.6
       }
@@ -1209,14 +1272,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 1836,
       "last_push": "2026-03-24",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.2
       }
@@ -1228,7 +1292,7 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 50,
+      "score": 65,
       "grade": "Agent-Ready",
       "stars": 6670,
       "last_push": "2026-03-30",
@@ -1236,6 +1300,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 9.6
       }
@@ -1247,14 +1312,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 948,
       "last_push": "2026-02-24",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.4
       }
@@ -1266,7 +1332,7 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 31,
+      "score": 46,
       "grade": "Scriptable",
       "stars": 329,
       "last_push": "2024-10-05",
@@ -1274,6 +1340,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 6.3
       }
@@ -1286,14 +1353,15 @@
         "AI/ML for Simulation",
         "Surrogate Models & PINNs"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 4201,
       "last_push": "2026-03-01",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 9.1
       }
@@ -1305,14 +1373,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 40,
-      "grade": "Scriptable",
+      "score": 55,
+      "grade": "Agent-Ready",
       "stars": 907,
       "last_push": "2025-11-20",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 8,
         "adoption_score": 7.4
       }
@@ -1324,7 +1393,7 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 32,
+      "score": 47,
       "grade": "Scriptable",
       "stars": 698,
       "last_push": "2023-09-30",
@@ -1332,6 +1401,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 7.1
       }
@@ -1343,14 +1413,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3663,
       "last_push": "2026-05-11",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.9
       }
@@ -1362,14 +1433,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 2863,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.6
       }
@@ -1389,6 +1461,7 @@
         "mcp": false,
         "python": true,
         "cli_api": true,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 5.7
       }
@@ -1400,14 +1473,15 @@
       "categories": [
         "AI/ML for Simulation"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 1875,
       "last_push": "2026-05-31",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.2
       }
@@ -1419,14 +1493,15 @@
       "categories": [
         "Surrogate Models & PINNs"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 752,
       "last_push": "2026-05-26",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.2
       }
@@ -1438,7 +1513,7 @@
       "categories": [
         "Surrogate Models & PINNs"
       ],
-      "score": 30,
+      "score": 45,
       "grade": "Scriptable",
       "stars": 122,
       "last_push": "2025-03-06",
@@ -1446,6 +1521,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 5.2
       }
@@ -1457,14 +1533,15 @@
       "categories": [
         "Surrogate Models & PINNs"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 785,
       "last_push": "2026-04-22",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.2
       }
@@ -1476,14 +1553,15 @@
       "categories": [
         "Surrogate Models & PINNs"
       ],
-      "score": 46,
-      "grade": "Scriptable",
+      "score": 61,
+      "grade": "Agent-Ready",
       "stars": 332,
       "last_push": "2026-04-28",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.3
       }
@@ -1503,6 +1581,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.4
       }
@@ -1514,14 +1593,15 @@
       "categories": [
         "Surrogate Models & PINNs"
       ],
-      "score": 26,
-      "grade": "Experimental",
+      "score": 41,
+      "grade": "Scriptable",
       "stars": 1,
       "last_push": "2024-09-26",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 0.8
       }
@@ -1541,6 +1621,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.3
       }
@@ -1552,14 +1633,15 @@
       "categories": [
         "Optimization"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3535,
       "last_push": "2026-05-28",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.9
       }
@@ -1571,14 +1653,15 @@
       "categories": [
         "Optimization"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 730,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.2
       }
@@ -1590,14 +1673,15 @@
       "categories": [
         "Optimization"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 2881,
       "last_push": "2026-02-22",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.6
       }
@@ -1617,6 +1701,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 5.3
       }
@@ -1628,7 +1713,7 @@
       "categories": [
         "Optimization"
       ],
-      "score": 32,
+      "score": 47,
       "grade": "Scriptable",
       "stars": 564,
       "last_push": "2022-08-31",
@@ -1636,6 +1721,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 6.9
       }
@@ -1647,14 +1733,15 @@
       "categories": [
         "Optimization"
       ],
-      "score": 39,
-      "grade": "Scriptable",
+      "score": 54,
+      "grade": "Agent-Ready",
       "stars": 261,
       "last_push": "2025-10-06",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 8,
         "adoption_score": 6.0
       }
@@ -1666,7 +1753,7 @@
       "categories": [
         "Data Formats & I/O"
       ],
-      "score": 33,
+      "score": 48,
       "grade": "Scriptable",
       "stars": 2297,
       "last_push": "2024-07-23",
@@ -1674,6 +1761,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 8.4
       }
@@ -1685,14 +1773,15 @@
       "categories": [
         "Data Formats & I/O"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 2229,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.4
       }
@@ -1712,6 +1801,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.3
       }
@@ -1731,6 +1821,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.1
       }
@@ -1742,14 +1833,15 @@
       "categories": [
         "Datasets & Benchmarks"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 772,
       "last_push": "2026-04-22",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.2
       }
@@ -1761,7 +1853,7 @@
       "categories": [
         "Datasets & Benchmarks"
       ],
-      "score": 30,
+      "score": 45,
       "grade": "Scriptable",
       "stars": 63,
       "last_push": "2025-01-09",
@@ -1769,6 +1861,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 0,
         "adoption_score": 4.5
       }
@@ -1788,6 +1881,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.8
       }
@@ -1799,14 +1893,15 @@
       "categories": [
         "Datasets & Benchmarks"
       ],
-      "score": 47,
-      "grade": "Scriptable",
+      "score": 62,
+      "grade": "Agent-Ready",
       "stars": 424,
       "last_push": "2026-02-11",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.6
       }
@@ -1826,6 +1921,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 0
       }
@@ -1837,14 +1933,15 @@
       "categories": [
         "Datasets & Benchmarks"
       ],
-      "score": 48,
-      "grade": "Scriptable",
+      "score": 63,
+      "grade": "Agent-Ready",
       "stars": 1146,
       "last_push": "2026-03-30",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 7.6
       }
@@ -1856,14 +1953,15 @@
       "categories": [
         "Datasets & Benchmarks"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 3387,
       "last_push": "2026-03-25",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.8
       }
@@ -1883,6 +1981,7 @@
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 9.0
       }
@@ -1902,6 +2001,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 6.0
       }
@@ -1913,14 +2013,15 @@
       "categories": [
         "Learning Resources"
       ],
-      "score": 46,
-      "grade": "Scriptable",
+      "score": 61,
+      "grade": "Agent-Ready",
       "stars": 335,
       "last_push": "2026-04-17",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 6.3
       }
@@ -1940,6 +2041,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 15,
         "adoption_score": 7.4
       }
@@ -1951,14 +2053,15 @@
       "categories": [
         "Learning Resources"
       ],
-      "score": 49,
-      "grade": "Scriptable",
+      "score": 64,
+      "grade": "Agent-Ready",
       "stars": 5895,
       "last_push": "2026-02-11",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
+        "pip": true,
         "maintained_score": 15,
         "adoption_score": 9.4
       }
@@ -1978,6 +2081,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 8,
         "adoption_score": 8.2
       }
@@ -1997,6 +2101,7 @@
         "mcp": false,
         "python": false,
         "cli_api": false,
+        "pip": false,
         "maintained_score": 0,
         "adoption_score": 6.4
       }

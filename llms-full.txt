@@ -1,6 +1,6 @@
 # Awesome AI-CAE — Full Tool List
 
-> Complete list of 104 AI-ready open-source tools for Computer-Aided Engineering.
+> Complete list of 100+ AI-ready open-source tools for Computer-Aided Engineering, each ranked by an AI-Readiness Score (agent-callability: MCP, Python API, CLI, pip).
 
 - [Core Engine Readiness](#core-engine-readiness) — AI-readiness of foundational solvers
 - [MCP Servers](#mcp-servers) — AI-native tool interfaces

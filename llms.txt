@@ -1,6 +1,6 @@
 # Awesome AI-CAE
 
-> A curated list of 113 AI-ready open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing.
+> A curated list of 100+ AI-ready open-source tools for Computer-Aided Engineering (CAE) — simulation, visualization, design, and manufacturing. Tools are ranked by an AI-Readiness Score that measures agent-callability (MCP, Python API, CLI, pip), not popularity.
 
 AI can theoretically handle 94% of computational tasks, but only 33% is actually used (Anthropic, 2026). In CAE, this gap is even wider: of 17 foundational solvers assessed, only OpenFOAM and ParaView have AI-native integration (MCP servers or LLM agent frameworks). This list curates tools that close that gap — tools that AI agents can call directly via MCP, API, or CLI, and AI/ML tools that are transforming how engineers simulate.
 
@@ -14,6 +14,7 @@ Seventeen foundational CAE solvers were assessed for AI-readiness. All support h
 
 ## Key Categories
 
+- [AI-Readiness Index](https://github.com/kimimgo/awesome-ai-cae#ai-readiness-index): Every tool ranked by an AI-Readiness Score (agent-callability: MCP, Python, CLI, pip). Machine-readable: https://github.com/kimimgo/awesome-ai-cae/blob/main/data/readiness.json
 - [Core Engine Readiness](https://github.com/kimimgo/awesome-ai-cae#core-engine-readiness): AI-readiness assessment of 17 foundational solvers
 - [MCP Servers](https://github.com/kimimgo/awesome-ai-cae#mcp-servers): AI-native tool interfaces via Model Context Protocol (viznoir, ParaView-MCP, OpenFOAM MCP)
 - [CFD](https://github.com/kimimgo/awesome-ai-cae#cfd--computational-fluid-dynamics): OpenFOAM, SU2, PyFR, preCICE
@@ -46,4 +47,6 @@ Seventeen foundational CAE solvers were assessed for AI-readiness. All support h
 ## Optional
 
 - [Full README](https://github.com/kimimgo/awesome-ai-cae/blob/main/README.md): Complete list with descriptions and Core Engine Readiness table
+- [AI-Readiness data (JSON)](https://github.com/kimimgo/awesome-ai-cae/blob/main/data/readiness.json): Machine-readable scores, grades, and interface signals for every tool
+- [AI-Readiness ranking (full)](https://github.com/kimimgo/awesome-ai-cae/blob/main/READINESS.md): Complete ranked table of all tools by score
 - [Translations](https://github.com/kimimgo/awesome-ai-cae/tree/main/docs): Available in 7 languages (ko, zh, ja, de, fr, es, pt)
