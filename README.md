@@ -185,6 +185,7 @@ Honest about what's checked.
 
 <sup>[back to top](#contents)</sup>
 
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Trust scoring MCP for AI agents on Solana — verify agent wallet identity before authorizing x402 micropayments in simulation pipelines | Free | Agent identity & trust |
 ## CFD — Computational Fluid Dynamics
 
 > Open-source solvers for fluid flow, heat transfer, and multiphysics.
