@@ -168,7 +168,7 @@
       "score": 47,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 940,
+      "stars": 941,
       "last_push": "2026-06-15",
       "signals": {
         "mcp": false,
@@ -279,7 +279,7 @@
       "grade": "Scriptable",
       "confidence": "declared",
       "stars": 1148,
-      "last_push": "2026-06-12",
+      "last_push": "2026-06-15",
       "signals": {
         "mcp": false,
         "python": true,
@@ -829,7 +829,7 @@
       "score": 50,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 31525,
+      "stars": 31527,
       "last_push": "2026-06-15",
       "signals": {
         "mcp": false,
@@ -851,7 +851,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2454,
+      "stars": 2455,
       "last_push": "2026-06-12",
       "signals": {
         "mcp": false,
@@ -1291,8 +1291,8 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 13871,
-      "last_push": "2026-06-14",
+      "stars": 13872,
+      "last_push": "2026-06-15",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1313,7 +1313,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 6758,
+      "stars": 6759,
       "last_push": "2026-06-15",
       "signals": {
         "mcp": false,
@@ -1886,7 +1886,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 2894,
+      "stars": 2895,
       "last_push": "2026-02-22",
       "signals": {
         "mcp": false,
@@ -1930,7 +1930,7 @@
       "score": 47,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 564,
+      "stars": 565,
       "last_push": "2022-08-31",
       "signals": {
         "mcp": false,
@@ -2282,7 +2282,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 5935,
+      "stars": 5937,
       "last_push": "2026-02-11",
       "signals": {
         "mcp": false,

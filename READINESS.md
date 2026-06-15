@@ -9,10 +9,10 @@
 | 1 | 94 | 🟢 AI-Native | [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) | `MCP` `Py` `pip` | 53 | 2026-04-22 |
 | 2 | 93 | 🟢 AI-Native | [kimimgo/viznoir](https://github.com/kimimgo/viznoir) | `MCP` `Py` `pip` ✅ | 14 | 2026-06-14 |
 | 3 | 65 | 🔵 Agent-Ready | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | `Py` `pip` ✅ | 28,246 | 2026-06-09 |
-| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 13,871 | 2026-06-14 |
-| 5 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 6,758 | 2026-06-15 |
+| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 13,872 | 2026-06-15 |
+| 5 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 6,759 | 2026-06-15 |
 | 6 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 6,673 | 2026-03-30 |
-| 7 | 64 | 🔵 Agent-Ready | [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) | `Py` `pip` | 5,935 | 2026-02-11 |
+| 7 | 64 | 🔵 Agent-Ready | [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) | `Py` `pip` | 5,937 | 2026-02-11 |
 | 8 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,301 | 2026-06-14 |
 | 9 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,030 | 2026-05-07 |
 | 10 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,244 | 2026-03-01 |
@@ -25,9 +25,9 @@
 | 17 | 64 | 🔵 Agent-Ready | [Kitware/VTK](https://github.com/Kitware/VTK) | `Py` `pip` | 3,166 | 2026-06-15 |
 | 18 | 64 | 🔵 Agent-Ready | [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) | `Py` `pip` | 2,944 | 2026-06-12 |
 | 19 | 64 | 🔵 Agent-Ready | [lammps/lammps](https://github.com/lammps/lammps) | `Py` `pip` | 2,937 | 2026-06-14 |
-| 20 | 64 | 🔵 Agent-Ready | [anyoptimization/pymoo](https://github.com/anyoptimization/pymoo) | `Py` `pip` ✅ | 2,894 | 2026-02-22 |
+| 20 | 64 | 🔵 Agent-Ready | [anyoptimization/pymoo](https://github.com/anyoptimization/pymoo) | `Py` `pip` ✅ | 2,895 | 2026-02-22 |
 | 21 | 64 | 🔵 Agent-Ready | [napari/napari](https://github.com/napari/napari) | `Py` `pip` | 2,672 | 2026-06-12 |
-| 22 | 63 | 🔵 Agent-Ready | [gumyr/build123d](https://github.com/gumyr/build123d) | `Py` `pip` | 2,454 | 2026-06-12 |
+| 22 | 63 | 🔵 Agent-Ready | [gumyr/build123d](https://github.com/gumyr/build123d) | `Py` `pip` | 2,455 | 2026-06-12 |
 | 23 | 63 | 🔵 Agent-Ready | [idaholab/moose](https://github.com/idaholab/moose) | `Py` `pip` | 2,266 | 2026-06-15 |
 | 24 | 63 | 🔵 Agent-Ready | [marcomusy/vedo](https://github.com/marcomusy/vedo) | `Py` `pip` | 2,254 | 2026-06-09 |
 | 25 | 63 | 🔵 Agent-Ready | [h5py/h5py](https://github.com/h5py/h5py) | `Py` `pip` ✅ | 2,232 | 2026-06-13 |
@@ -62,20 +62,20 @@
 | 54 | 55 | 🔵 Agent-Ready | [pypr/pysph](https://github.com/pypr/pysph) | `Py` `pip` | 537 | 2025-10-26 |
 | 55 | 55 | 🔵 Agent-Ready | [webworn/openfoam-mcp-server](https://github.com/webworn/openfoam-mcp-server) | `MCP` | 106 | 2026-01-18 |
 | 56 | 54 | 🔵 Agent-Ready | [mdolab/OpenAeroStruct](https://github.com/mdolab/OpenAeroStruct) | `Py` `pip` | 265 | 2025-10-06 |
-| 57 | 50 | 🔵 Agent-Ready | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | `Py` | 31,525 | 2026-06-15 |
+| 57 | 50 | 🔵 Agent-Ready | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | `Py` | 31,527 | 2026-06-15 |
 | 58 | 50 | 🔵 Agent-Ready | [plotly/plotly.py](https://github.com/plotly/plotly.py) | `Py` | 18,603 | 2026-06-03 |
 | 59 | 48 | 🟡 Scriptable | [nschloe/meshio](https://github.com/nschloe/meshio) | `Py` `pip` ✅ | 2,300 | 2024-07-23 |
 | 60 | 48 | 🟡 Scriptable | [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh) | `Py` `pip` | 2,038 | 2024-08-08 |
 | 61 | 48 | 🟡 Scriptable | [su2code/SU2](https://github.com/su2code/SU2) | `Py` | 1,726 | 2026-06-15 |
 | 62 | 48 | 🟡 Scriptable | [Kitware/ParaView](https://github.com/Kitware/ParaView) | `Py` | 1,637 | 2026-06-15 |
-| 63 | 48 | 🟡 Scriptable | [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) | `Py` | 1,148 | 2026-06-12 |
+| 63 | 48 | 🟡 Scriptable | [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) | `Py` | 1,148 | 2026-06-15 |
 | 64 | 47 | 🟡 Scriptable | [nschloe/pygmsh](https://github.com/nschloe/pygmsh) | `Py` `pip` | 965 | 2023-10-04 |
-| 65 | 47 | 🟡 Scriptable | [precice/precice](https://github.com/precice/precice) | `Py` | 940 | 2026-06-15 |
+| 65 | 47 | 🟡 Scriptable | [precice/precice](https://github.com/precice/precice) | `Py` | 941 | 2026-06-15 |
 | 66 | 47 | 🟡 Scriptable | [rezaakb/pinns-torch](https://github.com/rezaakb/pinns-torch) | `Py` | 905 | 2026-02-08 |
 | 67 | 47 | 🟡 Scriptable | [Unidata/netcdf4-python](https://github.com/Unidata/netcdf4-python) | `Py` | 829 | 2026-06-08 |
 | 68 | 47 | 🟡 Scriptable | [microsoft/ClimaX](https://github.com/microsoft/ClimaX) | `Py` `pip` | 701 | 2023-09-30 |
 | 69 | 47 | 🟡 Scriptable | [tumaer/JAXFLUIDS](https://github.com/tumaer/JAXFLUIDS) | `Py` | 591 | 2026-06-12 |
-| 70 | 47 | 🟡 Scriptable | [williamhunter/topy](https://github.com/williamhunter/topy) | `Py` `pip` | 564 | 2022-08-31 |
+| 70 | 47 | 🟡 Scriptable | [williamhunter/topy](https://github.com/williamhunter/topy) | `Py` `pip` | 565 | 2022-08-31 |
 | 71 | 47 | 🟡 Scriptable | [Mohamedelrefaie/DrivAerNet](https://github.com/Mohamedelrefaie/DrivAerNet) | `Py` | 523 | 2026-05-14 |
 | 72 | 46 | 🟡 Scriptable | [Koopman-Laboratory/KoopmanLab](https://github.com/Koopman-Laboratory/KoopmanLab) | `Py` `pip` | 329 | 2024-10-05 |
 | 73 | 46 | 🟡 Scriptable | [thuml/Neural-Solver-Library](https://github.com/thuml/Neural-Solver-Library) | `Py` | 322 | 2026-03-10 |
