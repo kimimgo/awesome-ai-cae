@@ -366,7 +366,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1289,
+      "stars": 1290,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -476,7 +476,7 @@
       "score": 23,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 1852,
+      "stars": 1853,
       "last_push": "2026-06-08",
       "signals": {
         "mcp": false,
@@ -542,7 +542,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2938,
+      "stars": 2939,
       "last_push": "2026-06-20",
       "signals": {
         "mcp": false,
@@ -720,7 +720,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 2677,
-      "last_push": "2026-06-19",
+      "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
         "python": true,
@@ -785,7 +785,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 5340,
+      "stars": 5342,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -829,7 +829,7 @@
       "score": 50,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 31663,
+      "stars": 31665,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -851,7 +851,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2500,
+      "stars": 2501,
       "last_push": "2026-06-21",
       "signals": {
         "mcp": false,
@@ -1072,7 +1072,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 379,
-      "last_push": "2026-06-20",
+      "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1291,7 +1291,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 13944,
+      "stars": 13945,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -1886,7 +1886,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 2899,
+      "stars": 2900,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -2282,7 +2282,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 5961,
+      "stars": 5963,
       "last_push": "2026-02-11",
       "signals": {
         "mcp": false,
