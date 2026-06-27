@@ -14,8 +14,6 @@
 [![Stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat-square&color=f472b6)](https://github.com/kimimgo/awesome-ai-cae/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/kimimgo/awesome-ai-cae?style=flat-square&color=00d4ff)](https://github.com/kimimgo/awesome-ai-cae/commits/main)
 [![Tools](https://img.shields.io/badge/tools-110%2B-00d4ff?style=flat-square)](READINESS.md)
-[![AI-Native](https://img.shields.io/badge/🟢_AI--Native-2-2ea44f?style=flat-square)](READINESS.md)
-[![Ranking](https://img.shields.io/badge/ranking-weekly-7c3aed?style=flat-square)](.github/workflows/readiness.yml)
 
 ### The CAE tools an AI agent can actually call
 
@@ -414,7 +412,7 @@ Honest about what's checked.
 
 ## Contributing
 
-Contributions welcome! Read the [contributing guidelines](CONTRIBUTING.md) first — adding a tool triggers an [automatic AI-Readiness score](.github/workflows/pr-readiness.yml) on your PR.
+Contributions welcome! Read the [contributing guidelines](CONTRIBUTING.md) first — adding a tool triggers an [automatic AI-Readiness score](.github/workflows/pr-readiness.yml) on your PR. Common questions answered in the [FAQ](FAQ.md).
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
