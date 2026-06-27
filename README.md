@@ -299,8 +299,8 @@ Honest about what's checked.
 - [gbionics/jaxsim](https://github.com/gbionics/jaxsim) `Python` `JAX` - Differentiable multibody dynamics engine. Hardware-accelerated robot learning and control via JAX.
 - [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) `C++` `Python` - Multi-joint dynamics with contact. General-purpose physics engine for robotics, biomechanics, and control.
 - [NVIDIA/warp](https://github.com/NVIDIA/warp) `Python` `CUDA` - Differentiable simulation and spatial computing. Reverse-mode AD, PyTorch/JAX interop.
-- [taichi-dev/taichi](https://github.com/taichi-dev/taichi) `Python` `CUDA` - Productive GPU programming with automatic differentiation. DiffTaichi for differentiable physics.
 - [rtqichen/torchdiffeq](https://github.com/rtqichen/torchdiffeq) `Python` `PyTorch` - ODE and SDE solvers with automatic differentiation. Adjoint-based backpropagation through continuous-time dynamics.
+- [taichi-dev/taichi](https://github.com/taichi-dev/taichi) `Python` `CUDA` - Productive GPU programming with automatic differentiation. DiffTaichi for differentiable physics.
 - [tumaer/JAXFLUIDS](https://github.com/tumaer/JAXFLUIDS) `Python` `JAX` - Fully-differentiable CFD solver for 3D compressible single-phase and two-phase flows.
 
 <sup>[back to top](#contents)</sup>
@@ -332,6 +332,7 @@ Honest about what's checked.
 
 > Physics-informed neural networks and data-driven reduced-order models for fast PDE solving.
 
+- [camlab-ethz/poseidon](https://github.com/camlab-ethz/poseidon) `Python` - Scalable foundation model for PDEs. Pre-trained on diverse physics domains; few-shot generalization via in-context operator learning.
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Physics-informed neural networks for PDEs. Multi-backend (TF, PyTorch, JAX). Inverse problems, fractional PDEs.
 - [mathLab/PINA](https://github.com/mathLab/PINA) `Python` - Physics-Informed Neural networks for Advanced modeling. PyTorch Lightning-based with multi-device training.
 - [mathLab/PyDMD](https://github.com/mathLab/PyDMD) `Python` - Dynamic Mode Decomposition. Data-driven reduced-order modeling for fluid dynamics and beyond.
@@ -339,7 +340,6 @@ Honest about what's checked.
 - [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) `Python` - Symbolic AI for physics. Physics-informed neural networks with symbolic equation definition.
 - [rezaakb/pinns-torch](https://github.com/rezaakb/pinns-torch) `Python` `PyTorch` - Production-ready PINNs in PyTorch. Multi-physics support, inverse problems, uncertainty quantification.
 - [sciann/sciann](https://github.com/sciann/sciann) `Python` - Neural networks for scientific computing. Keras-based PINNs with custom loss and constraints.
-- [camlab-ethz/poseidon](https://github.com/camlab-ethz/poseidon) `Python` - Scalable foundation model for PDEs. Pre-trained on diverse physics domains; few-shot generalization via in-context operator learning.
 - [thuml/Neural-Solver-Library](https://github.com/thuml/Neural-Solver-Library) `Python` - Library for advanced neural PDE solvers. Benchmarking Transolver, FNO, and variants on diverse PDE families.
 
 <sup>[back to top](#contents)</sup>
