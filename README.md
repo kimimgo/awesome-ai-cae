@@ -13,7 +13,7 @@
 
 [![Stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat-square&color=f472b6)](https://github.com/kimimgo/awesome-ai-cae/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/kimimgo/awesome-ai-cae?style=flat-square&color=00d4ff)](https://github.com/kimimgo/awesome-ai-cae/commits/main)
-[![Tools](https://img.shields.io/badge/tools-100%2B-00d4ff?style=flat-square)](READINESS.md)
+[![Tools](https://img.shields.io/badge/tools-110%2B-00d4ff?style=flat-square)](READINESS.md)
 [![AI-Native](https://img.shields.io/badge/🟢_AI--Native-2-2ea44f?style=flat-square)](READINESS.md)
 [![Ranking](https://img.shields.io/badge/ranking-weekly-7c3aed?style=flat-square)](.github/workflows/readiness.yml)
 
@@ -21,7 +21,7 @@
 
 **Open-source simulation, CAD & meshing tools for agentic / LLM-driven engineering** — driveable headless via **MCP, Python, or CLI** (no GUI-only tools). The **only CAE list with a weekly agent-callability ranking**. Ranked by *callability*, not stars.
 
-**100+ tools** · **3 MCP servers** · **2 AI-Native** · machine-readable [JSON](data/readiness.json) / [CSV](data/readiness.csv) · weekly-regenerated [ranking](READINESS.md)
+**110+ tools** · **3 MCP servers** · **2 AI-Native** · machine-readable [JSON](data/readiness.json) / [CSV](data/readiness.csv) · weekly-regenerated [ranking](READINESS.md)
 
 <sub>Scope: agent-callable CAE/CAD/CAM **tools**, plus a small set of **adjacent** Datasets & Learning Resources for context.</sub>
 
@@ -194,6 +194,7 @@ Honest about what's checked.
 - [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) `Fortran` - High-order spectral element CFD solver. DNS/LES of turbulent flows. Scalable to millions of cores.
 - [Nek5000/nekRS](https://github.com/Nek5000/nekRS) `C++` `CUDA` - GPU-accelerated spectral element CFD. Successor to Nek5000 with native CUDA/HIP/OpenCL support.
 - [precice/precice](https://github.com/precice/precice) `C++` `Python` - Coupling library for multi-physics simulations. Fluid-structure interaction, conjugate heat transfer.
+- [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) `C++` `CUDA` - GPU-accelerated Lattice Boltzmann fluid simulator. Real-time 3D visualization, scriptable via Python subprocess, supports multi-GPU.
 - [PyFR/PyFR](https://github.com/PyFR/PyFR) `Python` - High-order flux reconstruction CFD on mixed unstructured grids. GPU-accelerated (CUDA/OpenCL/HIP).
 
 <sup>[back to top](#contents)</sup>
@@ -250,6 +251,7 @@ Honest about what's checked.
 - [napari/napari](https://github.com/napari/napari) `Python` - Fast n-dimensional image viewer. Plugin ecosystem for biomedical and scientific imaging.
 - [marcomusy/vedo](https://github.com/marcomusy/vedo) `Python` - Scientific analysis and visualization of 3D objects and point clouds. VTK-based with simple API.
 - [plotly/plotly.py](https://github.com/plotly/plotly.py) `Python` - Interactive, publication-quality graphs. 3D scatter, surface, mesh, volume. Web-based rendering.
+- [rerun-io/rerun](https://github.com/rerun-io/rerun) `Rust` `Python` - Multi-modal data logging and visualization SDK. Stream, store, and replay simulation data with Python API.
 
 <sup>[back to top](#contents)</sup>
 
@@ -273,6 +275,7 @@ Honest about what's checked.
 > Structured, unstructured, and AI-driven mesh generation for simulation preprocessing.
 
 - [buaacyw/MeshAnything](https://github.com/buaacyw/MeshAnything) `Python` - Artist-quality mesh generation with autoregressive transformers. Any 3D input to mesh (ICLR 2025 spotlight).
+- [buaacyw/MeshAnythingV2](https://github.com/buaacyw/MeshAnythingV2) `Python` - Adjacent Mesh Tokenization for efficient artist-quality mesh generation. Faster and higher-quality than V1 (ICCV 2025).
 - [CGAL/cgal](https://github.com/CGAL/cgal) `C++` - Computational Geometry Algorithms Library. Mesh generation, triangulation, Boolean operations, convex hulls.
 - [Gmsh](https://gitlab.onelab.info/gmsh/gmsh) `C++` `Python` - Full-featured 3D finite element mesh generator. CAD engine, structured/unstructured meshing, built-in post-processing.
 - [libigl/libigl](https://github.com/libigl/libigl) `C++` `Python` - Header-only geometry processing library. Mesh parameterization, deformation, Boolean ops. Eurographics award winner.
@@ -297,6 +300,7 @@ Honest about what's checked.
 - [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) `C++` `Python` - Multi-joint dynamics with contact. General-purpose physics engine for robotics, biomechanics, and control.
 - [NVIDIA/warp](https://github.com/NVIDIA/warp) `Python` `CUDA` - Differentiable simulation and spatial computing. Reverse-mode AD, PyTorch/JAX interop.
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi) `Python` `CUDA` - Productive GPU programming with automatic differentiation. DiffTaichi for differentiable physics.
+- [rtqichen/torchdiffeq](https://github.com/rtqichen/torchdiffeq) `Python` `PyTorch` - ODE and SDE solvers with automatic differentiation. Adjoint-based backpropagation through continuous-time dynamics.
 - [tumaer/JAXFLUIDS](https://github.com/tumaer/JAXFLUIDS) `Python` `JAX` - Fully-differentiable CFD solver for 3D compressible single-phase and two-phase flows.
 
 <sup>[back to top](#contents)</sup>
@@ -315,7 +319,9 @@ Honest about what's checked.
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) `Python` - Deep learning library for PDEs. PINNs, DeepONet. Backends: TensorFlow, PyTorch, JAX, PaddlePaddle.
 - [microsoft/aurora](https://github.com/microsoft/aurora) `Python` - Foundation model for Earth system prediction. Atmosphere, ocean, air quality. Pre-trained on ERA5 and CMIP6.
 - [microsoft/ClimaX](https://github.com/microsoft/ClimaX) `Python` - Foundation model for weather and climate. Pre-trained on CMIP6, fine-tunable for downstream tasks.
+- [microsoft/mattergen](https://github.com/microsoft/mattergen) `Python` - Generative model for novel inorganic materials design. Diffusion-based crystal structure generation with target property conditioning.
 - [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) `Python` - Neural operators in PyTorch. FNO, SFNO, UNO for learning PDE solution operators.
+- [NVIDIA/earth2studio](https://github.com/NVIDIA/earth2studio) `Python` - AI-driven Earth system forecasting framework. Built-in model zoo (FourCastNet, Pangu-Weather, CorrDiff, GraphCast).
 - [NVIDIA/physicsnemo](https://github.com/NVIDIA/physicsnemo) `Python` `CUDA` - Physics-ML framework (formerly Modulus). PINNs, neural operators, GNNs, diffusion models. Apache 2.0.
 - [Terry-cyx/MetaOpenFOAM](https://github.com/Terry-cyx/MetaOpenFOAM) `Python` `API` - LLM-based multi-agent framework for CFD. Automated simulation pipeline from natural language.
 - [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow) `Python` - Differentiable PDE simulations. Fluid dynamics with TF/PyTorch/JAX. ML-physics hybrid workflows.
@@ -333,6 +339,7 @@ Honest about what's checked.
 - [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) `Python` - Symbolic AI for physics. Physics-informed neural networks with symbolic equation definition.
 - [rezaakb/pinns-torch](https://github.com/rezaakb/pinns-torch) `Python` `PyTorch` - Production-ready PINNs in PyTorch. Multi-physics support, inverse problems, uncertainty quantification.
 - [sciann/sciann](https://github.com/sciann/sciann) `Python` - Neural networks for scientific computing. Keras-based PINNs with custom loss and constraints.
+- [camlab-ethz/poseidon](https://github.com/camlab-ethz/poseidon) `Python` - Scalable foundation model for PDEs. Pre-trained on diverse physics domains; few-shot generalization via in-context operator learning.
 - [thuml/Neural-Solver-Library](https://github.com/thuml/Neural-Solver-Library) `Python` - Library for advanced neural PDE solvers. Benchmarking Transolver, FNO, and variants on diverse PDE families.
 
 <sup>[back to top](#contents)</sup>
@@ -342,6 +349,7 @@ Honest about what's checked.
 > Bayesian, topology, and multidisciplinary design optimization.
 
 - [meta-pytorch/botorch](https://github.com/meta-pytorch/botorch) `Python` `PyTorch` - Bayesian optimization in PyTorch. Sequential decision making, multi-objective optimization, batch acquisition.
+- [OpenMDAO/dymos](https://github.com/OpenMDAO/dymos) `Python` - Open-source optimal control of dynamic systems. Gradient-based trajectory optimization with Gauss-Lobatto and Radau collocation on OpenMDAO.
 - [OpenMDAO/OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) `Python` - Multidisciplinary design optimization. NASA-developed. Gradient-based + surrogate-assisted optimization.
 - [anyoptimization/pymoo](https://github.com/anyoptimization/pymoo) `Python` - Multi-objective optimization. NSGA-II/III, reference directions, constraint handling, parallelization.
 - [dl4to/dl4to](https://github.com/dl4to/dl4to) `Python` `PyTorch` - Deep learning for 3D topology optimization. Autograd + adjoint method for efficient neural optimization.
