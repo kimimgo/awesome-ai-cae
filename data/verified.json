@@ -11,7 +11,7 @@
       "import_ok": true,
       "version": "0.10.1",
       "error": null,
-      "secs": 2.4
+      "secs": 2.9
     },
     {
       "name": "pyvista/pyvista",
@@ -21,7 +21,7 @@
       "import_ok": true,
       "version": "0.48.4",
       "error": null,
-      "secs": 0.8
+      "secs": 1.0
     },
     {
       "name": "mikedh/trimesh",
@@ -31,7 +31,7 @@
       "import_ok": true,
       "version": "4.12.2",
       "error": null,
-      "secs": 0.6
+      "secs": 0.8
     },
     {
       "name": "nschloe/meshio",
@@ -41,7 +41,7 @@
       "import_ok": true,
       "version": "5.3.5",
       "error": null,
-      "secs": 0.6
+      "secs": 0.7
     },
     {
       "name": "CadQuery/cadquery",
@@ -51,7 +51,7 @@
       "import_ok": true,
       "version": "2.8.0",
       "error": null,
-      "secs": 5.8
+      "secs": 7.2
     },
     {
       "name": "anyoptimization/pymoo",
@@ -59,7 +59,7 @@
       "verified": true,
       "install_ok": true,
       "import_ok": true,
-      "version": "0.6.1.6",
+      "version": "0.6.2",
       "error": null,
       "secs": 0.3
     },
@@ -71,7 +71,7 @@
       "import_ok": true,
       "version": "4.15.2",
       "error": null,
-      "secs": 0.5
+      "secs": 0.7
     },
     {
       "name": "h5py/h5py",
@@ -81,7 +81,7 @@
       "import_ok": true,
       "version": "3.16.0",
       "error": null,
-      "secs": 0.4
+      "secs": 0.6
     },
     {
       "name": "taichi-dev/taichi",
@@ -91,7 +91,7 @@
       "import_ok": true,
       "version": "[Taichi] version 1.7.4, llvm 15.0.4, commit b4b956fd, linux, python 3.12.3\n(1, 7, 4)",
       "error": null,
-      "secs": 1.2
+      "secs": 1.4
     },
     {
       "name": "lululxvi/deepxde",
@@ -101,7 +101,7 @@
       "import_ok": false,
       "version": null,
       "error": "No backend selected.\nFinding available backend...\nCannot find available backend.\nNo available backend found.\nPlease manually install a backend, and run DeepXDE again.",
-      "secs": 0.6
+      "secs": 0.5
     }
   ]
 }
