@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-29",
+  "generated": "2026-07-06",
   "methodology": "AI-Readiness Score v2.1: mcp35 python25 cli15 maintained15 adoption10 + pip15 bonus (capped 100)",
-  "count": 114,
+  "count": 119,
   "tools": [
     {
       "name": "kimimgo/viznoir",
@@ -14,15 +14,15 @@
       "score": 93,
       "grade": "AI-Native",
       "confidence": "verified",
-      "stars": 15,
-      "last_push": "2026-06-27",
+      "stars": 16,
+      "last_push": "2026-07-01",
       "signals": {
         "mcp": true,
         "python": true,
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 3.0,
+        "adoption_score": 3.1,
         "verified": true
       }
     },
@@ -58,7 +58,7 @@
       "score": 55,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 106,
+      "stars": 107,
       "last_push": "2026-01-18",
       "signals": {
         "mcp": true,
@@ -80,8 +80,8 @@
       "score": 23,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 2135,
-      "last_push": "2026-06-27",
+      "stars": 2148,
+      "last_push": "2026-07-04",
       "signals": {
         "mcp": false,
         "python": false,
@@ -102,8 +102,8 @@
       "score": 48,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 1738,
-      "last_push": "2026-06-29",
+      "stars": 1742,
+      "last_push": "2026-07-05",
       "signals": {
         "mcp": false,
         "python": true,
@@ -168,7 +168,7 @@
       "score": 47,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 946,
+      "stars": 948,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -190,7 +190,7 @@
       "score": 24,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 5154,
+      "stars": 5157,
       "last_push": "2026-06-09",
       "signals": {
         "mcp": false,
@@ -212,8 +212,8 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 561,
-      "last_push": "2026-06-25",
+      "stars": 562,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -256,8 +256,8 @@
       "score": 23,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 1679,
-      "last_push": "2026-06-28",
+      "stars": 1689,
+      "last_push": "2026-07-04",
       "signals": {
         "mcp": false,
         "python": false,
@@ -278,8 +278,8 @@
       "score": 23,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 1617,
-      "last_push": "2026-06-29",
+      "stars": 1619,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": false,
@@ -300,8 +300,8 @@
       "score": 48,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 1153,
-      "last_push": "2026-06-29",
+      "stars": 1156,
+      "last_push": "2026-07-02",
       "signals": {
         "mcp": false,
         "python": true,
@@ -322,15 +322,15 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 659,
-      "last_push": "2026-06-27",
+      "stars": 660,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 7.0,
+        "adoption_score": 7.1,
         "verified": false
       }
     },
@@ -345,7 +345,7 @@
       "grade": "Experimental",
       "confidence": "declared",
       "stars": 926,
-      "last_push": "2026-06-26",
+      "last_push": "2026-07-03",
       "signals": {
         "mcp": false,
         "python": false,
@@ -366,8 +366,8 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2283,
-      "last_push": "2026-06-28",
+      "stars": 2290,
+      "last_push": "2026-07-04",
       "signals": {
         "mcp": false,
         "python": true,
@@ -388,8 +388,8 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1296,
-      "last_push": "2026-06-29",
+      "stars": 1299,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -410,8 +410,8 @@
       "score": 23,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 2190,
-      "last_push": "2026-06-28",
+      "stars": 2193,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": false,
@@ -432,8 +432,8 @@
       "score": 22,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 783,
-      "last_push": "2026-06-25",
+      "stars": 784,
+      "last_push": "2026-06-30",
       "signals": {
         "mcp": false,
         "python": false,
@@ -476,7 +476,7 @@
       "score": 7,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 730,
+      "stars": 733,
       "last_push": "2025-04-16",
       "signals": {
         "mcp": false,
@@ -498,7 +498,7 @@
       "score": 23,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 1856,
+      "stars": 1858,
       "last_push": "2026-06-08",
       "signals": {
         "mcp": false,
@@ -520,7 +520,7 @@
       "score": 55,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 538,
+      "stars": 540,
       "last_push": "2025-10-26",
       "signals": {
         "mcp": false,
@@ -564,8 +564,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2949,
-      "last_push": "2026-06-28",
+      "stars": 2959,
+      "last_push": "2026-07-04",
       "signals": {
         "mcp": false,
         "python": true,
@@ -643,6 +643,116 @@
       }
     },
     {
+      "name": "fury-gl/fury",
+      "url": "https://github.com/fury-gl/fury",
+      "repo": "fury-gl/fury",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 61,
+      "grade": "Agent-Ready",
+      "confidence": "declared",
+      "stars": 301,
+      "last_push": "2026-07-03",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": true,
+        "maintained_score": 15,
+        "adoption_score": 6.2,
+        "verified": false
+      }
+    },
+    {
+      "name": "InsightSoftwareConsortium/itkwidgets",
+      "url": "https://github.com/InsightSoftwareConsortium/itkwidgets",
+      "repo": "InsightSoftwareConsortium/itkwidgets",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 62,
+      "grade": "Agent-Ready",
+      "confidence": "declared",
+      "stars": 623,
+      "last_push": "2026-03-10",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": true,
+        "maintained_score": 15,
+        "adoption_score": 7.0,
+        "verified": false
+      }
+    },
+    {
+      "name": "Kitware/ParaView",
+      "url": "https://github.com/Kitware/ParaView",
+      "repo": "Kitware/ParaView",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 48,
+      "grade": "Scriptable",
+      "confidence": "declared",
+      "stars": 1650,
+      "last_push": "2026-07-06",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": false,
+        "maintained_score": 15,
+        "adoption_score": 8.0,
+        "verified": false
+      }
+    },
+    {
+      "name": "Kitware/trame",
+      "url": "https://github.com/Kitware/trame",
+      "repo": "Kitware/trame",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 62,
+      "grade": "Agent-Ready",
+      "confidence": "declared",
+      "stars": 682,
+      "last_push": "2026-06-11",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": true,
+        "maintained_score": 15,
+        "adoption_score": 7.1,
+        "verified": false
+      }
+    },
+    {
+      "name": "Kitware/VolView",
+      "url": "https://github.com/Kitware/VolView",
+      "repo": "Kitware/VolView",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 21,
+      "grade": "Experimental",
+      "confidence": "declared",
+      "stars": 286,
+      "last_push": "2026-06-30",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "pip": false,
+        "maintained_score": 15,
+        "adoption_score": 6.1,
+        "verified": false
+      }
+    },
+    {
       "name": "Kitware/VTK",
       "url": "https://github.com/Kitware/VTK",
       "repo": "Kitware/VTK",
@@ -652,8 +762,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 3169,
-      "last_push": "2026-06-29",
+      "stars": 3174,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -661,6 +771,72 @@
         "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.8,
+        "verified": false
+      }
+    },
+    {
+      "name": "Kitware/vtk-js",
+      "url": "https://github.com/Kitware/vtk-js",
+      "repo": "Kitware/vtk-js",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 23,
+      "grade": "Experimental",
+      "confidence": "declared",
+      "stars": 1513,
+      "last_push": "2026-06-19",
+      "signals": {
+        "mcp": false,
+        "python": false,
+        "cli_api": false,
+        "pip": false,
+        "maintained_score": 15,
+        "adoption_score": 8.0,
+        "verified": false
+      }
+    },
+    {
+      "name": "marcomusy/vedo",
+      "url": "https://github.com/marcomusy/vedo",
+      "repo": "marcomusy/vedo",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 63,
+      "grade": "Agent-Ready",
+      "confidence": "declared",
+      "stars": 2257,
+      "last_push": "2026-07-06",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": true,
+        "maintained_score": 15,
+        "adoption_score": 8.4,
+        "verified": false
+      }
+    },
+    {
+      "name": "napari/napari",
+      "url": "https://github.com/napari/napari",
+      "repo": "napari/napari",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 64,
+      "grade": "Agent-Ready",
+      "confidence": "declared",
+      "stars": 2688,
+      "last_push": "2026-07-05",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": true,
+        "maintained_score": 15,
+        "adoption_score": 8.6,
         "verified": false
       }
     },
@@ -674,7 +850,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2177,
+      "stars": 2181,
       "last_push": "2026-05-20",
       "signals": {
         "mcp": false,
@@ -683,6 +859,28 @@
         "pip": true,
         "maintained_score": 15,
         "adoption_score": 8.3,
+        "verified": false
+      }
+    },
+    {
+      "name": "plotly/plotly.py",
+      "url": "https://github.com/plotly/plotly.py",
+      "repo": "plotly/plotly.py",
+      "categories": [
+        "Visualization & Post-processing"
+      ],
+      "score": 50,
+      "grade": "Agent-Ready",
+      "confidence": "declared",
+      "stars": 18662,
+      "last_push": "2026-06-22",
+      "signals": {
+        "mcp": false,
+        "python": true,
+        "cli_api": false,
+        "pip": false,
+        "maintained_score": 15,
+        "adoption_score": 10,
         "verified": false
       }
     },
@@ -697,8 +895,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 3720,
-      "last_push": "2026-06-29",
+      "stars": 3731,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -707,94 +905,6 @@
         "maintained_score": 15,
         "adoption_score": 8.9,
         "verified": true
-      }
-    },
-    {
-      "name": "Kitware/ParaView",
-      "url": "https://github.com/Kitware/ParaView",
-      "repo": "Kitware/ParaView",
-      "categories": [
-        "Visualization & Post-processing"
-      ],
-      "score": 48,
-      "grade": "Scriptable",
-      "confidence": "declared",
-      "stars": 1645,
-      "last_push": "2026-06-29",
-      "signals": {
-        "mcp": false,
-        "python": true,
-        "cli_api": false,
-        "pip": false,
-        "maintained_score": 15,
-        "adoption_score": 8.0,
-        "verified": false
-      }
-    },
-    {
-      "name": "napari/napari",
-      "url": "https://github.com/napari/napari",
-      "repo": "napari/napari",
-      "categories": [
-        "Visualization & Post-processing"
-      ],
-      "score": 64,
-      "grade": "Agent-Ready",
-      "confidence": "declared",
-      "stars": 2684,
-      "last_push": "2026-06-28",
-      "signals": {
-        "mcp": false,
-        "python": true,
-        "cli_api": false,
-        "pip": true,
-        "maintained_score": 15,
-        "adoption_score": 8.6,
-        "verified": false
-      }
-    },
-    {
-      "name": "marcomusy/vedo",
-      "url": "https://github.com/marcomusy/vedo",
-      "repo": "marcomusy/vedo",
-      "categories": [
-        "Visualization & Post-processing"
-      ],
-      "score": 63,
-      "grade": "Agent-Ready",
-      "confidence": "declared",
-      "stars": 2256,
-      "last_push": "2026-06-09",
-      "signals": {
-        "mcp": false,
-        "python": true,
-        "cli_api": false,
-        "pip": true,
-        "maintained_score": 15,
-        "adoption_score": 8.4,
-        "verified": false
-      }
-    },
-    {
-      "name": "plotly/plotly.py",
-      "url": "https://github.com/plotly/plotly.py",
-      "repo": "plotly/plotly.py",
-      "categories": [
-        "Visualization & Post-processing"
-      ],
-      "score": 50,
-      "grade": "Agent-Ready",
-      "confidence": "declared",
-      "stars": 18641,
-      "last_push": "2026-06-22",
-      "signals": {
-        "mcp": false,
-        "python": true,
-        "cli_api": false,
-        "pip": false,
-        "maintained_score": 15,
-        "adoption_score": 10,
-        "verified": false
       }
     },
     {
@@ -807,8 +917,8 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 11008,
-      "last_push": "2026-06-26",
+      "stars": 11073,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -829,8 +939,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 5382,
-      "last_push": "2026-06-28",
+      "stars": 5413,
+      "last_push": "2026-07-05",
       "signals": {
         "mcp": false,
         "python": true,
@@ -873,8 +983,8 @@
       "score": 50,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 31797,
-      "last_push": "2026-06-29",
+      "stars": 31938,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -895,8 +1005,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2537,
-      "last_push": "2026-06-27",
+      "stars": 2578,
+      "last_push": "2026-07-02",
       "signals": {
         "mcp": false,
         "python": true,
@@ -917,8 +1027,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 3601,
-      "last_push": "2026-06-24",
+      "stars": 3610,
+      "last_push": "2026-07-01",
       "signals": {
         "mcp": false,
         "python": true,
@@ -961,8 +1071,8 @@
       "score": 24,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 2593,
-      "last_push": "2026-06-17",
+      "stars": 2617,
+      "last_push": "2026-07-05",
       "signals": {
         "mcp": false,
         "python": false,
@@ -983,7 +1093,7 @@
       "score": 56,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1257,
+      "stars": 1259,
       "last_push": "2025-10-08",
       "signals": {
         "mcp": false,
@@ -991,7 +1101,7 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 8,
-        "adoption_score": 7.7,
+        "adoption_score": 7.8,
         "verified": false
       }
     },
@@ -1005,7 +1115,7 @@
       "score": 33,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 2289,
+      "stars": 2291,
       "last_push": "2025-04-28",
       "signals": {
         "mcp": false,
@@ -1049,8 +1159,8 @@
       "score": 24,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 5956,
-      "last_push": "2026-06-25",
+      "stars": 5969,
+      "last_push": "2026-06-30",
       "signals": {
         "mcp": false,
         "python": false,
@@ -1093,7 +1203,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 5039,
+      "stars": 5044,
       "last_push": "2026-05-07",
       "signals": {
         "mcp": false,
@@ -1115,7 +1225,7 @@
       "score": 22,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 471,
+      "stars": 474,
       "last_push": "2026-05-11",
       "signals": {
         "mcp": false,
@@ -1137,8 +1247,8 @@
       "score": 61,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 380,
-      "last_push": "2026-06-29",
+      "stars": 382,
+      "last_push": "2026-06-30",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1181,7 +1291,7 @@
       "score": 31,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 338,
+      "stars": 339,
       "last_push": "2025-04-04",
       "signals": {
         "mcp": false,
@@ -1226,7 +1336,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 306,
-      "last_push": "2026-06-21",
+      "last_push": "2026-07-01",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1247,7 +1357,7 @@
       "score": 22,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 583,
+      "stars": 585,
       "last_push": "2026-05-05",
       "signals": {
         "mcp": false,
@@ -1269,7 +1379,7 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 489,
+      "stars": 492,
       "last_push": "2026-05-29",
       "signals": {
         "mcp": false,
@@ -1291,8 +1401,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 3200,
-      "last_push": "2026-06-25",
+      "stars": 3201,
+      "last_push": "2026-06-29",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1313,7 +1423,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1430,
+      "stars": 1432,
       "last_push": "2026-06-12",
       "signals": {
         "mcp": false,
@@ -1335,15 +1445,15 @@
       "score": 61,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 197,
-      "last_push": "2026-06-25",
+      "stars": 199,
+      "last_push": "2026-07-03",
       "signals": {
         "mcp": false,
         "python": true,
         "cli_api": false,
         "pip": true,
         "maintained_score": 15,
-        "adoption_score": 5.7,
+        "adoption_score": 5.8,
         "verified": false
       }
     },
@@ -1357,8 +1467,8 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 14019,
-      "last_push": "2026-06-29",
+      "stars": 14092,
+      "last_push": "2026-07-05",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1379,8 +1489,8 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 6823,
-      "last_push": "2026-06-29",
+      "stars": 6837,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1401,7 +1511,7 @@
       "score": 50,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 6453,
+      "stars": 6455,
       "last_push": "2025-04-04",
       "signals": {
         "mcp": false,
@@ -1423,7 +1533,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 28270,
+      "stars": 28281,
       "last_push": "2026-06-09",
       "signals": {
         "mcp": false,
@@ -1445,7 +1555,7 @@
       "score": 47,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 596,
+      "stars": 598,
       "last_push": "2026-06-18",
       "signals": {
         "mcp": false,
@@ -1467,7 +1577,7 @@
       "score": 61,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 264,
+      "stars": 270,
       "last_push": "2026-06-02",
       "signals": {
         "mcp": false,
@@ -1489,8 +1599,8 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1974,
-      "last_push": "2026-06-29",
+      "stars": 1978,
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1511,7 +1621,7 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 435,
+      "stars": 437,
       "last_push": "2026-01-22",
       "signals": {
         "mcp": false,
@@ -1533,7 +1643,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1851,
+      "stars": 1854,
       "last_push": "2026-06-10",
       "signals": {
         "mcp": false,
@@ -1555,7 +1665,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 6685,
+      "stars": 6683,
       "last_push": "2026-03-30",
       "signals": {
         "mcp": false,
@@ -1578,7 +1688,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 948,
-      "last_push": "2026-02-24",
+      "last_push": "2026-07-02",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1599,7 +1709,7 @@
       "score": 46,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 330,
+      "stars": 331,
       "last_push": "2024-10-05",
       "signals": {
         "mcp": false,
@@ -1622,7 +1732,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 4271,
+      "stars": 4284,
       "last_push": "2026-06-24",
       "signals": {
         "mcp": false,
@@ -1644,8 +1754,8 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 933,
-      "last_push": "2026-06-12",
+      "stars": 940,
+      "last_push": "2026-07-02",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1688,7 +1798,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1743,
+      "stars": 1748,
       "last_push": "2026-06-10",
       "signals": {
         "mcp": false,
@@ -1710,7 +1820,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 3717,
+      "stars": 3734,
       "last_push": "2026-06-23",
       "signals": {
         "mcp": false,
@@ -1732,8 +1842,8 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1006,
-      "last_push": "2026-06-26",
+      "stars": 1016,
+      "last_push": "2026-07-01",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1754,8 +1864,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2990,
-      "last_push": "2026-06-27",
+      "stars": 3009,
+      "last_push": "2026-07-03",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1798,7 +1908,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1897,
+      "stars": 1903,
       "last_push": "2026-06-22",
       "signals": {
         "mcp": false,
@@ -1820,7 +1930,7 @@
       "score": 46,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 188,
+      "stars": 189,
       "last_push": "2025-04-10",
       "signals": {
         "mcp": false,
@@ -1842,8 +1952,8 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 768,
-      "last_push": "2026-06-24",
+      "stars": 771,
+      "last_push": "2026-07-01",
       "signals": {
         "mcp": false,
         "python": true,
@@ -1864,7 +1974,7 @@
       "score": 45,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 124,
+      "stars": 125,
       "last_push": "2025-03-06",
       "signals": {
         "mcp": false,
@@ -1872,7 +1982,7 @@
         "cli_api": false,
         "pip": true,
         "maintained_score": 0,
-        "adoption_score": 5.2,
+        "adoption_score": 5.3,
         "verified": false
       }
     },
@@ -1886,7 +1996,7 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 788,
+      "stars": 789,
       "last_push": "2026-04-22",
       "signals": {
         "mcp": false,
@@ -1930,7 +2040,7 @@
       "score": 47,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 919,
+      "stars": 922,
       "last_push": "2026-02-08",
       "signals": {
         "mcp": false,
@@ -1974,7 +2084,7 @@
       "score": 46,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 322,
+      "stars": 325,
       "last_push": "2026-03-10",
       "signals": {
         "mcp": false,
@@ -1996,8 +2106,8 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 3562,
-      "last_push": "2026-06-26",
+      "stars": 3566,
+      "last_push": "2026-06-30",
       "signals": {
         "mcp": false,
         "python": true,
@@ -2018,7 +2128,7 @@
       "score": 61,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 286,
+      "stars": 287,
       "last_push": "2026-05-13",
       "signals": {
         "mcp": false,
@@ -2040,8 +2150,8 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 746,
-      "last_push": "2026-06-26",
+      "stars": 749,
+      "last_push": "2026-07-02",
       "signals": {
         "mcp": false,
         "python": true,
@@ -2063,7 +2173,7 @@
       "grade": "Agent-Ready",
       "confidence": "verified",
       "stars": 2905,
-      "last_push": "2026-06-28",
+      "last_push": "2026-07-06",
       "signals": {
         "mcp": false,
         "python": true,
@@ -2128,7 +2238,7 @@
       "score": 54,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 265,
+      "stars": 266,
       "last_push": "2025-10-06",
       "signals": {
         "mcp": false,
@@ -2150,7 +2260,7 @@
       "score": 48,
       "grade": "Scriptable",
       "confidence": "verified",
-      "stars": 2304,
+      "stars": 2308,
       "last_push": "2024-07-23",
       "signals": {
         "mcp": false,
@@ -2172,8 +2282,8 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 2236,
-      "last_push": "2026-06-26",
+      "stars": 2237,
+      "last_push": "2026-07-03",
       "signals": {
         "mcp": false,
         "python": true,
@@ -2217,7 +2327,7 @@
       "grade": "Experimental",
       "confidence": "declared",
       "stars": 269,
-      "last_push": "2026-06-22",
+      "last_push": "2026-06-29",
       "signals": {
         "mcp": false,
         "python": false,
@@ -2238,8 +2348,8 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 780,
-      "last_push": "2026-06-18",
+      "stars": 781,
+      "last_push": "2026-06-29",
       "signals": {
         "mcp": false,
         "python": true,
@@ -2282,7 +2392,7 @@
       "score": 47,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 529,
+      "stars": 530,
       "last_push": "2026-05-14",
       "signals": {
         "mcp": false,
@@ -2304,7 +2414,7 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 433,
+      "stars": 435,
       "last_push": "2026-02-11",
       "signals": {
         "mcp": false,
@@ -2348,7 +2458,7 @@
       "score": 63,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 1162,
+      "stars": 1166,
       "last_push": "2026-03-30",
       "signals": {
         "mcp": false,
@@ -2370,7 +2480,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 3709,
+      "stars": 3750,
       "last_push": "2026-06-25",
       "signals": {
         "mcp": false,
@@ -2392,7 +2502,7 @@
       "score": 34,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 4068,
+      "stars": 4078,
       "last_push": "2024-03-19",
       "signals": {
         "mcp": false,
@@ -2458,7 +2568,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 5981,
+      "stars": 5998,
       "last_push": "2026-02-11",
       "signals": {
         "mcp": false,
@@ -2480,7 +2590,7 @@
       "score": 16,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 1897,
+      "stars": 1899,
       "last_push": "2025-10-10",
       "signals": {
         "mcp": false,
@@ -2502,7 +2612,7 @@
       "score": 6,
       "grade": "Experimental",
       "confidence": "declared",
-      "stars": 354,
+      "stars": 356,
       "last_push": "2025-06-04",
       "signals": {
         "mcp": false,
