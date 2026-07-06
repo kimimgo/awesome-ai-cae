@@ -241,14 +241,19 @@ Honest about what's checked.
 
 > Rendering, plotting, and interactive exploration of simulation results.
 
+- [fury-gl/fury](https://github.com/fury-gl/fury) `Python` - Free Unified Rendering in Python. VTK-based scientific visualization, 3D animations, and streamline rendering with a NumPy-friendly API.
+- [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) `Python` - Interactive Jupyter widgets for 3D visualization of images, point sets, and meshes. Built on ITK and vtk.js.
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization MCP server. 22 tools, EGL/OSMesa headless, cinematic lighting, physics animations.
-- [Kitware/VTK](https://github.com/Kitware/VTK) `C++` `Python` - The Visualization Toolkit. 3D computer graphics, image processing, scientific visualization. Industry standard.
-- [nmwsharp/polyscope](https://github.com/nmwsharp/polyscope) `C++` `Python` - Lightweight 3D viewer for meshes, point clouds, and scalar fields. One-line visualization for geometry processing.
-- [pyvista/pyvista](https://github.com/pyvista/pyvista) `Python` - Pythonic VTK. Streamlined 3D plotting, mesh analysis, and interactive visualization.
 - [Kitware/ParaView](https://github.com/Kitware/ParaView) `C++` `Python` - Multi-platform data analysis and visualization. VTK-based GUI + Python scripting + client-server architecture.
-- [napari/napari](https://github.com/napari/napari) `Python` - Fast n-dimensional image viewer. Plugin ecosystem for biomedical and scientific imaging.
+- [Kitware/trame](https://github.com/Kitware/trame) `Python` - Build interactive scientific web applications purely in Python. Integrates VTK and ParaView for server-side or local 3D rendering.
+- [Kitware/VolView](https://github.com/Kitware/VolView) `TypeScript` - Browser-based 3D radiological viewer for DICOM. Volume rendering, annotations, and measurements that run fully client-side.
+- [Kitware/VTK](https://github.com/Kitware/VTK) `C++` `Python` - The Visualization Toolkit. 3D computer graphics, image processing, scientific visualization. Industry standard.
+- [Kitware/vtk-js](https://github.com/Kitware/vtk-js) `JavaScript` - Visualization Toolkit for the Web. WebGL/WebGPU scientific visualization and volume rendering entirely in the browser.
 - [marcomusy/vedo](https://github.com/marcomusy/vedo) `Python` - Scientific analysis and visualization of 3D objects and point clouds. VTK-based with simple API.
+- [napari/napari](https://github.com/napari/napari) `Python` - Fast n-dimensional image viewer. Plugin ecosystem for biomedical and scientific imaging.
+- [nmwsharp/polyscope](https://github.com/nmwsharp/polyscope) `C++` `Python` - Lightweight 3D viewer for meshes, point clouds, and scalar fields. One-line visualization for geometry processing.
 - [plotly/plotly.py](https://github.com/plotly/plotly.py) `Python` - Interactive, publication-quality graphs. 3D scatter, surface, mesh, volume. Web-based rendering.
+- [pyvista/pyvista](https://github.com/pyvista/pyvista) `Python` - Pythonic VTK. Streamlined 3D plotting, mesh analysis, and interactive visualization.
 - [rerun-io/rerun](https://github.com/rerun-io/rerun) `Rust` `Python` - Multi-modal data logging and visualization SDK. Stream, store, and replay simulation data with Python API.
 
 <sup>[back to top](#contents)</sup>
