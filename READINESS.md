@@ -9,12 +9,12 @@
 | 1 | 94 | 🟢 AI-Native | [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) | `MCP` `Py` `pip` | 56 | 2026-04-22 |
 | 2 | 93 | 🟢 AI-Native | [kimimgo/viznoir](https://github.com/kimimgo/viznoir) | `MCP` `Py` `pip` ✅ | 16 | 2026-07-01 |
 | 3 | 65 | 🔵 Agent-Ready | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | `Py` `pip` ✅ | 28,294 | 2026-07-06 |
-| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 14,182 | 2026-07-11 |
-| 5 | 65 | 🔵 Agent-Ready | [rerun-io/rerun](https://github.com/rerun-io/rerun) | `Py` `pip` | 11,123 | 2026-07-10 |
+| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 14,183 | 2026-07-11 |
+| 5 | 65 | 🔵 Agent-Ready | [rerun-io/rerun](https://github.com/rerun-io/rerun) | `Py` `pip` | 11,124 | 2026-07-10 |
 | 6 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 6,860 | 2026-07-12 |
 | 7 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 6,689 | 2026-03-30 |
 | 8 | 64 | 🔵 Agent-Ready | [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) | `Py` `pip` | 6,012 | 2026-02-11 |
-| 9 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,446 | 2026-07-12 |
+| 9 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,447 | 2026-07-12 |
 | 10 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,052 | 2026-05-07 |
 | 11 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,297 | 2026-06-24 |
 | 12 | 64 | 🔵 Agent-Ready | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | `Py` `pip` | 4,013 | 2026-07-06 |
@@ -28,7 +28,7 @@
 | 20 | 64 | 🔵 Agent-Ready | [lammps/lammps](https://github.com/lammps/lammps) | `Py` `pip` | 2,969 | 2026-07-11 |
 | 21 | 64 | 🔵 Agent-Ready | [anyoptimization/pymoo](https://github.com/anyoptimization/pymoo) | `Py` `pip` ✅ | 2,914 | 2026-07-07 |
 | 22 | 64 | 🔵 Agent-Ready | [napari/napari](https://github.com/napari/napari) | `Py` `pip` | 2,693 | 2026-07-12 |
-| 23 | 64 | 🔵 Agent-Ready | [gumyr/build123d](https://github.com/gumyr/build123d) | `Py` `pip` | 2,624 | 2026-07-09 |
+| 23 | 64 | 🔵 Agent-Ready | [gumyr/build123d](https://github.com/gumyr/build123d) | `Py` `pip` | 2,625 | 2026-07-09 |
 | 24 | 63 | 🔵 Agent-Ready | [idaholab/moose](https://github.com/idaholab/moose) | `Py` `pip` | 2,292 | 2026-07-11 |
 | 25 | 63 | 🔵 Agent-Ready | [marcomusy/vedo](https://github.com/marcomusy/vedo) | `Py` `pip` | 2,256 | 2026-07-06 |
 | 26 | 63 | 🔵 Agent-Ready | [h5py/h5py](https://github.com/h5py/h5py) | `Py` `pip` ✅ | 2,240 | 2026-07-07 |

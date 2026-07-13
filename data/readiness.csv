@@ -40,11 +40,11 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2183,2026-05-20,False,True,False,True
 50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18678,2026-07-09,False,True,False,False
 64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3740,2026-07-13,False,True,False,True
-65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11123,2026-07-10,False,True,False,True
-64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5446,2026-07-12,False,True,False,True
+65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11124,2026-07-10,False,True,False,True
+64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5447,2026-07-12,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,187,2026-06-14,False,True,False,True
 50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,32082,2026-07-13,False,True,False,False
-64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2624,2026-07-09,False,True,False,True
+64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2625,2026-07-09,False,True,False,True
 64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3618,2026-07-12,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,968,2023-10-04,False,True,False,True
 24,Experimental,Open-Cascade-SAS/OCCT,Open-Cascade-SAS/OCCT,CAD & Geometry,2643,2026-07-11,False,False,False,False
@@ -65,7 +65,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3202,2026-07-09,False,True,False,True
 63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1437,2026-07-12,False,True,False,True
 61,Agent-Ready,gbionics/jaxsim,gbionics/jaxsim,Differentiable Simulation,200,2026-07-10,False,True,False,True
-65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14182,2026-07-11,False,True,False,True
+65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14183,2026-07-11,False,True,False,True
 65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,6860,2026-07-12,False,True,False,True
 50,Agent-Ready,rtqichen/torchdiffeq,rtqichen/torchdiffeq,Differentiable Simulation,6458,2025-04-04,False,True,False,True
 65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28294,2026-07-06,False,True,False,True

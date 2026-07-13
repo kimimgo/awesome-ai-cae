@@ -917,7 +917,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 11123,
+      "stars": 11124,
       "last_push": "2026-07-10",
       "signals": {
         "mcp": false,
@@ -939,7 +939,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "verified",
-      "stars": 5446,
+      "stars": 5447,
       "last_push": "2026-07-12",
       "signals": {
         "mcp": false,
@@ -1005,7 +1005,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 2624,
+      "stars": 2625,
       "last_push": "2026-07-09",
       "signals": {
         "mcp": false,
@@ -1467,7 +1467,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 14182,
+      "stars": 14183,
       "last_push": "2026-07-11",
       "signals": {
         "mcp": false,
