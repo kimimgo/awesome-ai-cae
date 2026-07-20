@@ -11,12 +11,12 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,562,2026-07-19,False,True,False,True
 0,Experimental,CalculiX,,FEA,,,False,False,False,False
 23,Experimental,dealii/dealii,dealii/dealii,FEA,1693,2026-07-17,False,False,False,False
-23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1630,2026-07-19,False,False,False,False
+23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1631,2026-07-19,False,False,False,False
 48,Scriptable,FEniCS/dolfinx,FEniCS/dolfinx,FEA,1165,2026-07-20,False,True,False,False
 62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,660,2026-07-20,False,True,False,True
 22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,932,2026-07-19,False,False,False,False
 63,Agent-Ready,idaholab/moose,idaholab/moose,FEA,2298,2026-07-20,False,True,False,True
-63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1302,2026-07-19,False,True,False,True
+63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1302,2026-07-20,False,True,False,True
 23,Experimental,mfem/mfem,mfem/mfem,FEA,2204,2026-07-19,False,False,False,False
 22,Experimental,OpenSees/OpenSees,OpenSees/OpenSees,FEA,791,2026-07-14,False,False,False,False
 62,Agent-Ready,sfepy/sfepy,sfepy/sfepy,FEA,833,2026-06-26,False,True,False,True
@@ -44,7 +44,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5481,2026-07-17,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,186,2026-07-19,False,True,False,True
 50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,32243,2026-07-20,False,True,False,False
-64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2660,2026-07-14,False,True,False,True
+64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2661,2026-07-14,False,True,False,True
 64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3631,2026-07-17,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,968,2023-10-04,False,True,False,True
 24,Experimental,Open-Cascade-SAS/OCCT,Open-Cascade-SAS/OCCT,CAD & Geometry,2661,2026-07-13,False,False,False,False
@@ -54,7 +54,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,5982,2026-07-20,False,False,False,False
 40,Scriptable,Gmsh,,Mesh Generation,,,False,True,False,True
 64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5056,2026-07-15,False,True,False,True
-22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,474,2026-05-11,False,False,False,False
+22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,475,2026-05-11,False,False,False,False
 61,Agent-Ready,NGSolve/netgen,NGSolve/netgen,Mesh Generation,383,2026-07-20,False,True,False,True
 23,Experimental,nmwsharp/geometry-central,nmwsharp/geometry-central,Mesh Generation,1326,2026-06-13,False,False,False,False
 31,Scriptable,OpenMeshLab/MeshXL,OpenMeshLab/MeshXL,Mesh Generation,339,2025-04-04,False,True,False,False
@@ -65,7 +65,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3206,2026-07-09,False,True,False,True
 63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1439,2026-07-19,False,True,False,True
 61,Agent-Ready,gbionics/jaxsim,gbionics/jaxsim,Differentiable Simulation,200,2026-07-10,False,True,False,True
-65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14265,2026-07-20,False,True,False,True
+65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14264,2026-07-20,False,True,False,True
 65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,6878,2026-07-20,False,True,False,True
 50,Agent-Ready,rtqichen/torchdiffeq,rtqichen/torchdiffeq,Differentiable Simulation,6461,2025-04-04,False,True,False,True
 65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28296,2026-07-06,False,True,False,True
@@ -83,7 +83,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 63,Agent-Ready,microsoft/mattergen,microsoft/mattergen,AI/ML for Simulation,1767,2026-07-17,False,True,False,True
 64,Agent-Ready,NeuralOperator/neuraloperator,NeuralOperator/neuraloperator,AI/ML for Simulation,3759,2026-07-07,False,True,False,True
 63,Agent-Ready,NVIDIA/earth2studio,NVIDIA/earth2studio,AI/ML for Simulation,1041,2026-07-16,False,True,False,True
-64,Agent-Ready,NVIDIA/physicsnemo,NVIDIA/physicsnemo,AI/ML for Simulation,3068,2026-07-19,False,True,False,True
+64,Agent-Ready,NVIDIA/physicsnemo,NVIDIA/physicsnemo,AI/ML for Simulation,3069,2026-07-19,False,True,False,True
 61,Agent-Ready,Terry-cyx/MetaOpenFOAM,Terry-cyx/MetaOpenFOAM,AI/ML for Simulation,200,2026-04-10,False,True,True,False
 63,Agent-Ready,tum-pbs/PhiFlow,tum-pbs/PhiFlow,AI/ML for Simulation,1911,2026-07-16,False,True,False,True
 46,Scriptable,camlab-ethz/poseidon,camlab-ethz/poseidon,Surrogate Models & PINNs,190,2025-04-10,False,True,False,True
@@ -111,7 +111,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 62,Agent-Ready,i207M/PINNacle,i207M/PINNacle,Datasets & Benchmarks,440,2026-02-11,False,True,False,True
 0,Experimental,NASA TMR,,Datasets & Benchmarks,,,False,False,False,False
 63,Agent-Ready,pdebench/PDEBench,pdebench/PDEBench,Datasets & Benchmarks,1173,2026-03-30,False,True,False,True
-64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4120,2026-07-06,False,True,False,True
+64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4123,2026-07-06,False,True,False,True
 34,Scriptable,barbagroup/CFDPython,barbagroup/CFDPython,Learning Resources,4087,2024-03-19,False,True,False,False
 21,Experimental,ikespand/awesome-machine-learning-fluid-mechanics,ikespand/awesome-machine-learning-fluid-mechanics,Learning Resources,246,2026-05-17,False,False,False,False
 61,Agent-Ready,jxx123/simglucose,jxx123/simglucose,Learning Resources,343,2026-04-17,False,True,False,True
