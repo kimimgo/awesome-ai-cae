@@ -9,14 +9,14 @@
 | 1 | 94 | 🟢 AI-Native | [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) | `MCP` `Py` `pip` | 56 | 2026-04-22 |
 | 2 | 93 | 🟢 AI-Native | [kimimgo/viznoir](https://github.com/kimimgo/viznoir) | `MCP` `Py` `pip` ✅ | 18 | 2026-07-27 |
 | 3 | 65 | 🔵 Agent-Ready | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | `Py` `pip` ✅ | 28,306 | 2026-07-06 |
-| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 14,340 | 2026-07-26 |
+| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 14,341 | 2026-07-26 |
 | 5 | 65 | 🔵 Agent-Ready | [rerun-io/rerun](https://github.com/rerun-io/rerun) | `Py` `pip` | 11,195 | 2026-07-27 |
 | 6 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 6,907 | 2026-07-27 |
 | 7 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 6,711 | 2026-03-30 |
 | 8 | 64 | 🔵 Agent-Ready | [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) | `Py` `pip` | 6,050 | 2026-02-11 |
 | 9 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,513 | 2026-07-27 |
 | 10 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,059 | 2026-07-15 |
-| 11 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,322 | 2026-07-27 |
+| 11 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,323 | 2026-07-27 |
 | 12 | 64 | 🔵 Agent-Ready | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | `Py` `pip` | 4,245 | 2026-07-23 |
 | 13 | 64 | 🔵 Agent-Ready | [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) | `Py` `pip` | 3,778 | 2026-07-07 |
 | 14 | 64 | 🔵 Agent-Ready | [pyvista/pyvista](https://github.com/pyvista/pyvista) | `Py` `pip` ✅ | 3,754 | 2026-07-26 |
@@ -48,7 +48,7 @@
 | 40 | 62 | 🔵 Agent-Ready | [divelab/AIRS](https://github.com/divelab/AIRS) | `Py` `pip` | 787 | 2026-06-29 |
 | 41 | 62 | 🔵 Agent-Ready | [OpenMDAO/OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) | `Py` `pip` | 759 | 2026-07-17 |
 | 42 | 62 | 🔵 Agent-Ready | [Kitware/trame](https://github.com/Kitware/trame) | `Py` `pip` | 687 | 2026-07-17 |
-| 43 | 62 | 🔵 Agent-Ready | [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) | `Py` `pip` | 663 | 2026-07-27 |
+| 43 | 62 | 🔵 Agent-Ready | [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) | `Py` `pip` | 664 | 2026-07-27 |
 | 44 | 62 | 🔵 Agent-Ready | [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) | `Py` `pip` | 622 | 2026-03-10 |
 | 45 | 62 | 🔵 Agent-Ready | [PyFR/PyFR](https://github.com/PyFR/PyFR) | `Py` `pip` | 563 | 2026-07-25 |
 | 46 | 62 | 🔵 Agent-Ready | [Autodesk/XLB](https://github.com/Autodesk/XLB) | `Py` `pip` | 498 | 2026-05-29 |
@@ -109,7 +109,7 @@
 | 101 | 23 | ⚪ Experimental | [nmwsharp/geometry-central](https://github.com/nmwsharp/geometry-central) | — | 1,329 | 2026-06-13 |
 | 102 | 22 | ⚪ Experimental | [FreeFem/FreeFem-sources](https://github.com/FreeFem/FreeFem-sources) | — | 934 | 2026-07-24 |
 | 103 | 22 | ⚪ Experimental | [OpenSees/OpenSees](https://github.com/OpenSees/OpenSees) | — | 795 | 2026-07-27 |
-| 104 | 22 | ⚪ Experimental | [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) | — | 587 | 2026-05-05 |
+| 104 | 22 | ⚪ Experimental | [wildmeshing/fTetWild](https://github.com/wildmeshing/fTetWild) | — | 588 | 2026-05-05 |
 | 105 | 22 | ⚪ Experimental | [LLNL/Nek5000](https://github.com/Nek5000/Nek5000) | — | 479 | 2026-07-26 |
 | 106 | 22 | ⚪ Experimental | [MmgTools/mmg](https://github.com/MmgTools/mmg) | — | 479 | 2026-05-11 |
 | 107 | 22 | ⚪ Experimental | [Nek5000/nekRS](https://github.com/Nek5000/nekRS) | — | 410 | 2026-05-24 |

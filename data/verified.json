@@ -41,7 +41,7 @@
       "import_ok": true,
       "version": "5.3.5",
       "error": null,
-      "secs": 0.7
+      "secs": 0.8
     },
     {
       "name": "CadQuery/cadquery",
@@ -51,7 +51,7 @@
       "import_ok": true,
       "version": "2.8.0",
       "error": null,
-      "secs": 6.6
+      "secs": 7.7
     },
     {
       "name": "anyoptimization/pymoo",
@@ -71,7 +71,7 @@
       "import_ok": true,
       "version": "4.15.2",
       "error": null,
-      "secs": 1.0
+      "secs": 0.8
     },
     {
       "name": "h5py/h5py",
@@ -81,7 +81,7 @@
       "import_ok": true,
       "version": "3.16.0",
       "error": null,
-      "secs": 0.7
+      "secs": 0.5
     },
     {
       "name": "taichi-dev/taichi",

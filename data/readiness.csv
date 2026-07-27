@@ -13,7 +13,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 23,Experimental,dealii/dealii,dealii/dealii,FEA,1698,2026-07-26,False,False,False,False
 23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1639,2026-07-27,False,False,False,False
 48,Scriptable,FEniCS/dolfinx,FEniCS/dolfinx,FEA,1171,2026-07-27,False,True,False,False
-62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,663,2026-07-27,False,True,False,True
+62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,664,2026-07-27,False,True,False,True
 22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,934,2026-07-24,False,False,False,False
 63,Agent-Ready,idaholab/moose,idaholab/moose,FEA,2306,2026-07-26,False,True,False,True
 63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1306,2026-07-27,False,True,False,True
@@ -60,12 +60,12 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 31,Scriptable,OpenMeshLab/MeshXL,OpenMeshLab/MeshXL,Mesh Generation,339,2025-04-04,False,True,False,False
 48,Scriptable,PyMesh/PyMesh,PyMesh/PyMesh,Mesh Generation,2042,2024-08-08,False,True,False,True
 61,Agent-Ready,pyvista/tetgen,pyvista/tetgen,Mesh Generation,307,2026-07-22,False,True,False,True
-22,Experimental,wildmeshing/fTetWild,wildmeshing/fTetWild,Mesh Generation,587,2026-05-05,False,False,False,False
+22,Experimental,wildmeshing/fTetWild,wildmeshing/fTetWild,Mesh Generation,588,2026-05-05,False,False,False,False
 62,Agent-Ready,Autodesk/XLB,Autodesk/XLB,Differentiable Simulation,498,2026-05-29,False,True,False,True
 64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3210,2026-07-09,False,True,False,True
 63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1442,2026-07-26,False,True,False,True
 61,Agent-Ready,gbionics/jaxsim,gbionics/jaxsim,Differentiable Simulation,201,2026-07-10,False,True,False,True
-65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14340,2026-07-26,False,True,False,True
+65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14341,2026-07-26,False,True,False,True
 65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,6907,2026-07-27,False,True,False,True
 50,Agent-Ready,rtqichen/torchdiffeq,rtqichen/torchdiffeq,Differentiable Simulation,6466,2025-04-04,False,True,False,True
 65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28306,2026-07-06,False,True,False,True
@@ -77,7 +77,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,6711,2026-03-30,False,True,False,True
 62,Agent-Ready,google/jax-cfd,google/jax-cfd,AI/ML for Simulation,955,2026-07-08,False,True,False,True
 46,Scriptable,Koopman-Laboratory/KoopmanLab,Koopman-Laboratory/KoopmanLab,AI/ML for Simulation,331,2024-10-05,False,True,False,True
-64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4322,2026-07-27,False,True,False,True
+64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4323,2026-07-27,False,True,False,True
 62,Agent-Ready,microsoft/aurora,microsoft/aurora,AI/ML for Simulation,977,2026-07-23,False,True,False,True
 47,Scriptable,microsoft/ClimaX,microsoft/ClimaX,AI/ML for Simulation,706,2023-09-30,False,True,False,True
 63,Agent-Ready,microsoft/mattergen,microsoft/mattergen,AI/ML for Simulation,1773,2026-07-17,False,True,False,True
