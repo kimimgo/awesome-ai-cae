@@ -91,24 +91,24 @@
 
 <table>
 <tr><th align="center">#</th><th align="right">Score</th><th>Grade</th><th>Tool</th><th>Interfaces</th><th align="right">⭐</th></tr>
-<tr><td align="center">🥇</td><td align="right"><b>94</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python, pip</td><td align="right">56</td></tr>
+<tr><td align="center">🥇</td><td align="right"><b>94</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/llnl/paraview_mcp">llnl/paraview_mcp</a></td><td>MCP, Python, pip</td><td align="right">57</td></tr>
 <tr><td align="center">🥈</td><td align="right"><b>93</b></td><td>🟢 AI-Native</td><td><a href="https://github.com/kimimgo/viznoir">kimimgo/viznoir</a></td><td>MCP, Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">18</td></tr>
-<tr><td align="center">🥉</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">28,306</td></tr>
-<tr><td align="center">4</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td align="right">14,341</td></tr>
-<tr><td align="center">5</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/rerun-io/rerun">rerun-io/rerun</a></td><td>Python, pip</td><td align="right">11,195</td></tr>
-<tr><td align="center">6</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td align="right">6,907</td></tr>
-<tr><td align="center">7</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td align="right">6,711</td></tr>
-<tr><td align="center">8</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td align="right">6,050</td></tr>
-<tr><td align="center">9</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">5,513</td></tr>
-<tr><td align="center">10</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td align="right">5,059</td></tr>
-<tr><td align="center">11</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td align="right">4,323</td></tr>
-<tr><td align="center">12</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td align="right">4,245</td></tr>
-<tr><td align="center">13</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td align="right">3,778</td></tr>
-<tr><td align="center">14</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">3,754</td></tr>
-<tr><td align="center">15</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">3,637</td></tr>
+<tr><td align="center">🥉</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/taichi-dev/taichi">taichi-dev/taichi</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">28,316</td></tr>
+<tr><td align="center">4</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a></td><td>Python, pip</td><td align="right">14,421</td></tr>
+<tr><td align="center">5</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/rerun-io/rerun">rerun-io/rerun</a></td><td>Python, pip</td><td align="right">11,234</td></tr>
+<tr><td align="center">6</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a></td><td>Python, pip</td><td align="right">6,937</td></tr>
+<tr><td align="center">7</td><td align="right"><b>65</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/google-deepmind/graphcast">google-deepmind/graphcast</a></td><td>Python, pip</td><td align="right">6,714</td></tr>
+<tr><td align="center">8</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/maziarraissi/PINNs">maziarraissi/PINNs</a></td><td>Python, pip</td><td align="right">6,067</td></tr>
+<tr><td align="center">9</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/CadQuery/cadquery">CadQuery/cadquery</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">5,551</td></tr>
+<tr><td align="center">10</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/libigl/libigl">libigl/libigl</a></td><td>Python, pip</td><td align="right">5,064</td></tr>
+<tr><td align="center">11</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/lululxvi/deepxde">lululxvi/deepxde</a></td><td>Python, pip</td><td align="right">4,337</td></tr>
+<tr><td align="center">12</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/PolymathicAI/the_well">PolymathicAI/the_well</a></td><td>Python, pip</td><td align="right">4,271</td></tr>
+<tr><td align="center">13</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/NeuralOperator/neuraloperator">NeuralOperator/neuraloperator</a></td><td>Python, pip</td><td align="right">3,790</td></tr>
+<tr><td align="center">14</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/pyvista/pyvista">pyvista/pyvista</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">3,758</td></tr>
+<tr><td align="center">15</td><td align="right"><b>64</b></td><td>🔵 Agent-Ready</td><td><a href="https://github.com/mikedh/trimesh">mikedh/trimesh</a></td><td>Python, pip <b title="install + import smoke-tested">✅</b></td><td align="right">3,640</td></tr>
 </table>
 
-<sub>🟢 2 AI-Native · 🔵 63 Agent-Ready · 🟡 26 Scriptable · ⚪ 23 Experimental — across 114 ranked tools (updated 2026-07-27). ✅ = install + import <a href="data/verified.json">execution-verified</a>. <a href="READINESS.md">Full ranking →</a></sub>
+<sub>🟢 2 AI-Native · 🔵 63 Agent-Ready · 🟡 26 Scriptable · ⚪ 23 Experimental — across 114 ranked tools (updated 2026-08-03). ✅ = install + import <a href="data/verified.json">execution-verified</a>. <a href="READINESS.md">Full ranking →</a></sub>
 
 <!-- AI-READINESS-INDEX:END -->
 
