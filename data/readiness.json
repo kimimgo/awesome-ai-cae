@@ -2414,7 +2414,7 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 445,
+      "stars": 446,
       "last_push": "2026-07-24",
       "signals": {
         "mcp": false,
@@ -2480,7 +2480,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 4271,
+      "stars": 4272,
       "last_push": "2026-07-23",
       "signals": {
         "mcp": false,

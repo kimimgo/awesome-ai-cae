@@ -108,10 +108,10 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 62,Agent-Ready,divelab/AIRS,divelab/AIRS,Datasets & Benchmarks,790,2026-06-29,False,True,False,True
 45,Scriptable,Extrality/AirfRANS,Extrality/AirfRANS,Datasets & Benchmarks,68,2025-01-09,False,True,False,True
 47,Scriptable,Mohamedelrefaie/DrivAerNet,Mohamedelrefaie/DrivAerNet,Datasets & Benchmarks,538,2026-05-14,False,True,False,False
-62,Agent-Ready,i207M/PINNacle,i207M/PINNacle,Datasets & Benchmarks,445,2026-07-24,False,True,False,True
+62,Agent-Ready,i207M/PINNacle,i207M/PINNacle,Datasets & Benchmarks,446,2026-07-24,False,True,False,True
 0,Experimental,NASA TMR,,Datasets & Benchmarks,,,False,False,False,False
 63,Agent-Ready,pdebench/PDEBench,pdebench/PDEBench,Datasets & Benchmarks,1181,2026-03-30,False,True,False,True
-64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4271,2026-07-23,False,True,False,True
+64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4272,2026-07-23,False,True,False,True
 34,Scriptable,barbagroup/CFDPython,barbagroup/CFDPython,Learning Resources,4099,2024-03-19,False,True,False,False
 21,Experimental,ikespand/awesome-machine-learning-fluid-mechanics,ikespand/awesome-machine-learning-fluid-mechanics,Learning Resources,247,2026-05-17,False,False,False,False
 61,Agent-Ready,jxx123/simglucose,jxx123/simglucose,Learning Resources,346,2026-07-23,False,True,False,True

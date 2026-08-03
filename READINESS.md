@@ -17,7 +17,7 @@
 | 9 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,551 | 2026-07-31 |
 | 10 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,064 | 2026-07-15 |
 | 11 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,337 | 2026-07-27 |
-| 12 | 64 | 🔵 Agent-Ready | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | `Py` `pip` | 4,271 | 2026-07-23 |
+| 12 | 64 | 🔵 Agent-Ready | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | `Py` `pip` | 4,272 | 2026-07-23 |
 | 13 | 64 | 🔵 Agent-Ready | [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) | `Py` `pip` | 3,790 | 2026-07-07 |
 | 14 | 64 | 🔵 Agent-Ready | [pyvista/pyvista](https://github.com/pyvista/pyvista) | `Py` `pip` ✅ | 3,758 | 2026-08-03 |
 | 15 | 64 | 🔵 Agent-Ready | [mikedh/trimesh](https://github.com/mikedh/trimesh) | `Py` `pip` ✅ | 3,640 | 2026-08-01 |
@@ -52,7 +52,7 @@
 | 44 | 62 | 🔵 Agent-Ready | [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) | `Py` `pip` | 622 | 2026-03-10 |
 | 45 | 62 | 🔵 Agent-Ready | [PyFR/PyFR](https://github.com/PyFR/PyFR) | `Py` `pip` | 565 | 2026-08-01 |
 | 46 | 62 | 🔵 Agent-Ready | [Autodesk/XLB](https://github.com/Autodesk/XLB) | `Py` `pip` | 500 | 2026-05-29 |
-| 47 | 62 | 🔵 Agent-Ready | [i207M/PINNacle](https://github.com/i207M/PINNacle) | `Py` `pip` | 445 | 2026-07-24 |
+| 47 | 62 | 🔵 Agent-Ready | [i207M/PINNacle](https://github.com/i207M/PINNacle) | `Py` `pip` | 446 | 2026-07-24 |
 | 48 | 61 | 🔵 Agent-Ready | [NGSolve/netgen](https://github.com/NGSolve/netgen) | `Py` `pip` | 384 | 2026-07-28 |
 | 49 | 61 | 🔵 Agent-Ready | [jxx123/simglucose](https://github.com/jxx123/simglucose) | `Py` `pip` | 346 | 2026-07-23 |
 | 50 | 61 | 🔵 Agent-Ready | [NVIDIA/physicsnemo-sym](https://github.com/NVIDIA/physicsnemo-sym) | `Py` `pip` | 335 | 2026-04-28 |
