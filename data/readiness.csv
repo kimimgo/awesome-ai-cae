@@ -1,120 +1,120 @@
 score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 93,AI-Native,kimimgo/viznoir,kimimgo/viznoir,MCP Servers|Visualization & Post-processing,17,2026-08-11,True,True,False,True
-94,AI-Native,llnl/paraview_mcp,llnl/paraview_mcp,MCP Servers,58,2026-04-22,True,True,False,True
+94,AI-Native,llnl/paraview_mcp,llnl/paraview_mcp,MCP Servers,61,2026-04-22,True,True,False,True
 48,Scriptable,webworn/openfoam-mcp-server,webworn/openfoam-mcp-server,MCP Servers,114,2026-01-18,True,False,False,False
-23,Experimental,OpenFOAM/OpenFOAM-dev,OpenFOAM/OpenFOAM-dev,CFD,2200,2026-08-17,False,False,False,False
-48,Scriptable,su2code/SU2,su2code/SU2,CFD,1783,2026-08-17,False,True,False,False
-22,Experimental,LLNL/Nek5000,Nek5000/Nek5000,CFD,482,2026-08-13,False,False,False,False
-22,Experimental,Nek5000/nekRS,Nek5000/nekRS,CFD,412,2026-05-24,False,False,False,False
-47,Scriptable,precice/precice,precice/precice,CFD,961,2026-08-17,False,True,False,False
-24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5230,2026-07-14,False,False,False,False
-62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,567,2026-08-15,False,True,False,True
+23,Experimental,OpenFOAM/OpenFOAM-dev,OpenFOAM/OpenFOAM-dev,CFD,2209,2026-08-23,False,False,False,False
+48,Scriptable,su2code/SU2,su2code/SU2,CFD,1784,2026-08-23,False,True,False,False
+22,Experimental,LLNL/Nek5000,Nek5000/Nek5000,CFD,485,2026-08-13,False,False,False,False
+22,Experimental,Nek5000/nekRS,Nek5000/nekRS,CFD,413,2026-05-24,False,False,False,False
+47,Scriptable,precice/precice,precice/precice,CFD,962,2026-08-21,False,True,False,False
+24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5242,2026-08-23,False,False,False,False
+62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,568,2026-08-23,False,True,False,True
 0,Experimental,CalculiX,,FEA,,,False,False,False,False
-23,Experimental,dealii/dealii,dealii/dealii,FEA,1711,2026-08-15,False,False,False,False
-23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1665,2026-08-17,False,False,False,False
-48,Scriptable,FEniCS/dolfinx,FEniCS/dolfinx,FEA,1185,2026-08-17,False,True,False,False
-62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,669,2026-08-16,False,True,False,True
-22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,937,2026-08-14,False,False,False,False
-63,Agent-Ready,idaholab/moose,idaholab/moose,FEA,2330,2026-08-17,False,True,False,True
-63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1315,2026-08-17,False,True,False,True
-23,Experimental,mfem/mfem,mfem/mfem,FEA,2219,2026-08-17,False,False,False,False
-22,Experimental,OpenSees/OpenSees,OpenSees/OpenSees,FEA,797,2026-08-14,False,False,False,False
+23,Experimental,dealii/dealii,dealii/dealii,FEA,1712,2026-08-24,False,False,False,False
+23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1674,2026-08-23,False,False,False,False
+48,Scriptable,FEniCS/dolfinx,FEniCS/dolfinx,FEA,1185,2026-08-23,False,True,False,False
+62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,670,2026-08-23,False,True,False,True
+22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,938,2026-08-23,False,False,False,False
+63,Agent-Ready,idaholab/moose,idaholab/moose,FEA,2334,2026-08-24,False,True,False,True
+63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1319,2026-08-24,False,True,False,True
+23,Experimental,mfem/mfem,mfem/mfem,FEA,2224,2026-08-24,False,False,False,False
+22,Experimental,OpenSees/OpenSees,OpenSees/OpenSees,FEA,802,2026-08-14,False,False,False,False
 62,Agent-Ready,sfepy/sfepy,sfepy/sfepy,FEA,838,2026-08-14,False,True,False,True
 7,Experimental,DualSPHysics/DualSPHysics,DualSPHysics/DualSPHysics,SPH,742,2025-04-16,False,False,False,False
-23,Experimental,InteractiveComputerGraphics/SPlisHSPlasH,InteractiveComputerGraphics/SPlisHSPlasH,SPH,1877,2026-08-14,False,False,False,False
-62,Agent-Ready,pypr/pysph,pypr/pysph,SPH,544,2026-08-08,False,True,False,True
+23,Experimental,InteractiveComputerGraphics/SPlisHSPlasH,InteractiveComputerGraphics/SPlisHSPlasH,SPH,1879,2026-08-14,False,False,False,False
+62,Agent-Ready,pypr/pysph,pypr/pysph,SPH,544,2026-08-23,False,True,False,True
 21,Experimental,CFDEMproject/LIGGGHTS-PUBLIC,CFDEMproject/LIGGGHTS-PUBLIC,DEM,336,2026-05-18,False,False,False,False
-64,Agent-Ready,lammps/lammps,lammps/lammps,DEM,3019,2026-08-17,False,True,False,True
+64,Agent-Ready,lammps/lammps,lammps/lammps,DEM,3025,2026-08-23,False,True,False,True
 0,Experimental,MercuryDPM,,DEM,,,False,False,False,False
 45,Scriptable,SudoDEM/SudoDEM,SudoDEM/SudoDEM,DEM,97,2026-03-27,False,True,False,False
 40,Scriptable,Yade,,DEM,,,False,True,False,True
-61,Agent-Ready,fury-gl/fury,fury-gl/fury,Visualization & Post-processing,299,2026-08-17,False,True,False,True
+61,Agent-Ready,fury-gl/fury,fury-gl/fury,Visualization & Post-processing,298,2026-08-24,False,True,False,True
 62,Agent-Ready,InsightSoftwareConsortium/itkwidgets,InsightSoftwareConsortium/itkwidgets,Visualization & Post-processing,623,2026-03-10,False,True,False,True
-48,Scriptable,Kitware/ParaView,Kitware/ParaView,Visualization & Post-processing,1682,2026-08-17,False,True,False,False
-62,Agent-Ready,Kitware/trame,Kitware/trame,Visualization & Post-processing,691,2026-08-05,False,True,False,True
-21,Experimental,Kitware/VolView,Kitware/VolView,Visualization & Post-processing,292,2026-08-16,False,False,False,False
-64,Agent-Ready,Kitware/VTK,Kitware/VTK,Visualization & Post-processing,3191,2026-08-17,False,True,False,True
-23,Experimental,Kitware/vtk-js,Kitware/vtk-js,Visualization & Post-processing,1520,2026-08-17,False,False,False,False
-63,Agent-Ready,marcomusy/vedo,marcomusy/vedo,Visualization & Post-processing,2262,2026-08-04,False,True,False,True
-64,Agent-Ready,napari/napari,napari/napari,Visualization & Post-processing,2734,2026-08-14,False,True,False,True
-63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2195,2026-05-20,False,True,False,True
-50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18741,2026-08-07,False,True,False,False
-64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3772,2026-08-17,False,True,False,True
-65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11312,2026-08-16,False,True,False,True
-64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5610,2026-08-14,False,True,False,True
-61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,191,2026-08-15,False,True,False,True
-50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,32894,2026-08-17,False,True,False,False
-64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2867,2026-08-14,False,True,False,True
-64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3650,2026-08-14,False,True,False,True
-47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,967,2023-10-04,False,True,False,True
-24,Experimental,Open-Cascade-SAS/OCCT,Open-Cascade-SAS/OCCT,CAD & Geometry,2769,2026-08-15,False,False,False,False
+48,Scriptable,Kitware/ParaView,Kitware/ParaView,Visualization & Post-processing,1687,2026-08-24,False,True,False,False
+62,Agent-Ready,Kitware/trame,Kitware/trame,Visualization & Post-processing,691,2026-08-20,False,True,False,True
+21,Experimental,Kitware/VolView,Kitware/VolView,Visualization & Post-processing,294,2026-08-18,False,False,False,False
+64,Agent-Ready,Kitware/VTK,Kitware/VTK,Visualization & Post-processing,3198,2026-08-24,False,True,False,True
+23,Experimental,Kitware/vtk-js,Kitware/vtk-js,Visualization & Post-processing,1519,2026-08-21,False,False,False,False
+63,Agent-Ready,marcomusy/vedo,marcomusy/vedo,Visualization & Post-processing,2263,2026-08-04,False,True,False,True
+64,Agent-Ready,napari/napari,napari/napari,Visualization & Post-processing,2738,2026-08-21,False,True,False,True
+63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2198,2026-05-20,False,True,False,True
+50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18751,2026-08-21,False,True,False,False
+64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3782,2026-08-24,False,True,False,True
+65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11341,2026-08-21,False,True,False,True
+64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5647,2026-08-22,False,True,False,True
+61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,194,2026-08-22,False,True,False,True
+50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,33043,2026-08-24,False,True,False,False
+64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2906,2026-08-21,False,True,False,True
+64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3655,2026-08-20,False,True,False,True
+47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,968,2023-10-04,False,True,False,True
+24,Experimental,Open-Cascade-SAS/OCCT,Open-Cascade-SAS/OCCT,CAD & Geometry,2793,2026-08-23,False,False,False,False
 56,Agent-Ready,SolidCode/SolidPython,SolidCode/SolidPython,CAD & Geometry,1262,2025-10-08,False,True,False,True
-33,Scriptable,buaacyw/MeshAnything,buaacyw/MeshAnything,Mesh Generation,2298,2025-04-28,False,True,False,False
-33,Scriptable,buaacyw/MeshAnythingV2,buaacyw/MeshAnythingV2,Mesh Generation,1011,2025-04-28,False,True,False,False
-24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6009,2026-08-17,False,False,False,False
+33,Scriptable,buaacyw/MeshAnything,buaacyw/MeshAnything,Mesh Generation,2299,2025-04-28,False,True,False,False
+33,Scriptable,buaacyw/MeshAnythingV2,buaacyw/MeshAnythingV2,Mesh Generation,1013,2025-04-28,False,True,False,False
+24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6021,2026-08-22,False,False,False,False
 40,Scriptable,Gmsh,,Mesh Generation,,,False,True,False,True
-64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5068,2026-08-04,False,True,False,True
-22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,483,2026-05-11,False,False,False,False
-61,Agent-Ready,NGSolve/netgen,NGSolve/netgen,Mesh Generation,386,2026-08-06,False,True,False,True
-23,Experimental,nmwsharp/geometry-central,nmwsharp/geometry-central,Mesh Generation,1330,2026-06-13,False,False,False,False
+64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5074,2026-08-22,False,True,False,True
+22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,485,2026-05-11,False,False,False,False
+61,Agent-Ready,NGSolve/netgen,NGSolve/netgen,Mesh Generation,388,2026-08-06,False,True,False,True
+23,Experimental,nmwsharp/geometry-central,nmwsharp/geometry-central,Mesh Generation,1333,2026-06-13,False,False,False,False
 31,Scriptable,OpenMeshLab/MeshXL,OpenMeshLab/MeshXL,Mesh Generation,340,2025-04-04,False,True,False,False
 48,Scriptable,PyMesh/PyMesh,PyMesh/PyMesh,Mesh Generation,2043,2024-08-08,False,True,False,True
 61,Agent-Ready,pyvista/tetgen,pyvista/tetgen,Mesh Generation,310,2026-08-01,False,True,False,True
 22,Experimental,wildmeshing/fTetWild,wildmeshing/fTetWild,Mesh Generation,594,2026-05-05,False,False,False,False
-62,Agent-Ready,Autodesk/XLB,Autodesk/XLB,Differentiable Simulation,503,2026-05-29,False,True,False,True
-64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3218,2026-08-06,False,True,False,True
-63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1453,2026-07-26,False,True,False,True
+62,Agent-Ready,Autodesk/XLB,Autodesk/XLB,Differentiable Simulation,502,2026-05-29,False,True,False,True
+64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3223,2026-08-06,False,True,False,True
+63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1457,2026-08-18,False,True,False,True
 61,Agent-Ready,gbionics/jaxsim,gbionics/jaxsim,Differentiable Simulation,203,2026-08-01,False,True,False,True
-65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14573,2026-08-16,False,True,False,True
-65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,7009,2026-08-15,False,True,False,True
-50,Agent-Ready,rtqichen/torchdiffeq,rtqichen/torchdiffeq,Differentiable Simulation,6473,2025-04-04,False,True,False,True
-65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28329,2026-07-06,False,True,False,True
-47,Scriptable,tumaer/JAXFLUIDS,tumaer/JAXFLUIDS,Differentiable Simulation,618,2026-08-05,False,True,False,False
-61,Agent-Ready,csml-rpi/Foam-Agent,csml-rpi/Foam-Agent,AI/ML for Simulation,304,2026-08-14,False,True,True,False
-63,Agent-Ready,deepmodeling/deepmd-kit,deepmodeling/deepmd-kit,AI/ML for Simulation,2007,2026-08-15,False,True,False,True
-55,Agent-Ready,dynamicslab/pykoopman,dynamicslab/pykoopman,AI/ML for Simulation,446,2026-01-22,False,True,False,True
-63,Agent-Ready,dynamicslab/pysindy,dynamicslab/pysindy,AI/ML for Simulation,1887,2026-06-10,False,True,False,True
-65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,7536,2026-08-11,False,True,False,True
-62,Agent-Ready,google/jax-cfd,google/jax-cfd,AI/ML for Simulation,957,2026-07-08,False,True,False,True
-46,Scriptable,Koopman-Laboratory/KoopmanLab,Koopman-Laboratory/KoopmanLab,AI/ML for Simulation,330,2024-10-05,False,True,False,True
-64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4373,2026-07-27,False,True,False,True
-62,Agent-Ready,microsoft/aurora,microsoft/aurora,AI/ML for Simulation,999,2026-08-04,False,True,False,True
+65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14644,2026-08-24,False,True,False,True
+65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,7028,2026-08-24,False,True,False,True
+50,Agent-Ready,rtqichen/torchdiffeq,rtqichen/torchdiffeq,Differentiable Simulation,6476,2025-04-04,False,True,False,True
+65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28340,2026-07-06,False,True,False,True
+47,Scriptable,tumaer/JAXFLUIDS,tumaer/JAXFLUIDS,Differentiable Simulation,629,2026-08-05,False,True,False,False
+61,Agent-Ready,csml-rpi/Foam-Agent,csml-rpi/Foam-Agent,AI/ML for Simulation,306,2026-08-14,False,True,True,False
+63,Agent-Ready,deepmodeling/deepmd-kit,deepmodeling/deepmd-kit,AI/ML for Simulation,2017,2026-08-19,False,True,False,True
+55,Agent-Ready,dynamicslab/pykoopman,dynamicslab/pykoopman,AI/ML for Simulation,449,2026-01-22,False,True,False,True
+63,Agent-Ready,dynamicslab/pysindy,dynamicslab/pysindy,AI/ML for Simulation,1893,2026-06-10,False,True,False,True
+65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,7584,2026-08-11,False,True,False,True
+62,Agent-Ready,google/jax-cfd,google/jax-cfd,AI/ML for Simulation,960,2026-07-08,False,True,False,True
+46,Scriptable,Koopman-Laboratory/KoopmanLab,Koopman-Laboratory/KoopmanLab,AI/ML for Simulation,331,2024-10-05,False,True,False,True
+64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4383,2026-08-18,False,True,False,True
+63,Agent-Ready,microsoft/aurora,microsoft/aurora,AI/ML for Simulation,1008,2026-08-19,False,True,False,True
 47,Scriptable,microsoft/ClimaX,microsoft/ClimaX,AI/ML for Simulation,709,2023-09-30,False,True,False,True
-63,Agent-Ready,microsoft/mattergen,microsoft/mattergen,AI/ML for Simulation,1792,2026-07-29,False,True,False,True
-64,Agent-Ready,NeuralOperator/neuraloperator,NeuralOperator/neuraloperator,AI/ML for Simulation,3814,2026-08-06,False,True,False,True
-63,Agent-Ready,NVIDIA/earth2studio,NVIDIA/earth2studio,AI/ML for Simulation,1087,2026-08-17,False,True,False,True
-64,Agent-Ready,NVIDIA/physicsnemo,NVIDIA/physicsnemo,AI/ML for Simulation,3165,2026-08-16,False,True,False,True
+63,Agent-Ready,microsoft/mattergen,microsoft/mattergen,AI/ML for Simulation,1798,2026-08-22,False,True,False,True
+64,Agent-Ready,NeuralOperator/neuraloperator,NeuralOperator/neuraloperator,AI/ML for Simulation,3823,2026-08-06,False,True,False,True
+63,Agent-Ready,NVIDIA/earth2studio,NVIDIA/earth2studio,AI/ML for Simulation,1093,2026-08-24,False,True,False,True
+64,Agent-Ready,NVIDIA/physicsnemo,NVIDIA/physicsnemo,AI/ML for Simulation,3191,2026-08-22,False,True,False,True
 61,Agent-Ready,Terry-cyx/MetaOpenFOAM,Terry-cyx/MetaOpenFOAM,AI/ML for Simulation,203,2026-04-10,False,True,True,False
-63,Agent-Ready,tum-pbs/PhiFlow,tum-pbs/PhiFlow,AI/ML for Simulation,1926,2026-07-16,False,True,False,True
-46,Scriptable,camlab-ethz/poseidon,camlab-ethz/poseidon,Surrogate Models & PINNs,194,2025-04-10,False,True,False,True
-56,Agent-Ready,mathLab/PINA,mathLab/PINA,Surrogate Models & PINNs,2,2026-07-21,False,True,False,True
+63,Agent-Ready,tum-pbs/PhiFlow,tum-pbs/PhiFlow,AI/ML for Simulation,1929,2026-07-16,False,True,False,True
+46,Scriptable,camlab-ethz/poseidon,camlab-ethz/poseidon,Surrogate Models & PINNs,196,2025-04-10,False,True,False,True
+57,Agent-Ready,mathLab/PINA,mathLab/PINA,Surrogate Models & PINNs,4,2026-07-21,False,True,False,True
 45,Scriptable,mathLab/PyDMD,mathLab/PyDMD,Surrogate Models & PINNs,127,2025-03-06,False,True,False,True
-62,Agent-Ready,NeuroDiffGym/neurodiffeq,NeuroDiffGym/neurodiffeq,Surrogate Models & PINNs,790,2026-04-22,False,True,False,True
+62,Agent-Ready,NeuroDiffGym/neurodiffeq,NeuroDiffGym/neurodiffeq,Surrogate Models & PINNs,789,2026-04-22,False,True,False,True
 61,Agent-Ready,NVIDIA/physicsnemo-sym,NVIDIA/physicsnemo-sym,Surrogate Models & PINNs,335,2026-04-28,False,True,False,True
-40,Scriptable,rezaakb/pinns-torch,rezaakb/pinns-torch,Surrogate Models & PINNs,939,2026-02-08,False,True,False,False
-41,Scriptable,sciann/sciann,sciann/sciann,Surrogate Models & PINNs,1,2024-09-26,False,True,False,True
-46,Scriptable,thuml/Neural-Solver-Library,thuml/Neural-Solver-Library,Surrogate Models & PINNs,335,2026-03-10,False,True,False,False
-64,Agent-Ready,meta-pytorch/botorch,meta-pytorch/botorch,Optimization,3585,2026-08-15,False,True,False,True
-61,Agent-Ready,OpenMDAO/dymos,OpenMDAO/dymos,Optimization,294,2026-05-13,False,True,False,True
-62,Agent-Ready,OpenMDAO/OpenMDAO,OpenMDAO/OpenMDAO,Optimization,771,2026-08-15,False,True,False,True
-64,Agent-Ready,anyoptimization/pymoo,anyoptimization/pymoo,Optimization,2938,2026-07-07,False,True,False,True
+40,Scriptable,rezaakb/pinns-torch,rezaakb/pinns-torch,Surrogate Models & PINNs,938,2026-02-08,False,True,False,False
+41,Scriptable,sciann/sciann,sciann/sciann,Surrogate Models & PINNs,2,2024-09-26,False,True,False,True
+46,Scriptable,thuml/Neural-Solver-Library,thuml/Neural-Solver-Library,Surrogate Models & PINNs,336,2026-03-10,False,True,False,False
+64,Agent-Ready,meta-pytorch/botorch,meta-pytorch/botorch,Optimization,3588,2026-08-20,False,True,False,True
+61,Agent-Ready,OpenMDAO/dymos,OpenMDAO/dymos,Optimization,295,2026-05-13,False,True,False,True
+62,Agent-Ready,OpenMDAO/OpenMDAO,OpenMDAO/OpenMDAO,Optimization,772,2026-08-21,False,True,False,True
+64,Agent-Ready,anyoptimization/pymoo,anyoptimization/pymoo,Optimization,2943,2026-07-07,False,True,False,True
 30,Scriptable,dl4to/dl4to,dl4to/dl4to,Optimization,143,2024-11-19,False,True,False,False
 47,Scriptable,williamhunter/topy,williamhunter/topy,Optimization,573,2022-08-31,False,True,False,True
 54,Agent-Ready,mdolab/OpenAeroStruct,mdolab/OpenAeroStruct,Optimization,277,2025-10-06,False,True,False,True
-48,Scriptable,nschloe/meshio,nschloe/meshio,Data Formats & I/O,2320,2024-07-23,False,True,False,True
-63,Agent-Ready,h5py/h5py,h5py/h5py,Data Formats & I/O,2247,2026-08-14,False,True,False,True
-47,Scriptable,Unidata/netcdf4-python,Unidata/netcdf4-python,Data Formats & I/O,835,2026-07-27,False,True,False,False
-21,Experimental,CGNS/CGNS,CGNS/CGNS,Data Formats & I/O,270,2026-08-14,False,False,False,False
-62,Agent-Ready,divelab/AIRS,divelab/AIRS,Datasets & Benchmarks,790,2026-06-29,False,True,False,True
+48,Scriptable,nschloe/meshio,nschloe/meshio,Data Formats & I/O,2322,2024-07-23,False,True,False,True
+63,Agent-Ready,h5py/h5py,h5py/h5py,Data Formats & I/O,2248,2026-08-21,False,True,False,True
+47,Scriptable,Unidata/netcdf4-python,Unidata/netcdf4-python,Data Formats & I/O,836,2026-08-24,False,True,False,False
+21,Experimental,CGNS/CGNS,CGNS/CGNS,Data Formats & I/O,270,2026-08-17,False,False,False,False
+62,Agent-Ready,divelab/AIRS,divelab/AIRS,Datasets & Benchmarks,791,2026-06-29,False,True,False,True
 45,Scriptable,Extrality/AirfRANS,Extrality/AirfRANS,Datasets & Benchmarks,69,2025-01-09,False,True,False,True
-47,Scriptable,Mohamedelrefaie/DrivAerNet,Mohamedelrefaie/DrivAerNet,Datasets & Benchmarks,540,2026-05-14,False,True,False,False
-62,Agent-Ready,i207M/PINNacle,i207M/PINNacle,Datasets & Benchmarks,449,2026-07-24,False,True,False,True
+47,Scriptable,Mohamedelrefaie/DrivAerNet,Mohamedelrefaie/DrivAerNet,Datasets & Benchmarks,539,2026-05-14,False,True,False,False
+62,Agent-Ready,i207M/PINNacle,i207M/PINNacle,Datasets & Benchmarks,448,2026-07-24,False,True,False,True
 0,Experimental,NASA TMR,,Datasets & Benchmarks,,,False,False,False,False
-63,Agent-Ready,pdebench/PDEBench,pdebench/PDEBench,Datasets & Benchmarks,1187,2026-03-30,False,True,False,True
-64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4354,2026-07-23,False,True,False,True
-34,Scriptable,barbagroup/CFDPython,barbagroup/CFDPython,Learning Resources,4114,2024-03-19,False,True,False,False
-21,Experimental,ikespand/awesome-machine-learning-fluid-mechanics,ikespand/awesome-machine-learning-fluid-mechanics,Learning Resources,250,2026-05-17,False,False,False,False
-61,Agent-Ready,jxx123/simglucose,jxx123/simglucose,Learning Resources,348,2026-07-23,False,True,False,True
-57,Agent-Ready,maziarraissi/PINNs,maziarraissi/PINNs,Learning Resources,6089,2026-02-11,False,True,False,True
-16,Experimental,thunil/Physics-Based-Deep-Learning,thunil/Physics-Based-Deep-Learning,Learning Resources,1908,2025-10-10,False,False,False,False
+63,Agent-Ready,pdebench/PDEBench,pdebench/PDEBench,Datasets & Benchmarks,1191,2026-03-30,False,True,False,True
+64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4387,2026-07-23,False,True,False,True
+34,Scriptable,barbagroup/CFDPython,barbagroup/CFDPython,Learning Resources,4118,2024-03-19,False,True,False,False
+21,Experimental,ikespand/awesome-machine-learning-fluid-mechanics,ikespand/awesome-machine-learning-fluid-mechanics,Learning Resources,251,2026-05-17,False,False,False,False
+61,Agent-Ready,jxx123/simglucose,jxx123/simglucose,Learning Resources,349,2026-07-23,False,True,False,True
+57,Agent-Ready,maziarraissi/PINNs,maziarraissi/PINNs,Learning Resources,6105,2026-02-11,False,True,False,True
+16,Experimental,thunil/Physics-Based-Deep-Learning,thunil/Physics-Based-Deep-Learning,Learning Resources,1907,2025-10-10,False,False,False,False
 6,Experimental,WillDreamer/Awesome-AI4CFD,WillDreamer/Awesome-AI4CFD,Learning Resources,362,2025-06-04,False,False,False,False
