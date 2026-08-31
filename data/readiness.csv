@@ -7,20 +7,20 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 22,Experimental,LLNL/Nek5000,Nek5000/Nek5000,CFD,486,2026-08-13,False,False,False,False
 22,Experimental,Nek5000/nekRS,Nek5000/nekRS,CFD,416,2026-05-24,False,False,False,False
 47,Scriptable,precice/precice,precice/precice,CFD,964,2026-08-24,False,True,False,False
-24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5257,2026-08-29,False,False,False,False
+24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5256,2026-08-29,False,False,False,False
 62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,569,2026-08-29,False,True,False,True
 0,Experimental,CalculiX,,FEA,,,False,False,False,False
-23,Experimental,dealii/dealii,dealii/dealii,FEA,1720,2026-08-28,False,False,False,False
+23,Experimental,dealii/dealii,dealii/dealii,FEA,1720,2026-08-31,False,False,False,False
 23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1684,2026-08-31,False,False,False,False
 48,Scriptable,FEniCS/dolfinx,FEniCS/dolfinx,FEA,1189,2026-08-31,False,True,False,False
 62,Agent-Ready,firedrakeproject/firedrake,firedrakeproject/firedrake,FEA,670,2026-08-31,False,True,False,True
-22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,941,2026-08-31,False,False,False,False
+22,Experimental,FreeFem/FreeFem-sources,FreeFem/FreeFem-sources,FEA,942,2026-08-31,False,False,False,False
 63,Agent-Ready,idaholab/moose,idaholab/moose,FEA,2339,2026-08-31,False,True,False,True
 63,Agent-Ready,KratosMultiphysics/Kratos,KratosMultiphysics/Kratos,FEA,1356,2026-08-31,False,True,False,True
-23,Experimental,mfem/mfem,mfem/mfem,FEA,2228,2026-08-31,False,False,False,False
+23,Experimental,mfem/mfem,mfem/mfem,FEA,2227,2026-08-31,False,False,False,False
 22,Experimental,OpenSees/OpenSees,OpenSees/OpenSees,FEA,807,2026-08-14,False,False,False,False
 62,Agent-Ready,sfepy/sfepy,sfepy/sfepy,FEA,838,2026-08-26,False,True,False,True
-7,Experimental,DualSPHysics/DualSPHysics,DualSPHysics/DualSPHysics,SPH,745,2025-04-16,False,False,False,False
+7,Experimental,DualSPHysics/DualSPHysics,DualSPHysics/DualSPHysics,SPH,746,2025-04-16,False,False,False,False
 23,Experimental,InteractiveComputerGraphics/SPlisHSPlasH,InteractiveComputerGraphics/SPlisHSPlasH,SPH,1885,2026-08-14,False,False,False,False
 62,Agent-Ready,pypr/pysph,pypr/pysph,SPH,544,2026-08-23,False,True,False,True
 21,Experimental,CFDEMproject/LIGGGHTS-PUBLIC,CFDEMproject/LIGGGHTS-PUBLIC,DEM,336,2026-05-18,False,False,False,False
@@ -30,7 +30,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 40,Scriptable,Yade,,DEM,,,False,True,False,True
 61,Agent-Ready,fury-gl/fury,fury-gl/fury,Visualization & Post-processing,298,2026-08-31,False,True,False,True
 62,Agent-Ready,InsightSoftwareConsortium/itkwidgets,InsightSoftwareConsortium/itkwidgets,Visualization & Post-processing,624,2026-03-10,False,True,False,True
-48,Scriptable,Kitware/ParaView,Kitware/ParaView,Visualization & Post-processing,1690,2026-08-31,False,True,False,False
+48,Scriptable,Kitware/ParaView,Kitware/ParaView,Visualization & Post-processing,1689,2026-08-31,False,True,False,False
 62,Agent-Ready,Kitware/trame,Kitware/trame,Visualization & Post-processing,695,2026-08-28,False,True,False,True
 21,Experimental,Kitware/VolView,Kitware/VolView,Visualization & Post-processing,299,2026-08-27,False,False,False,False
 64,Agent-Ready,Kitware/VTK,Kitware/VTK,Visualization & Post-processing,3204,2026-08-31,False,True,False,True
@@ -40,22 +40,22 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2199,2026-05-20,False,True,False,True
 50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18763,2026-08-27,False,True,False,False
 64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3789,2026-08-31,False,True,False,True
-65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11378,2026-08-31,False,True,False,True
+65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11379,2026-08-31,False,True,False,True
 64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5671,2026-08-31,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,196,2026-08-30,False,True,False,True
 50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,33170,2026-08-31,False,True,False,False
-64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2971,2026-08-30,False,True,False,True
-64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3662,2026-08-29,False,True,False,True
+64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,2972,2026-08-30,False,True,False,True
+64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3662,2026-08-31,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,968,2023-10-04,False,True,False,True
 24,Experimental,Open-Cascade-SAS/OCCT,Open-Cascade-SAS/OCCT,CAD & Geometry,2816,2026-08-29,False,False,False,False
-56,Agent-Ready,SolidCode/SolidPython,SolidCode/SolidPython,CAD & Geometry,1263,2025-10-08,False,True,False,True
+56,Agent-Ready,SolidCode/SolidPython,SolidCode/SolidPython,CAD & Geometry,1264,2025-10-08,False,True,False,True
 33,Scriptable,buaacyw/MeshAnything,buaacyw/MeshAnything,Mesh Generation,2303,2025-04-28,False,True,False,False
 33,Scriptable,buaacyw/MeshAnythingV2,buaacyw/MeshAnythingV2,Mesh Generation,1017,2025-04-28,False,True,False,False
 24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6028,2026-08-27,False,False,False,False
 40,Scriptable,Gmsh,,Mesh Generation,,,False,True,False,True
 64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5079,2026-08-31,False,True,False,True
 22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,486,2026-05-11,False,False,False,False
-61,Agent-Ready,NGSolve/netgen,NGSolve/netgen,Mesh Generation,388,2026-08-26,False,True,False,True
+61,Agent-Ready,NGSolve/netgen,NGSolve/netgen,Mesh Generation,388,2026-08-31,False,True,False,True
 23,Experimental,nmwsharp/geometry-central,nmwsharp/geometry-central,Mesh Generation,1335,2026-06-13,False,False,False,False
 31,Scriptable,OpenMeshLab/MeshXL,OpenMeshLab/MeshXL,Mesh Generation,340,2025-04-04,False,True,False,False
 48,Scriptable,PyMesh/PyMesh,PyMesh/PyMesh,Mesh Generation,2043,2024-08-08,False,True,False,True
@@ -102,7 +102,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 47,Scriptable,williamhunter/topy,williamhunter/topy,Optimization,574,2022-08-31,False,True,False,True
 54,Agent-Ready,mdolab/OpenAeroStruct,mdolab/OpenAeroStruct,Optimization,278,2025-10-06,False,True,False,True
 48,Scriptable,nschloe/meshio,nschloe/meshio,Data Formats & I/O,2326,2024-07-23,False,True,False,True
-63,Agent-Ready,h5py/h5py,h5py/h5py,Data Formats & I/O,2249,2026-08-21,False,True,False,True
+63,Agent-Ready,h5py/h5py,h5py/h5py,Data Formats & I/O,2249,2026-08-31,False,True,False,True
 47,Scriptable,Unidata/netcdf4-python,Unidata/netcdf4-python,Data Formats & I/O,835,2026-08-24,False,True,False,False
 21,Experimental,CGNS/CGNS,CGNS/CGNS,Data Formats & I/O,270,2026-08-24,False,False,False,False
 62,Agent-Ready,divelab/AIRS,divelab/AIRS,Datasets & Benchmarks,793,2026-06-29,False,True,False,True
