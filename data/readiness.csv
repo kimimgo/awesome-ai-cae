@@ -7,7 +7,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 22,Experimental,LLNL/Nek5000,Nek5000/Nek5000,CFD,487,2026-08-13,False,False,False,False
 22,Experimental,Nek5000/nekRS,Nek5000/nekRS,CFD,419,2026-05-24,False,False,False,False
 47,Scriptable,precice/precice,precice/precice,CFD,969,2026-09-01,False,True,False,False
-24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5260,2026-09-05,False,False,False,False
+24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5261,2026-09-05,False,False,False,False
 62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,573,2026-09-03,False,True,False,True
 0,Experimental,CalculiX,,FEA,,,False,False,False,False
 23,Experimental,dealii/dealii,dealii/dealii,FEA,1722,2026-09-04,False,False,False,False
@@ -43,7 +43,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11406,2026-09-07,False,True,False,True
 64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5708,2026-09-05,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,196,2026-09-06,False,True,False,True
-50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,33335,2026-09-07,False,True,False,False
+50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,33336,2026-09-07,False,True,False,False
 64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,3038,2026-09-07,False,True,False,True
 64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3670,2026-09-02,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,969,2023-10-04,False,True,False,True
@@ -53,7 +53,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 33,Scriptable,buaacyw/MeshAnythingV2,buaacyw/MeshAnythingV2,Mesh Generation,1019,2025-04-28,False,True,False,False
 24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6035,2026-09-07,False,False,False,False
 40,Scriptable,Gmsh,,Mesh Generation,,,False,True,False,True
-64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5082,2026-09-04,False,True,False,True
+64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5083,2026-09-04,False,True,False,True
 22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,488,2026-05-11,False,False,False,False
 61,Agent-Ready,NGSolve/netgen,NGSolve/netgen,Mesh Generation,391,2026-09-07,False,True,False,True
 23,Experimental,nmwsharp/geometry-central,nmwsharp/geometry-central,Mesh Generation,1338,2026-06-13,False,False,False,False
@@ -65,7 +65,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 64,Agent-Ready,google/brax,google/brax,Differentiable Simulation,3230,2026-08-06,False,True,False,True
 63,Agent-Ready,jax-md/jax-md,jax-md/jax-md,Differentiable Simulation,1459,2026-08-18,False,True,False,True
 61,Agent-Ready,gbionics/jaxsim,gbionics/jaxsim,Differentiable Simulation,203,2026-09-01,False,True,False,True
-65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14968,2026-09-07,False,True,False,True
+65,Agent-Ready,google-deepmind/mujoco,google-deepmind/mujoco,Differentiable Simulation,14969,2026-09-07,False,True,False,True
 65,Agent-Ready,NVIDIA/warp,NVIDIA/warp,Differentiable Simulation,7085,2026-09-07,False,True,False,True
 50,Agent-Ready,rtqichen/torchdiffeq,rtqichen/torchdiffeq,Differentiable Simulation,6479,2025-04-04,False,True,False,True
 65,Agent-Ready,taichi-dev/taichi,taichi-dev/taichi,Differentiable Simulation,28362,2026-07-06,False,True,False,True
@@ -74,7 +74,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 63,Agent-Ready,deepmodeling/deepmd-kit,deepmodeling/deepmd-kit,AI/ML for Simulation,2035,2026-09-07,False,True,False,True
 55,Agent-Ready,dynamicslab/pykoopman,dynamicslab/pykoopman,AI/ML for Simulation,450,2026-01-22,False,True,False,True
 63,Agent-Ready,dynamicslab/pysindy,dynamicslab/pysindy,AI/ML for Simulation,1897,2026-06-10,False,True,False,True
-65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,7641,2026-09-04,False,True,False,True
+65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,7642,2026-09-04,False,True,False,True
 62,Agent-Ready,google/jax-cfd,google/jax-cfd,AI/ML for Simulation,963,2026-07-08,False,True,False,True
 46,Scriptable,Koopman-Laboratory/KoopmanLab,Koopman-Laboratory/KoopmanLab,AI/ML for Simulation,332,2024-10-05,False,True,False,True
 64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4412,2026-08-18,False,True,False,True
@@ -111,7 +111,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 62,Agent-Ready,i207M/PINNacle,i207M/PINNacle,Datasets & Benchmarks,450,2026-07-24,False,True,False,True
 0,Experimental,NASA TMR,,Datasets & Benchmarks,,,False,False,False,False
 63,Agent-Ready,pdebench/PDEBench,pdebench/PDEBench,Datasets & Benchmarks,1193,2026-03-30,False,True,False,True
-64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4423,2026-07-23,False,True,False,True
+64,Agent-Ready,PolymathicAI/the_well,PolymathicAI/the_well,Datasets & Benchmarks,4424,2026-07-23,False,True,False,True
 34,Scriptable,barbagroup/CFDPython,barbagroup/CFDPython,Learning Resources,4130,2024-03-19,False,True,False,False
 21,Experimental,ikespand/awesome-machine-learning-fluid-mechanics,ikespand/awesome-machine-learning-fluid-mechanics,Learning Resources,253,2026-05-17,False,False,False,False
 61,Agent-Ready,jxx123/simglucose,jxx123/simglucose,Learning Resources,349,2026-07-23,False,True,False,True

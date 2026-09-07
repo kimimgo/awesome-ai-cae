@@ -9,13 +9,13 @@
 | 1 | 95 | 🟢 AI-Native | [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) | `MCP` `Py` `pip` | 63 | 2026-04-22 |
 | 2 | 93 | 🟢 AI-Native | [kimimgo/viznoir](https://github.com/kimimgo/viznoir) | `MCP` `Py` `pip` ✅ | 17 | 2026-09-07 |
 | 3 | 65 | 🔵 Agent-Ready | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | `Py` `pip` ✅ | 28,362 | 2026-07-06 |
-| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 14,968 | 2026-09-07 |
+| 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 14,969 | 2026-09-07 |
 | 5 | 65 | 🔵 Agent-Ready | [rerun-io/rerun](https://github.com/rerun-io/rerun) | `Py` `pip` | 11,406 | 2026-09-07 |
-| 6 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 7,641 | 2026-09-04 |
+| 6 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 7,642 | 2026-09-04 |
 | 7 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 7,085 | 2026-09-07 |
 | 8 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,708 | 2026-09-05 |
-| 9 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,082 | 2026-09-04 |
-| 10 | 64 | 🔵 Agent-Ready | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | `Py` `pip` | 4,423 | 2026-07-23 |
+| 9 | 64 | 🔵 Agent-Ready | [libigl/libigl](https://github.com/libigl/libigl) | `Py` `pip` | 5,083 | 2026-09-04 |
+| 10 | 64 | 🔵 Agent-Ready | [PolymathicAI/the_well](https://github.com/PolymathicAI/the_well) | `Py` `pip` | 4,424 | 2026-07-23 |
 | 11 | 64 | 🔵 Agent-Ready | [lululxvi/deepxde](https://github.com/lululxvi/deepxde) | `Py` `pip` | 4,412 | 2026-08-18 |
 | 12 | 64 | 🔵 Agent-Ready | [NeuralOperator/neuraloperator](https://github.com/NeuralOperator/neuraloperator) | `Py` `pip` | 3,867 | 2026-08-06 |
 | 13 | 64 | 🔵 Agent-Ready | [pyvista/pyvista](https://github.com/pyvista/pyvista) | `Py` `pip` ✅ | 3,800 | 2026-09-07 |
@@ -68,7 +68,7 @@
 | 60 | 55 | 🔵 Agent-Ready | [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) | `Py` `pip` | 624 | 2026-03-10 |
 | 61 | 55 | 🔵 Agent-Ready | [dynamicslab/pykoopman](https://github.com/dynamicslab/pykoopman) | `Py` `pip` | 450 | 2026-01-22 |
 | 62 | 54 | 🔵 Agent-Ready | [mdolab/OpenAeroStruct](https://github.com/mdolab/OpenAeroStruct) | `Py` `pip` | 278 | 2025-10-06 |
-| 63 | 50 | 🔵 Agent-Ready | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | `Py` | 33,335 | 2026-09-07 |
+| 63 | 50 | 🔵 Agent-Ready | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | `Py` | 33,336 | 2026-09-07 |
 | 64 | 50 | 🔵 Agent-Ready | [plotly/plotly.py](https://github.com/plotly/plotly.py) | `Py` | 18,765 | 2026-09-04 |
 | 65 | 50 | 🔵 Agent-Ready | [rtqichen/torchdiffeq](https://github.com/rtqichen/torchdiffeq) | `Py` `pip` | 6,479 | 2025-04-04 |
 | 66 | 48 | 🟡 Scriptable | [nschloe/meshio](https://github.com/nschloe/meshio) | `Py` `pip` ✅ | 2,327 | 2024-07-23 |
@@ -98,7 +98,7 @@
 | 90 | 31 | 🟡 Scriptable | [OpenMeshLab/MeshXL](https://github.com/OpenMeshLab/MeshXL) | `Py` | 340 | 2025-04-04 |
 | 91 | 30 | 🟡 Scriptable | [dl4to/dl4to](https://github.com/dl4to/dl4to) | `Py` | 145 | 2024-11-19 |
 | 92 | 24 | ⚪ Experimental | [CGAL/cgal](https://github.com/CGAL/cgal) | — | 6,035 | 2026-09-07 |
-| 93 | 24 | ⚪ Experimental | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | — | 5,260 | 2026-09-05 |
+| 93 | 24 | ⚪ Experimental | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | — | 5,261 | 2026-09-05 |
 | 94 | 24 | ⚪ Experimental | [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT) | — | 2,843 | 2026-09-05 |
 | 95 | 23 | ⚪ Experimental | [mfem/mfem](https://github.com/mfem/mfem) | — | 2,231 | 2026-09-07 |
 | 96 | 23 | ⚪ Experimental | [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) | — | 2,225 | 2026-09-07 |
