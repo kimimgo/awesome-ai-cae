@@ -212,8 +212,8 @@
       "score": 62,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 575,
-      "last_push": "2026-09-11",
+      "stars": 576,
+      "last_push": "2026-09-14",
       "signals": {
         "mcp": false,
         "python": true,
@@ -829,7 +829,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 2758,
-      "last_push": "2026-09-07",
+      "last_push": "2026-09-14",
       "signals": {
         "mcp": false,
         "python": true,
@@ -983,7 +983,7 @@
       "score": 50,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 33505,
+      "stars": 33508,
       "last_push": "2026-09-14",
       "signals": {
         "mcp": false,
@@ -1005,7 +1005,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 3101,
+      "stars": 3102,
       "last_push": "2026-09-14",
       "signals": {
         "mcp": false,
@@ -1115,7 +1115,7 @@
       "score": 33,
       "grade": "Scriptable",
       "confidence": "declared",
-      "stars": 2306,
+      "stars": 2307,
       "last_push": "2025-04-28",
       "signals": {
         "mcp": false,
@@ -1665,7 +1665,7 @@
       "score": 65,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 7665,
+      "stars": 7666,
       "last_push": "2026-09-04",
       "signals": {
         "mcp": false,
@@ -1732,7 +1732,7 @@
       "score": 64,
       "grade": "Agent-Ready",
       "confidence": "declared",
-      "stars": 4422,
+      "stars": 4423,
       "last_push": "2026-08-18",
       "signals": {
         "mcp": false,
@@ -1865,7 +1865,7 @@
       "grade": "Agent-Ready",
       "confidence": "declared",
       "stars": 3247,
-      "last_push": "2026-09-12",
+      "last_push": "2026-09-14",
       "signals": {
         "mcp": false,
         "python": true,
@@ -2283,7 +2283,7 @@
       "grade": "Agent-Ready",
       "confidence": "verified",
       "stars": 2252,
-      "last_push": "2026-09-11",
+      "last_push": "2026-09-14",
       "signals": {
         "mcp": false,
         "python": true,

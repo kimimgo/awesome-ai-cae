@@ -8,7 +8,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 22,Experimental,Nek5000/nekRS,Nek5000/nekRS,CFD,421,2026-05-24,False,False,False,False
 47,Scriptable,precice/precice,precice/precice,CFD,969,2026-09-14,False,True,False,False
 24,Experimental,ProjectPhysX/FluidX3D,ProjectPhysX/FluidX3D,CFD,5270,2026-09-07,False,False,False,False
-62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,575,2026-09-11,False,True,False,True
+62,Agent-Ready,PyFR/PyFR,PyFR/PyFR,CFD,576,2026-09-14,False,True,False,True
 0,Experimental,CalculiX,,FEA,,,False,False,False,False
 23,Experimental,dealii/dealii,dealii/dealii,FEA,1725,2026-09-11,False,False,False,False
 23,Experimental,ElmerCSC/elmerfem,ElmerCSC/elmerfem,FEA,1705,2026-09-14,False,False,False,False
@@ -36,20 +36,20 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 64,Agent-Ready,Kitware/VTK,Kitware/VTK,Visualization & Post-processing,3207,2026-09-14,False,True,False,True
 23,Experimental,Kitware/vtk-js,Kitware/vtk-js,Visualization & Post-processing,1529,2026-09-14,False,False,False,False
 63,Agent-Ready,marcomusy/vedo,marcomusy/vedo,Visualization & Post-processing,2268,2026-08-04,False,True,False,True
-64,Agent-Ready,napari/napari,napari/napari,Visualization & Post-processing,2758,2026-09-07,False,True,False,True
+64,Agent-Ready,napari/napari,napari/napari,Visualization & Post-processing,2758,2026-09-14,False,True,False,True
 63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2206,2026-09-06,False,True,False,True
 50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18781,2026-09-12,False,True,False,False
 64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3814,2026-09-14,False,True,False,True
 65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11445,2026-09-13,False,True,False,True
 64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5766,2026-09-13,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,197,2026-09-12,False,True,False,True
-50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,33505,2026-09-14,False,True,False,False
-64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,3101,2026-09-14,False,True,False,True
+50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,33508,2026-09-14,False,True,False,False
+64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,3102,2026-09-14,False,True,False,True
 64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3678,2026-09-02,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,969,2023-10-04,False,True,False,True
 24,Experimental,Open-Cascade-SAS/OCCT,Open-Cascade-SAS/OCCT,CAD & Geometry,2875,2026-09-05,False,False,False,False
 56,Agent-Ready,SolidCode/SolidPython,SolidCode/SolidPython,CAD & Geometry,1265,2025-10-08,False,True,False,True
-33,Scriptable,buaacyw/MeshAnything,buaacyw/MeshAnything,Mesh Generation,2306,2025-04-28,False,True,False,False
+33,Scriptable,buaacyw/MeshAnything,buaacyw/MeshAnything,Mesh Generation,2307,2025-04-28,False,True,False,False
 33,Scriptable,buaacyw/MeshAnythingV2,buaacyw/MeshAnythingV2,Mesh Generation,1020,2025-04-28,False,True,False,False
 24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6043,2026-09-14,False,False,False,False
 40,Scriptable,Gmsh,,Mesh Generation,,,False,True,False,True
@@ -74,16 +74,16 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 63,Agent-Ready,deepmodeling/deepmd-kit,deepmodeling/deepmd-kit,AI/ML for Simulation,2037,2026-09-13,False,True,False,True
 55,Agent-Ready,dynamicslab/pykoopman,dynamicslab/pykoopman,AI/ML for Simulation,451,2026-01-22,False,True,False,True
 63,Agent-Ready,dynamicslab/pysindy,dynamicslab/pysindy,AI/ML for Simulation,1899,2026-06-10,False,True,False,True
-65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,7665,2026-09-04,False,True,False,True
+65,Agent-Ready,google-deepmind/graphcast,google-deepmind/graphcast,AI/ML for Simulation,7666,2026-09-04,False,True,False,True
 62,Agent-Ready,google/jax-cfd,google/jax-cfd,AI/ML for Simulation,964,2026-09-09,False,True,False,True
 46,Scriptable,Koopman-Laboratory/KoopmanLab,Koopman-Laboratory/KoopmanLab,AI/ML for Simulation,332,2024-10-05,False,True,False,True
-64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4422,2026-08-18,False,True,False,True
+64,Agent-Ready,lululxvi/deepxde,lululxvi/deepxde,AI/ML for Simulation|Surrogate Models & PINNs,4423,2026-08-18,False,True,False,True
 63,Agent-Ready,microsoft/aurora,microsoft/aurora,AI/ML for Simulation,1013,2026-08-19,False,True,False,True
 47,Scriptable,microsoft/ClimaX,microsoft/ClimaX,AI/ML for Simulation,709,2023-09-30,False,True,False,True
 63,Agent-Ready,microsoft/mattergen,microsoft/mattergen,AI/ML for Simulation,1820,2026-08-27,False,True,False,True
 64,Agent-Ready,NeuralOperator/neuraloperator,NeuralOperator/neuraloperator,AI/ML for Simulation,3882,2026-08-06,False,True,False,True
 63,Agent-Ready,NVIDIA/earth2studio,NVIDIA/earth2studio,AI/ML for Simulation,1131,2026-09-11,False,True,False,True
-64,Agent-Ready,NVIDIA/physicsnemo,NVIDIA/physicsnemo,AI/ML for Simulation,3247,2026-09-12,False,True,False,True
+64,Agent-Ready,NVIDIA/physicsnemo,NVIDIA/physicsnemo,AI/ML for Simulation,3247,2026-09-14,False,True,False,True
 61,Agent-Ready,Terry-cyx/MetaOpenFOAM,Terry-cyx/MetaOpenFOAM,AI/ML for Simulation,207,2026-04-10,False,True,True,False
 63,Agent-Ready,tum-pbs/PhiFlow,tum-pbs/PhiFlow,AI/ML for Simulation,1934,2026-07-16,False,True,False,True
 46,Scriptable,camlab-ethz/poseidon,camlab-ethz/poseidon,Surrogate Models & PINNs,196,2025-04-10,False,True,False,True
@@ -102,7 +102,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 47,Scriptable,williamhunter/topy,williamhunter/topy,Optimization,575,2022-08-31,False,True,False,True
 54,Agent-Ready,mdolab/OpenAeroStruct,mdolab/OpenAeroStruct,Optimization,280,2025-10-06,False,True,False,True
 48,Scriptable,nschloe/meshio,nschloe/meshio,Data Formats & I/O,2328,2024-07-23,False,True,False,True
-63,Agent-Ready,h5py/h5py,h5py/h5py,Data Formats & I/O,2252,2026-09-11,False,True,False,True
+63,Agent-Ready,h5py/h5py,h5py/h5py,Data Formats & I/O,2252,2026-09-14,False,True,False,True
 47,Scriptable,Unidata/netcdf4-python,Unidata/netcdf4-python,Data Formats & I/O,837,2026-08-24,False,True,False,False
 21,Experimental,CGNS/CGNS,CGNS/CGNS,Data Formats & I/O,271,2026-09-11,False,False,False,False
 62,Agent-Ready,divelab/AIRS,divelab/AIRS,Datasets & Benchmarks,796,2026-06-29,False,True,False,True
