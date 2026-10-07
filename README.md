@@ -207,6 +207,7 @@ Honest about what's checked.
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) `C++` `Python` - Next-generation FEniCS. Automated PDE solving with high-level Python/C++ interface. Parallel, scalable.
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) `Python` - Automated FEM with code generation from high-level problem descriptions. UFL domain-specific language.
 - [FreeFem/FreeFem-sources](https://github.com/FreeFem/FreeFem-sources) `C++` - Partial differential equation solver using finite element method. High-level scripting language for 2D/3D problems.
+- [haoming-luo/agentfem](https://github.com/haoming-luo/agentfem) `Python` `MCP` `API` - AI-native finite-element platform for structural and thermal simulation, parameter studies, and training-data generation. Python and CLI workflows with a separate MCP adapter for AI agents.
 - [idaholab/moose](https://github.com/idaholab/moose) `C++` `Python` - Multiphysics Object-Oriented Simulation Environment. Coupled physics FEM framework from Idaho National Lab.
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) `C++` `Python` - Framework for multi-physics FEM. Structural, fluid, thermal, contact, FSI.
 - [mfem/mfem](https://github.com/mfem/mfem) `C++` - High-order finite element library. Supports GPU acceleration, AMR, and dozens of physics applications.
