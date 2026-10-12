@@ -40,10 +40,10 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 63,Agent-Ready,nmwsharp/polyscope,nmwsharp/polyscope,Visualization & Post-processing,2216,2026-09-06,False,True,False,True
 50,Agent-Ready,plotly/plotly.py,plotly/plotly.py,Visualization & Post-processing,18837,2026-10-09,False,True,False,False
 64,Agent-Ready,pyvista/pyvista,pyvista/pyvista,Visualization & Post-processing|Data Formats & I/O,3845,2026-10-12,False,True,False,True
-65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11586,2026-10-12,False,True,False,True
+65,Agent-Ready,rerun-io/rerun,rerun-io/rerun,Visualization & Post-processing,11583,2026-10-12,False,True,False,True
 64,Agent-Ready,CadQuery/cadquery,CadQuery/cadquery,CAD & Geometry,5921,2026-10-10,False,True,False,True
 61,Agent-Ready,CadQuery/OCP,CadQuery/OCP,CAD & Geometry,205,2026-10-04,False,True,False,True
-50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,34200,2026-10-12,False,True,False,False
+50,Agent-Ready,FreeCAD/FreeCAD,FreeCAD/FreeCAD,CAD & Geometry,34203,2026-10-12,False,True,False,False
 64,Agent-Ready,gumyr/build123d,gumyr/build123d,CAD & Geometry,3390,2026-10-09,False,True,False,True
 64,Agent-Ready,mikedh/trimesh,mikedh/trimesh,CAD & Geometry,3697,2026-10-02,False,True,False,True
 47,Scriptable,nschloe/pygmsh,nschloe/pygmsh,CAD & Geometry,971,2023-10-04,False,True,False,True
@@ -51,7 +51,7 @@ score,grade,name,repo,categories,stars,last_push,mcp,python,cli_api,pip
 48,Scriptable,SolidCode/SolidPython,SolidCode/SolidPython,CAD & Geometry,1268,2025-10-08,False,True,False,True
 33,Scriptable,buaacyw/MeshAnything,buaacyw/MeshAnything,Mesh Generation,2307,2025-04-28,False,True,False,False
 33,Scriptable,buaacyw/MeshAnythingV2,buaacyw/MeshAnythingV2,Mesh Generation,1024,2025-04-28,False,True,False,False
-24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6075,2026-10-12,False,False,False,False
+24,Experimental,CGAL/cgal,CGAL/cgal,Mesh Generation,6076,2026-10-12,False,False,False,False
 40,Scriptable,Gmsh,,Mesh Generation,,,False,True,False,True
 64,Agent-Ready,libigl/libigl,libigl/libigl,Mesh Generation,5105,2026-09-21,False,True,False,True
 22,Experimental,MmgTools/mmg,MmgTools/mmg,Mesh Generation,489,2026-10-08,False,False,False,False

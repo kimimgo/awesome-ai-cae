@@ -10,7 +10,7 @@
 | 2 | 93 | 🟢 AI-Native | [kimimgo/viznoir](https://github.com/kimimgo/viznoir) | `MCP` `Py` `pip` ✅ | 19 | 2026-10-08 |
 | 3 | 65 | 🔵 Agent-Ready | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | `Py` `pip` ✅ | 28,409 | 2026-10-05 |
 | 4 | 65 | 🔵 Agent-Ready | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | `Py` `pip` | 15,630 | 2026-10-12 |
-| 5 | 65 | 🔵 Agent-Ready | [rerun-io/rerun](https://github.com/rerun-io/rerun) | `Py` `pip` | 11,586 | 2026-10-12 |
+| 5 | 65 | 🔵 Agent-Ready | [rerun-io/rerun](https://github.com/rerun-io/rerun) | `Py` `pip` | 11,583 | 2026-10-12 |
 | 6 | 65 | 🔵 Agent-Ready | [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) | `Py` `pip` | 7,705 | 2026-09-04 |
 | 7 | 65 | 🔵 Agent-Ready | [NVIDIA/warp](https://github.com/NVIDIA/warp) | `Py` `pip` | 7,185 | 2026-10-12 |
 | 8 | 64 | 🔵 Agent-Ready | [CadQuery/cadquery](https://github.com/CadQuery/cadquery) | `Py` `pip` ✅ | 5,921 | 2026-10-10 |
@@ -66,7 +66,7 @@
 | 58 | 55 | 🔵 Agent-Ready | [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) | `Py` `pip` | 624 | 2026-03-10 |
 | 59 | 55 | 🔵 Agent-Ready | [dynamicslab/pykoopman](https://github.com/dynamicslab/pykoopman) | `Py` `pip` | 457 | 2026-01-22 |
 | 60 | 54 | 🔵 Agent-Ready | [Terry-cyx/MetaOpenFOAM](https://github.com/Terry-cyx/MetaOpenFOAM) | `Py` `API` | 210 | 2026-04-10 |
-| 61 | 50 | 🔵 Agent-Ready | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | `Py` | 34,200 | 2026-10-12 |
+| 61 | 50 | 🔵 Agent-Ready | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | `Py` | 34,203 | 2026-10-12 |
 | 62 | 50 | 🔵 Agent-Ready | [plotly/plotly.py](https://github.com/plotly/plotly.py) | `Py` | 18,837 | 2026-10-09 |
 | 63 | 50 | 🔵 Agent-Ready | [rtqichen/torchdiffeq](https://github.com/rtqichen/torchdiffeq) | `Py` `pip` | 6,489 | 2025-04-04 |
 | 64 | 48 | 🟡 Scriptable | [nschloe/meshio](https://github.com/nschloe/meshio) | `Py` `pip` ✅ | 2,332 | 2024-07-23 |
@@ -97,7 +97,7 @@
 | 89 | 33 | 🟡 Scriptable | [buaacyw/MeshAnythingV2](https://github.com/buaacyw/MeshAnythingV2) | `Py` | 1,024 | 2025-04-28 |
 | 90 | 31 | 🟡 Scriptable | [OpenMeshLab/MeshXL](https://github.com/OpenMeshLab/MeshXL) | `Py` | 342 | 2025-04-04 |
 | 91 | 30 | 🟡 Scriptable | [dl4to/dl4to](https://github.com/dl4to/dl4to) | `Py` | 145 | 2024-11-19 |
-| 92 | 24 | ⚪ Experimental | [CGAL/cgal](https://github.com/CGAL/cgal) | — | 6,075 | 2026-10-12 |
+| 92 | 24 | ⚪ Experimental | [CGAL/cgal](https://github.com/CGAL/cgal) | — | 6,076 | 2026-10-12 |
 | 93 | 24 | ⚪ Experimental | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | — | 5,312 | 2026-10-07 |
 | 94 | 24 | ⚪ Experimental | [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT) | — | 2,989 | 2026-10-12 |
 | 95 | 23 | ⚪ Experimental | [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) | — | 2,263 | 2026-10-12 |

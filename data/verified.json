@@ -11,7 +11,7 @@
       "import_ok": true,
       "version": "0.10.1",
       "error": null,
-      "secs": 2.3
+      "secs": 2.4
     },
     {
       "name": "pyvista/pyvista",
@@ -19,7 +19,7 @@
       "verified": true,
       "install_ok": true,
       "import_ok": true,
-      "version": "0.49.0",
+      "version": "0.49.1",
       "error": null,
       "secs": 1.1
     },
@@ -29,9 +29,9 @@
       "verified": true,
       "install_ok": true,
       "import_ok": true,
-      "version": "5.1.0",
+      "version": "5.1.1",
       "error": null,
-      "secs": 0.9
+      "secs": 0.8
     },
     {
       "name": "nschloe/meshio",
@@ -51,7 +51,7 @@
       "import_ok": true,
       "version": "2.8.0",
       "error": null,
-      "secs": 7.1
+      "secs": 8.1
     },
     {
       "name": "anyoptimization/pymoo",
@@ -61,7 +61,7 @@
       "import_ok": true,
       "version": "0.6.2",
       "error": null,
-      "secs": 0.3
+      "secs": 0.2
     },
     {
       "name": "Gmsh",
@@ -71,7 +71,7 @@
       "import_ok": true,
       "version": "4.15.2",
       "error": null,
-      "secs": 1.0
+      "secs": 0.5
     },
     {
       "name": "h5py/h5py",
@@ -91,7 +91,7 @@
       "import_ok": true,
       "version": "[Taichi] version 1.7.4, llvm 15.0.4, commit b4b956fd, linux, python 3.12.3\n(1, 7, 4)",
       "error": null,
-      "secs": 5.1
+      "secs": 1.9
     },
     {
       "name": "lululxvi/deepxde",
@@ -101,7 +101,7 @@
       "import_ok": false,
       "version": null,
       "error": "No backend selected.\nFinding available backend...\nCannot find available backend.\nNo available backend found.\nPlease manually install a backend, and run DeepXDE again.",
-      "secs": 0.8
+      "secs": 0.4
     }
   ]
 }
