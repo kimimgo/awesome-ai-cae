@@ -177,6 +177,7 @@ Honest about what's checked.
 
 > AI agents call these directly via [Model Context Protocol](https://modelcontextprotocol.io/).
 
+- [GaillumXc/profili-mcp](https://github.com/GaillumXc/profili-mcp) `Python` `MCP` - MCP server for the legacy Profili 2.x airfoil software. Airfoil-library search, polar read/compute via the bundled XFOIL, thickness/camber redesign, read/write access to the Profili Jet database.
 - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) `Python` `MCP` - Cinema-quality science visualization. 22 tools for rendering, slicing, contouring, volume rendering, and animating OpenFOAM/VTK/CGNS data via VTK. Headless EGL/OSMesa.
 - [llnl/paraview_mcp](https://github.com/llnl/paraview_mcp) `Python` `MCP` - Natural language control of ParaView via MCP. Multimodal LLM observes viewport for visual feedback (LLNL).
 - [webworn/openfoam-mcp-server](https://github.com/webworn/openfoam-mcp-server) `C++` `MCP` - OpenFOAM MCP server with Socratic questioning for CFD education and expert error resolution.
